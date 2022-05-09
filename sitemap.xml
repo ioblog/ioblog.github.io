@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ioblog.github.io/3/</loc>
+    
+    <lastmod>2022-05-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ioblog.github.io/2/</loc>
     
     <lastmod>2022-05-09</lastmod>
@@ -62,6 +71,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://ioblog.github.io/tags/Mysql/</loc>
+    <lastmod>2022-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -73,6 +89,13 @@
   
   <url>
     <loc>https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2022-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ioblog.github.io/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2022-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

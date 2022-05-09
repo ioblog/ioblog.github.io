@@ -6,7 +6,7 @@
   <link href="https://ioblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://ioblog.github.io/"/>
-  <updated>2022-05-09T03:36:54.539Z</updated>
+  <updated>2022-05-09T04:04:09.580Z</updated>
   <id>https://ioblog.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mysql报错 Host ‘XXXXXX’ is blocked because of many connection errors</title>
+    <link href="https://ioblog.github.io/3/"/>
+    <id>https://ioblog.github.io/3/</id>
+    <published>2022-05-09T03:42:32.000Z</published>
+    <updated>2022-05-09T04:04:09.580Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞<br>在网上找的解决办法，经过测试并不能解决<br>网1. 更改max_connection_errors的值<br>网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;</p><span id="more"></span><h4 id="经测试可用的方法“手动清除数据库日志”"><a href="#经测试可用的方法“手动清除数据库日志”" class="headerlink" title="经测试可用的方法“手动清除数据库日志”"></a>经测试可用的方法“手动清除数据库日志”</h4><h3 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h3><h4 id="1、首先把数据库停止运行"><a href="#1、首先把数据库停止运行" class="headerlink" title="1、首先把数据库停止运行"></a>1、首先把数据库停止运行</h4><h4 id="2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址"><a href="#2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址" class="headerlink" title="2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)"></a>2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)</h4><h4 id="3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）"><a href="#3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）" class="headerlink" title="3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）"></a>3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）</h4><h4 id="4、启动数据库"><a href="#4、启动数据库" class="headerlink" title="4、启动数据库"></a>4、启动数据库</h4>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞&lt;br&gt;在网上找的解决办法，经过测试并不能解决&lt;br&gt;网1. 更改max_connection_errors的值&lt;br&gt;网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="编程相关" scheme="https://ioblog.github.io/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="Mysql" scheme="https://ioblog.github.io/tags/Mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>服务器被DDOS攻击，解决方法</title>
