@@ -3,7 +3,7 @@
   <entry>
     <title>和白日梦说再见</title>
     <url>/1/</url>
-    <content><![CDATA[<p>白日梦会想出很多绝妙的主意，但却办不成任何事情。</p>
+    <content><![CDATA[<p>人生感慨</p>
 <span id="more"></span>
 <p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/001/1.jpg" alt="1_1"><br>白日梦会想出很多绝妙的主意，但却办不成任何事情。</p>
 ]]></content>
@@ -14,9 +14,10 @@
   <entry>
     <title>服务器被DDOS攻击，解决方法</title>
     <url>/2/</url>
-    <content><![CDATA[<p>服务器被DDOS攻击后不用着急，购买弹性公网IP就能解决问题</p>
+    <content><![CDATA[<p>问题描述：服务器被DDOS攻击<br>解决方案：购买弹性公网IP<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
 <span id="more"></span>
-<h4 id="1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"><a href="#1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）" class="headerlink" title="1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"></a>1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/1.jpg" alt="2_1"></p>
+<hr>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h4 id="1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"><a href="#1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）" class="headerlink" title="1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"></a>1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/1.jpg" alt="2_1"></p>
 <h4 id="2、百度搜索阿里云"><a href="#2、百度搜索阿里云" class="headerlink" title="2、百度搜索阿里云"></a>2、百度搜索阿里云</h4><h4 id="3、登录阿里云，进入控制台"><a href="#3、登录阿里云，进入控制台" class="headerlink" title="3、登录阿里云，进入控制台"></a>3、登录阿里云，进入控制台</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/3.jpg" alt="2_3"></p>
 <h4 id="4、点击-左上角三条横线"><a href="#4、点击-左上角三条横线" class="headerlink" title="4、点击 左上角三条横线"></a>4、点击 左上角三条横线</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/4.jpg" alt="2_4"></p>
 <h4 id="5、点击-产品与服务"><a href="#5、点击-产品与服务" class="headerlink" title="5、点击 产品与服务"></a>5、点击 产品与服务</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/5.jpg" alt="2_5"></p>
@@ -35,14 +36,53 @@
   <entry>
     <title>Mysql报错 Host ‘XXXXXX’ is blocked because of many connection errors</title>
     <url>/3/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞<br>在网上找的解决办法，经过测试并不能解决<br>网1. 更改max_connection_errors的值<br>网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;</p>
+    <content><![CDATA[<p>问题描述：同一ip在短时间内过多请求导致阻塞<br>解决方案：清除数据库日志<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
 <span id="more"></span>
-<h4 id="经测试可用的方法“手动清除数据库日志”"><a href="#经测试可用的方法“手动清除数据库日志”" class="headerlink" title="经测试可用的方法“手动清除数据库日志”"></a>经测试可用的方法“手动清除数据库日志”</h4><h3 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h3><h4 id="1、首先把数据库停止运行"><a href="#1、首先把数据库停止运行" class="headerlink" title="1、首先把数据库停止运行"></a>1、首先把数据库停止运行</h4><h4 id="2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址"><a href="#2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址" class="headerlink" title="2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)"></a>2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)</h4><h4 id="3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）"><a href="#3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）" class="headerlink" title="3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）"></a>3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）</h4><h4 id="4、启动数据库"><a href="#4、启动数据库" class="headerlink" title="4、启动数据库"></a>4、启动数据库</h4>]]></content>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞<br>在网上找的解决办法，经过测试并不能解决<br>网1. 更改max_connection_errors的值<br>网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;</p>
+<blockquote>
+<p>经测试可用的方法“手动清除数据库日志” </p>
+</blockquote>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h4 id="1、首先把数据库停止运行"><a href="#1、首先把数据库停止运行" class="headerlink" title="1、首先把数据库停止运行"></a>1、首先把数据库停止运行</h4><h4 id="2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址"><a href="#2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址" class="headerlink" title="2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)"></a>2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/003/1.jpg" alt="3_2"></p>
+<h4 id="3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）"><a href="#3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）" class="headerlink" title="3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）"></a>3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）</h4><h4 id="4、启动数据库"><a href="#4、启动数据库" class="headerlink" title="4、启动数据库"></a>4、启动数据库</h4>]]></content>
       <categories>
         <category>编程相关</category>
       </categories>
       <tags>
         <tag>Mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>去除网站引入jQuery mobile 后底部出现的loading字样</title>
+    <url>/4/</url>
+    <content><![CDATA[<p>问题描述：引入jQuery mobile包，出现loading字样<br>解决方案：添加“css”去除loading字样<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>网站引入jQuery mobile 后，pc端底部会出现loading字样<br><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/004/1.jpg" alt="4_1"><h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4></li>
+<li>把下边css代码放入css文件里就可以了<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.ui-loader-default</span>&#123; <span class="attribute">display</span>:none&#125;</span><br><span class="line"><span class="selector-class">.ui-mobile-viewport</span>&#123; <span class="attribute">border</span>:none;&#125;</span><br><span class="line"><span class="selector-class">.ui-page</span> &#123;<span class="attribute">padding</span>: <span class="number">0</span>; <span class="attribute">margin</span>: <span class="number">0</span>; <span class="attribute">outline</span>: <span class="number">0</span>&#125; </span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jquery监听“复制”事件，ctrl+c和右键复制</title>
+    <url>/5/</url>
+    <content><![CDATA[<p>解决方案：引入文中的“js”实现复制效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><p>直接上js代码，使用之前先引入 “jquery” 包</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">    <span class="comment">//  监听 ctrl + c事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;keydown&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;keydown&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>)&#123; </span><br><span class="line">        <span class="keyword">if</span>(e.<span class="property">ctrlKey</span> &amp;&amp; e.<span class="property">keyCode</span>  == <span class="number">67</span>) &#123; </span><br><span class="line">            <span class="title function_">doSomething</span>();</span><br><span class="line">            <span class="comment">// 返回false, 防止重复触发copy事件</span></span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 鼠标右键的复制事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;copy&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;copy&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>) &#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;右键复制 监听成功&#x27;</span>);</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">doSomething</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;ctrl + c 监听成功&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">setTime</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">window</span>.<span class="property">localStorage</span>) &#123;</span><br><span class="line">            <span class="keyword">let</span> time = <span class="variable language_">localStorage</span>.<span class="title function_">getItem</span>(<span class="string">&#x27;time&#x27;</span>);</span><br><span class="line">            time ? time ++ : time = <span class="number">1</span>;</span><br><span class="line">            <span class="variable language_">localStorage</span>.<span class="title function_">setItem</span>(<span class="string">&#x27;time&#x27;</span>, time);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
       </tags>
   </entry>
 </search>

@@ -20,18 +20,20 @@
     var CONFIG = {"hostname":"ioblog.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="前言同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞在网上找的解决办法，经过测试并不能解决网1. 更改max_connection_errors的值网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;">
+  <meta name="description" content="问题描述：同一ip在短时间内过多请求导致阻塞解决方案：清除数据库日志解决过程：点击“文章标题”或“阅读全文”查看">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mysql报错 Host ‘XXXXXX’ is blocked because of many connection errors">
 <meta property="og:url" content="https://ioblog.github.io/3/index.html">
 <meta property="og:site_name" content="艾欧博客">
-<meta property="og:description" content="前言同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞在网上找的解决办法，经过测试并不能解决网1. 更改max_connection_errors的值网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;">
+<meta property="og:description" content="问题描述：同一ip在短时间内过多请求导致阻塞解决方案：清除数据库日志解决过程：点击“文章标题”或“阅读全文”查看">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/003/1.jpg">
 <meta property="article:published_time" content="2022-05-09T03:42:32.000Z">
-<meta property="article:modified_time" content="2022-05-09T04:04:09.580Z">
+<meta property="article:modified_time" content="2022-05-09T07:31:30.826Z">
 <meta property="article:author" content="panda">
 <meta property="article:tag" content="Mysql">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/003/1.jpg">
 
 <link rel="canonical" href="https://ioblog.github.io/3/">
 
@@ -224,7 +226,7 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
               			
-              <time title="创建时间：2022-05-09 11:42:32 / 修改时间：12:04:09" itemprop="dateCreated datePublished" datetime="2022-05-09T11:42:32+08:00">2022-05-09</time>
+              <time title="创建时间：2022-05-09 11:42:32 / 修改时间：15:31:30" itemprop="dateCreated datePublished" datetime="2022-05-09T11:42:32+08:00">2022-05-09</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -264,7 +266,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>329</span>
+              <span>385</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -283,9 +285,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞<br>在网上找的解决办法，经过测试并不能解决<br>网1. 更改max_connection_errors的值<br>网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;</p>
+        <p>问题描述：同一ip在短时间内过多请求导致阻塞<br>解决方案：清除数据库日志<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
 <span id="more"></span>
-<h4 id="经测试可用的方法“手动清除数据库日志”"><a href="#经测试可用的方法“手动清除数据库日志”" class="headerlink" title="经测试可用的方法“手动清除数据库日志”"></a>经测试可用的方法“手动清除数据库日志”</h4><h3 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h3><h4 id="1、首先把数据库停止运行"><a href="#1、首先把数据库停止运行" class="headerlink" title="1、首先把数据库停止运行"></a>1、首先把数据库停止运行</h4><h4 id="2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址"><a href="#2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址" class="headerlink" title="2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)"></a>2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)</h4><h4 id="3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）"><a href="#3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）" class="headerlink" title="3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）"></a>3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）</h4><h4 id="4、启动数据库"><a href="#4、启动数据库" class="headerlink" title="4、启动数据库"></a>4、启动数据库</h4>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞<br>在网上找的解决办法，经过测试并不能解决<br>网1. 更改max_connection_errors的值<br>网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;</p>
+<blockquote>
+<p>经测试可用的方法“手动清除数据库日志” </p>
+</blockquote>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h4 id="1、首先把数据库停止运行"><a href="#1、首先把数据库停止运行" class="headerlink" title="1、首先把数据库停止运行"></a>1、首先把数据库停止运行</h4><h4 id="2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址"><a href="#2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址" class="headerlink" title="2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)"></a>2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/003/1.jpg" alt="3_2"></p>
+<h4 id="3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）"><a href="#3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）" class="headerlink" title="3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）"></a>3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）</h4><h4 id="4、启动数据库"><a href="#4、启动数据库" class="headerlink" title="4、启动数据库"></a>4、启动数据库</h4>
     </div>
 
 	<div>
@@ -334,7 +342,10 @@
     <a href="/2/" rel="prev" title="服务器被DDOS攻击，解决方法">
       <i class="fa fa-chevron-left"></i> 服务器被DDOS攻击，解决方法
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/4/" rel="next" title="去除网站引入jQuery mobile 后底部出现的loading字样">
+      去除网站引入jQuery mobile 后底部出现的loading字样 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -394,7 +405,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%8F%E6%B5%8B%E8%AF%95%E5%8F%AF%E7%94%A8%E7%9A%84%E6%96%B9%E6%B3%95%E2%80%9C%E6%89%8B%E5%8A%A8%E6%B8%85%E9%99%A4%E6%95%B0%E6%8D%AE%E5%BA%93%E6%97%A5%E5%BF%97%E2%80%9D"><span class="nav-text">经测试可用的方法“手动清除数据库日志”</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%99%E7%A8%8B%E5%BC%80%E5%A7%8B"><span class="nav-text">教程开始</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1%E3%80%81%E9%A6%96%E5%85%88%E6%8A%8A%E6%95%B0%E6%8D%AE%E5%BA%93%E5%81%9C%E6%AD%A2%E8%BF%90%E8%A1%8C"><span class="nav-text">1、首先把数据库停止运行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2%E3%80%81%E7%99%BB%E5%BD%95%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%8C%E6%A0%B9%E6%8D%AE%E4%B8%AA%E4%BA%BA%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95%E6%89%BE%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E5%9C%B0%E5%9D%80%EF%BC%8C%E9%9C%80%E8%A6%81%E6%9B%B4%E6%8D%A2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9C%B0%E5%9D%80"><span class="nav-text">2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3%E3%80%81%E6%89%93%E5%BC%80%E2%80%9Cmysql-error-log%E2%80%9D%EF%BC%8C%E6%8A%8A%E9%87%8C%E8%BE%B9%E7%9A%84%E8%AE%B0%E5%BD%95%E5%85%A8%E9%83%A8%E6%B8%85%E9%99%A4%EF%BC%8C%E4%BF%9D%E5%AD%98%EF%BC%88ctrl-s%EF%BC%89"><span class="nav-text">3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4%E3%80%81%E5%90%AF%E5%8A%A8%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="nav-text">4、启动数据库</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%AD%A3%E6%96%87%E5%BC%80%E5%A7%8B"><span class="nav-text">正文开始</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1%E3%80%81%E9%A6%96%E5%85%88%E6%8A%8A%E6%95%B0%E6%8D%AE%E5%BA%93%E5%81%9C%E6%AD%A2%E8%BF%90%E8%A1%8C"><span class="nav-text">1、首先把数据库停止运行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2%E3%80%81%E7%99%BB%E5%BD%95%E6%9C%8D%E5%8A%A1%E5%99%A8%EF%BC%8C%E6%A0%B9%E6%8D%AE%E4%B8%AA%E4%BA%BA%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95%E6%89%BE%E5%88%B0%E6%95%B0%E6%8D%AE%E5%BA%93%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E5%9C%B0%E5%9D%80%EF%BC%8C%E9%9C%80%E8%A6%81%E6%9B%B4%E6%8D%A2%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9C%B0%E5%9D%80"><span class="nav-text">2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3%E3%80%81%E6%89%93%E5%BC%80%E2%80%9Cmysql-error-log%E2%80%9D%EF%BC%8C%E6%8A%8A%E9%87%8C%E8%BE%B9%E7%9A%84%E8%AE%B0%E5%BD%95%E5%85%A8%E9%83%A8%E6%B8%85%E9%99%A4%EF%BC%8C%E4%BF%9D%E5%AD%98%EF%BC%88ctrl-s%EF%BC%89"><span class="nav-text">3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4%E3%80%81%E5%90%AF%E5%8A%A8%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="nav-text">4、启动数据库</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -410,7 +421,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -423,7 +434,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
