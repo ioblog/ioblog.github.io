@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>艾欧博客</title>
+  
+  <subtitle>艾欧小站</subtitle>
+  <link href="https://ioblog.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ioblog.github.io/"/>
+  <updated>2022-05-09T03:36:54.539Z</updated>
+  <id>https://ioblog.github.io/</id>
+  
+  <author>
+    <name>panda</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>服务器被DDOS攻击，解决方法</title>
+    <link href="https://ioblog.github.io/2/"/>
+    <id>https://ioblog.github.io/2/</id>
+    <published>2022-05-09T03:17:53.000Z</published>
+    <updated>2022-05-09T03:36:54.539Z</updated>
+    
+    <content type="html"><![CDATA[<p>服务器被DDOS攻击后不用着急，购买弹性公网IP就能解决问题</p><span id="more"></span><h4 id="1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"><a href="#1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）" class="headerlink" title="1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"></a>1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/1.jpg" alt="2_1"></p><h4 id="2、百度搜索阿里云"><a href="#2、百度搜索阿里云" class="headerlink" title="2、百度搜索阿里云"></a>2、百度搜索阿里云</h4><h4 id="3、登录阿里云，进入控制台"><a href="#3、登录阿里云，进入控制台" class="headerlink" title="3、登录阿里云，进入控制台"></a>3、登录阿里云，进入控制台</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/3.jpg" alt="2_3"></p><h4 id="4、点击-左上角三条横线"><a href="#4、点击-左上角三条横线" class="headerlink" title="4、点击 左上角三条横线"></a>4、点击 左上角三条横线</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/4.jpg" alt="2_4"></p><h4 id="5、点击-产品与服务"><a href="#5、点击-产品与服务" class="headerlink" title="5、点击 产品与服务"></a>5、点击 产品与服务</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/5.jpg" alt="2_5"></p><h4 id="6、右侧搜索框搜索-弹性公网IP，点击搜索出来的结果"><a href="#6、右侧搜索框搜索-弹性公网IP，点击搜索出来的结果" class="headerlink" title="6、右侧搜索框搜索 弹性公网IP，点击搜索出来的结果"></a>6、右侧搜索框搜索 弹性公网IP，点击搜索出来的结果</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/6.jpg" alt="2_6"></p><h4 id="7、点击-购买弹性公网IP"><a href="#7、点击-购买弹性公网IP" class="headerlink" title="7、点击 购买弹性公网IP"></a>7、点击 购买弹性公网IP</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/7.jpg" alt="2_7"></p><h4 id="8、按需选择配置，点击购买"><a href="#8、按需选择配置，点击购买" class="headerlink" title="8、按需选择配置，点击购买"></a>8、按需选择配置，点击购买</h4><h4 id="9、购买完成-返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧-绑定资源"><a href="#9、购买完成-返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧-绑定资源" class="headerlink" title="9、购买完成 返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧 绑定资源"></a>9、购买完成 返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧 绑定资源</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/9.jpg" alt="2_9"></p><h4 id="10、选择实例，点击确定-（操作之前把服务器停止）"><a href="#10、选择实例，点击确定-（操作之前把服务器停止）" class="headerlink" title="10、选择实例，点击确定 （操作之前把服务器停止）"></a>10、选择实例，点击确定 （操作之前把服务器停止）</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/10.jpg" alt="2_10"></p><h4 id="11、域名解析到新购买的ip地址-这一步不做演示-，操作结束"><a href="#11、域名解析到新购买的ip地址-这一步不做演示-，操作结束" class="headerlink" title="11、域名解析到新购买的ip地址 (这一步不做演示)，操作结束"></a>11、域名解析到新购买的ip地址 (这一步不做演示)，操作结束</h4><h4 id="12、稍等片刻就能正常访问了，直接解除黑洞状态"><a href="#12、稍等片刻就能正常访问了，直接解除黑洞状态" class="headerlink" title="12、稍等片刻就能正常访问了，直接解除黑洞状态"></a>12、稍等片刻就能正常访问了，直接解除黑洞状态</h4>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;服务器被DDOS攻击后不用着急，购买弹性公网IP就能解决问题&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="服务器" scheme="https://ioblog.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>和白日梦说再见</title>
+    <link href="https://ioblog.github.io/1/"/>
+    <id>https://ioblog.github.io/1/</id>
+    <published>2022-05-09T03:03:56.000Z</published>
+    <updated>2022-05-09T03:14:34.622Z</updated>
+    
+    <content type="html"><![CDATA[<p>白日梦会想出很多绝妙的主意，但却办不成任何事情。</p><span id="more"></span><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/001/1.jpg" alt="1_1"><br>白日梦会想出很多绝妙的主意，但却办不成任何事情。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;白日梦会想出很多绝妙的主意，但却办不成任何事情。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="个人感悟" scheme="https://ioblog.github.io/categories/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%82%9F/"/>
+    
+    
+  </entry>
+  
+</feed>
