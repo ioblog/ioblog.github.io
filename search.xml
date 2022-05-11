@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>和白日梦说再见</title>
+    <url>/1/</url>
+    <content><![CDATA[<p>人生感慨</p>
+<span id="more"></span>
+<p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/001/1.jpg" alt="1_1"><br>白日梦会想出很多绝妙的主意，但却办不成任何事情。</p>
+]]></content>
+      <categories>
+        <category>个人感悟</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>windows系统微信多开</title>
+    <url>/10/</url>
+    <content><![CDATA[<p>解决方案：新建 “.bat” 文件实现多开效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、桌面新建文本文档"><a href="#1、桌面新建文本文档" class="headerlink" title="1、桌面新建文本文档"></a>1、桌面新建文本文档</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/010/1.jpg" alt="10_1"></p>
+<h4 id="2、输入以下代码"><a href="#2、输入以下代码" class="headerlink" title="2、输入以下代码"></a>2、输入以下代码</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@echo</span> off</span><br><span class="line">start /d <span class="string">&quot;D:WeChat&quot;</span> WeChat.exe</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
+
+<h4 id="3、修改第二步的代码，‘-D-WeChat-’-换成自己的微信安装目录"><a href="#3、修改第二步的代码，‘-D-WeChat-’-换成自己的微信安装目录" class="headerlink" title="3、修改第二步的代码，‘ D:WeChat ’ 换成自己的微信安装目录"></a>3、修改第二步的代码，‘ D:WeChat ’ 换成自己的微信安装目录</h4><h4 id="4、修改完成后，-需要开几个微信，就复制几行代码中-start开头一行内容"><a href="#4、修改完成后，-需要开几个微信，就复制几行代码中-start开头一行内容" class="headerlink" title="4、修改完成后， 需要开几个微信，就复制几行代码中 start开头一行内容"></a>4、修改完成后， 需要开几个微信，就复制几行代码中 start开头一行内容</h4><h4 id="5、下图复制两行-就是开两个微信，需要几个，复制几行"><a href="#5、下图复制两行-就是开两个微信，需要几个，复制几行" class="headerlink" title="5、下图复制两行 就是开两个微信，需要几个，复制几行"></a>5、下图复制两行 就是开两个微信，需要几个，复制几行</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/010/5.jpg" alt="10_5"></p>
+<h4 id="6、保存，文件后缀名为-“-bat”-双击打开"><a href="#6、保存，文件后缀名为-“-bat”-双击打开" class="headerlink" title="6、保存，文件后缀名为 “.bat” 双击打开"></a>6、保存，文件后缀名为 “.bat” 双击打开</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/010/6.jpg" alt="10_6"></p>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>微信多开</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mac系统下微信双开</title>
+    <url>/11/</url>
+    <content><![CDATA[<p>解决方案：终端执行代码实现多开效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、打开终端"><a href="#1、打开终端" class="headerlink" title="1、打开终端"></a>1、打开终端</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/011/1.jpg" alt="11_1"></p>
+<h4 id="2、复制双开代码，到终端里粘贴，回车"><a href="#2、复制双开代码，到终端里粘贴，回车" class="headerlink" title="2、复制双开代码，到终端里粘贴，回车"></a>2、复制双开代码，到终端里粘贴，回车</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">nohup /Applications/WeChat.app/Contents/MacOS/WeChat &gt; /dev/<span class="literal">null</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span> &amp;</span><br></pre></td></tr></table></figure>
+<p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/011/2.jpg" alt="11_2"></p>
+<ul>
+<li><p>需要一个就执行一次，需要两个执行两次</p>
+<p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/011/3.jpg" alt="11_3"></p>
+</li>
+<li><p>执行完毕之后，终端可以退出</p>
+<p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/011/4.jpg" alt="11_4"></p>
+</li>
+<li><blockquote>
+<p>注意 注意 注意 最多只能打开两个微信</p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>微信多开</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>windows系统 局域网文件共享</title>
+    <url>/12/</url>
+    <content><![CDATA[<p>解决方案：windows 7 局域网共享设置<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>win7局域网共享设置</p>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h4 id="1、单击电脑右下角网络图标，按照图中步骤操作"><a href="#1、单击电脑右下角网络图标，按照图中步骤操作" class="headerlink" title="1、单击电脑右下角网络图标，按照图中步骤操作"></a>1、单击电脑右下角网络图标，按照图中步骤操作</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/1.jpg" alt="12_1"></p>
+<h4 id="2、启用如图所示的三个选项，保存修改"><a href="#2、启用如图所示的三个选项，保存修改" class="headerlink" title="2、启用如图所示的三个选项，保存修改"></a>2、启用如图所示的三个选项，保存修改</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/2.jpg" alt="12_2"></p>
+<h4 id="3、右键打开我的电脑-“管理”"><a href="#3、右键打开我的电脑-“管理”" class="headerlink" title="3、右键打开我的电脑 “管理”"></a>3、右键打开我的电脑 “管理”</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/3.jpg" alt="12_3"></p>
+<h4 id="4、按下图步骤进行设置"><a href="#4、按下图步骤进行设置" class="headerlink" title="4、按下图步骤进行设置"></a>4、按下图步骤进行设置</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/4.jpg" alt="12_4"></p>
+<h4 id="5、快捷键-win-r-运行界面输入命令：secpol-msc，（看不明白的按下图步骤执行）"><a href="#5、快捷键-win-r-运行界面输入命令：secpol-msc，（看不明白的按下图步骤执行）" class="headerlink" title="5、快捷键 win+r, 运行界面输入命令：secpol.msc，（看不明白的按下图步骤执行）"></a>5、快捷键 win+r, 运行界面输入命令：secpol.msc，（看不明白的按下图步骤执行）</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/5.jpg" alt="12_5"></p>
+<h4 id="6、删除“拒绝从网络访问这台计算机”里面的“Guest”，（没有的话无视）"><a href="#6、删除“拒绝从网络访问这台计算机”里面的“Guest”，（没有的话无视）" class="headerlink" title="6、删除“拒绝从网络访问这台计算机”里面的“Guest”，（没有的话无视）"></a>6、删除“拒绝从网络访问这台计算机”里面的“Guest”，（没有的话无视）</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/6.jpg" alt="12_6"></p>
+<h4 id="7、按照下图步骤执行"><a href="#7、按照下图步骤执行" class="headerlink" title="7、按照下图步骤执行"></a>7、按照下图步骤执行</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/7.jpg" alt="12_7"></p>
+<h4 id="8、找到想要共享的文件夹，按照下图的步骤执行"><a href="#8、找到想要共享的文件夹，按照下图的步骤执行" class="headerlink" title="8、找到想要共享的文件夹，按照下图的步骤执行"></a>8、找到想要共享的文件夹，按照下图的步骤执行</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/8.jpg" alt="12_8"></p>
+<h4 id="9、按照下图步骤执行"><a href="#9、按照下图步骤执行" class="headerlink" title="9、按照下图步骤执行"></a>9、按照下图步骤执行</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/9.jpg" alt="12_9"></p>
+<h4 id="10、完成"><a href="#10、完成" class="headerlink" title="10、完成"></a>10、完成</h4><h4 id="11、查看共享文件"><a href="#11、查看共享文件" class="headerlink" title="11、查看共享文件"></a>11、查看共享文件</h4><p>在同一局域网下的电脑 打开“我的电脑” ，点击“网络”， 右边就会显示刚才设置的共享电脑<br><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/10.jpg" alt="12_10"></p>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>局域网共享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>typecho博客访问速度慢</title>
+    <url>/13/</url>
+    <content><![CDATA[<p>问题描述：新安装typecho博客加载速度慢<br>解决方案：修改 “host” 值<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>新安装的typecho,访问的时候，切换一个新页面需要2秒左右加载出来</li>
+</ul>
+<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><h4 id="1、网站根目录下的“config-inc-php”-编辑"><a href="#1、网站根目录下的“config-inc-php”-编辑" class="headerlink" title="1、网站根目录下的“config.inc.php” ,编辑"></a>1、网站根目录下的“config.inc.php” ,编辑</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/013/1.jpg" alt="13_1"></p>
+<h4 id="2、定义数据库参数-将host的值-“localhost”改成127-0-0-1即可"><a href="#2、定义数据库参数-将host的值-“localhost”改成127-0-0-1即可" class="headerlink" title="2、定义数据库参数,将host的值 “localhost”改成127.0.0.1即可"></a>2、定义数据库参数,将host的值 “localhost”改成127.0.0.1即可</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/013/2.jpg" alt="13_2"></p>
+<h4 id="3、保存，重新打开网站看效果"><a href="#3、保存，重新打开网站看效果" class="headerlink" title="3、保存，重新打开网站看效果"></a>3、保存，重新打开网站看效果</h4>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>typecho博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>window系统关闭自动更新</title>
+    <url>/14/</url>
+    <content><![CDATA[<p>问题描述：windows系统经常自动更新<br>解决方案：修改属性关闭自动更新<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、右键“我的电脑”，点击管理"><a href="#1、右键“我的电脑”，点击管理" class="headerlink" title="1、右键“我的电脑”，点击管理"></a>1、右键“我的电脑”，点击管理</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/1.jpg" alt="14_1"></p>
+<h4 id="2、双击“服务和应用程序”"><a href="#2、双击“服务和应用程序”" class="headerlink" title="2、双击“服务和应用程序”"></a>2、双击“服务和应用程序”</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/2.jpg" alt="14_2"></p>
+<h4 id="3、双击“服务”"><a href="#3、双击“服务”" class="headerlink" title="3、双击“服务”"></a>3、双击“服务”</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/3.jpg" alt="14_3"></p>
+<h4 id="4、找到“Windows-Update”-右键选择“属性”"><a href="#4、找到“Windows-Update”-右键选择“属性”" class="headerlink" title="4、找到“Windows Update”,右键选择“属性”"></a>4、找到“Windows Update”,右键选择“属性”</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/4.jpg" alt="14_4"></p>
+<h4 id="5、启用类型选择“禁用”，服务状态点击“停止”，点击应用"><a href="#5、启用类型选择“禁用”，服务状态点击“停止”，点击应用" class="headerlink" title="5、启用类型选择“禁用”，服务状态点击“停止”，点击应用"></a>5、启用类型选择“禁用”，服务状态点击“停止”，点击应用</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/5.jpg" alt="14_5"></p>
+]]></content>
+      <categories>
+        <category>电脑相关</category>
+      </categories>
+      <tags>
+        <tag>关闭更新</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>服务器被DDOS攻击，解决方法</title>
+    <url>/2/</url>
+    <content><![CDATA[<p>问题描述：服务器被DDOS攻击<br>解决方案：购买弹性公网IP<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h4 id="1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"><a href="#1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）" class="headerlink" title="1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"></a>1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/1.jpg" alt="2_1"></p>
+<h4 id="2、百度搜索阿里云"><a href="#2、百度搜索阿里云" class="headerlink" title="2、百度搜索阿里云"></a>2、百度搜索阿里云</h4><h4 id="3、登录阿里云，进入控制台"><a href="#3、登录阿里云，进入控制台" class="headerlink" title="3、登录阿里云，进入控制台"></a>3、登录阿里云，进入控制台</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/3.jpg" alt="2_3"></p>
+<h4 id="4、点击-左上角三条横线"><a href="#4、点击-左上角三条横线" class="headerlink" title="4、点击 左上角三条横线"></a>4、点击 左上角三条横线</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/4.jpg" alt="2_4"></p>
+<h4 id="5、点击-产品与服务"><a href="#5、点击-产品与服务" class="headerlink" title="5、点击 产品与服务"></a>5、点击 产品与服务</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/5.jpg" alt="2_5"></p>
+<h4 id="6、右侧搜索框搜索-弹性公网IP，点击搜索出来的结果"><a href="#6、右侧搜索框搜索-弹性公网IP，点击搜索出来的结果" class="headerlink" title="6、右侧搜索框搜索 弹性公网IP，点击搜索出来的结果"></a>6、右侧搜索框搜索 弹性公网IP，点击搜索出来的结果</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/6.jpg" alt="2_6"></p>
+<h4 id="7、点击-购买弹性公网IP"><a href="#7、点击-购买弹性公网IP" class="headerlink" title="7、点击 购买弹性公网IP"></a>7、点击 购买弹性公网IP</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/7.jpg" alt="2_7"></p>
+<h4 id="8、按需选择配置，点击购买"><a href="#8、按需选择配置，点击购买" class="headerlink" title="8、按需选择配置，点击购买"></a>8、按需选择配置，点击购买</h4><h4 id="9、购买完成-返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧-绑定资源"><a href="#9、购买完成-返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧-绑定资源" class="headerlink" title="9、购买完成 返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧 绑定资源"></a>9、购买完成 返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧 绑定资源</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/9.jpg" alt="2_9"></p>
+<h4 id="10、选择实例，点击确定-（操作之前把服务器停止）"><a href="#10、选择实例，点击确定-（操作之前把服务器停止）" class="headerlink" title="10、选择实例，点击确定 （操作之前把服务器停止）"></a>10、选择实例，点击确定 （操作之前把服务器停止）</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/10.jpg" alt="2_10"></p>
+<h4 id="11、域名解析到新购买的ip地址-这一步不做演示-，操作结束"><a href="#11、域名解析到新购买的ip地址-这一步不做演示-，操作结束" class="headerlink" title="11、域名解析到新购买的ip地址 (这一步不做演示)，操作结束"></a>11、域名解析到新购买的ip地址 (这一步不做演示)，操作结束</h4><h4 id="12、稍等片刻就能正常访问了，直接解除黑洞状态"><a href="#12、稍等片刻就能正常访问了，直接解除黑洞状态" class="headerlink" title="12、稍等片刻就能正常访问了，直接解除黑洞状态"></a>12、稍等片刻就能正常访问了，直接解除黑洞状态</h4>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>js实现文字的语音朗读</title>
+    <url>/15/</url>
+    <content><![CDATA[<p>解决方案：引入文中的代码实现朗读效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="参数说明"><a href="#参数说明" class="headerlink" title="参数说明"></a>参数说明</h4><ul>
+<li>lan&#x3D;zh：语言是中文，如果改为lan&#x3D;en，则语言是英文。</li>
+<li>ie&#x3D;UTF-8：文字格式。</li>
+<li>spd&#x3D;2：语速，可以是1-9的数字，数字越大，语速越快。</li>
+<li>text&#x3D;**：这个就是你要转换的文字。</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span> <span class="keyword">PUBLIC</span> <span class="string">&quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;</span> <span class="string">&quot;http://www.w3.org/TR/html4/loose.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;Content-Type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html; charset=UTF-8&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>语音测试<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript"> </span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">function</span> <span class="title function_">doTTS</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ttsDiv = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;bdtts_div_id&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ttsAudio = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;tts_autio_id&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ttsText = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;ttsText&#x27;</span>).<span class="property">value</span>;</span></span><br><span class="line"><span class="language-javascript">            </span></span><br><span class="line"><span class="language-javascript">            </span></span><br><span class="line"><span class="language-javascript">            <span class="comment">// 播放内容的替换</span></span></span><br><span class="line"><span class="language-javascript">            ttsDiv.<span class="title function_">removeChild</span>(ttsAudio);</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> au1 = <span class="string">&#x27;&lt;audio id=&quot;tts_autio_id&quot; autoplay=&quot;autoplay&quot;&gt;&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ss = <span class="string">&#x27;&lt;source id=&quot;tts_source_id&quot; src=&quot;http://tts.baidu.com/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=9&amp;text=&#x27;</span>+ttsText+<span class="string">&#x27;&quot; type=&quot;audio/mpeg&quot;&gt;&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ee = <span class="string">&#x27;&lt;embed id=&quot;tts_embed_id&quot; height=&quot;0&quot; width=&quot;0&quot; src=&quot;&quot;&gt;&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> au2 = <span class="string">&#x27;&lt;/audio&gt;&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript">            ttsDiv.<span class="property">innerHTML</span> = au1 + ss + ee + au2;</span></span><br><span class="line"><span class="language-javascript">            </span></span><br><span class="line"><span class="language-javascript">            ttsAudio = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;tts_autio_id&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">            </span></span><br><span class="line"><span class="language-javascript">            ttsAudio.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">        </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">id</span>=<span class="string">&quot;ttsText&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">id</span>=<span class="string">&quot;tts_btn&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;doTTS()&quot;</span> <span class="attr">value</span>=<span class="string">&quot;播放&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;bdtts_div_id&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;tts_autio_id&quot;</span> <span class="attr">autoplay</span>=<span class="string">&quot;autoplay&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">source</span> <span class="attr">id</span>=<span class="string">&quot;tts_source_id&quot;</span> <span class="attr">src</span>=<span class="string">&quot;http://tts.baidu.com/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=9&amp;text=播报内容&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/mpeg&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">embed</span> <span class="attr">id</span>=<span class="string">&quot;tts_embed_id&quot;</span> <span class="attr">height</span>=<span class="string">&quot;0&quot;</span> <span class="attr">width</span>=<span class="string">&quot;0&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mysql报错 Host ‘XXXXXX’ is blocked because of many connection errors</title>
+    <url>/3/</url>
+    <content><![CDATA[<p>问题描述：同一ip在短时间内过多请求导致阻塞<br>解决方案：清除数据库日志<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞<br>在网上找的解决办法，经过测试并不能解决<br>网1. 更改max_connection_errors的值<br>网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;</p>
+<blockquote>
+<p>经测试可用的方法“手动清除数据库日志” </p>
+</blockquote>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h4 id="1、首先把数据库停止运行"><a href="#1、首先把数据库停止运行" class="headerlink" title="1、首先把数据库停止运行"></a>1、首先把数据库停止运行</h4><h4 id="2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址"><a href="#2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址" class="headerlink" title="2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)"></a>2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/003/1.jpg" alt="3_2"></p>
+<h4 id="3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）"><a href="#3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）" class="headerlink" title="3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）"></a>3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）</h4><h4 id="4、启动数据库"><a href="#4、启动数据库" class="headerlink" title="4、启动数据库"></a>4、启动数据库</h4>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>Mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>去除网站引入jQuery mobile 后底部出现的loading字样</title>
+    <url>/4/</url>
+    <content><![CDATA[<p>问题描述：引入jQuery mobile包，出现loading字样<br>解决方案：添加“css”去除loading字样<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>网站引入jQuery mobile 后，pc端底部会出现loading字样<br><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/004/1.jpg" alt="4_1"></li>
+</ul>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h4 id="把下边css代码放入css文件里就可以了"><a href="#把下边css代码放入css文件里就可以了" class="headerlink" title="把下边css代码放入css文件里就可以了"></a>把下边css代码放入css文件里就可以了</h4><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.ui-loader-default</span>&#123; <span class="attribute">display</span>:none&#125;</span><br><span class="line"><span class="selector-class">.ui-mobile-viewport</span>&#123; <span class="attribute">border</span>:none;&#125;</span><br><span class="line"><span class="selector-class">.ui-page</span> &#123;<span class="attribute">padding</span>: <span class="number">0</span>; <span class="attribute">margin</span>: <span class="number">0</span>; <span class="attribute">outline</span>: <span class="number">0</span>&#125; </span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jquery监听“复制”事件，ctrl+c和右键复制</title>
+    <url>/5/</url>
+    <content><![CDATA[<p>解决方案：引入文中的“js”实现复制效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="直接上js代码，使用之前先引入-“jquery”-包"><a href="#直接上js代码，使用之前先引入-“jquery”-包" class="headerlink" title="直接上js代码，使用之前先引入 “jquery” 包"></a>直接上js代码，使用之前先引入 “jquery” 包</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">    <span class="comment">//  监听 ctrl + c事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;keydown&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;keydown&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>)&#123; </span><br><span class="line">        <span class="keyword">if</span>(e.<span class="property">ctrlKey</span> &amp;&amp; e.<span class="property">keyCode</span>  == <span class="number">67</span>) &#123; </span><br><span class="line">            <span class="title function_">doSomething</span>();</span><br><span class="line">            <span class="comment">// 返回false, 防止重复触发copy事件</span></span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 鼠标右键的复制事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;copy&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;copy&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>) &#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;右键复制 监听成功&#x27;</span>);</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">doSomething</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;ctrl + c 监听成功&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">setTime</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">window</span>.<span class="property">localStorage</span>) &#123;</span><br><span class="line">            <span class="keyword">let</span> time = <span class="variable language_">localStorage</span>.<span class="title function_">getItem</span>(<span class="string">&#x27;time&#x27;</span>);</span><br><span class="line">            time ? time ++ : time = <span class="number">1</span>;</span><br><span class="line">            <span class="variable language_">localStorage</span>.<span class="title function_">setItem</span>(<span class="string">&#x27;time&#x27;</span>, time);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jquery监听网站“返回，后退”</title>
+    <url>/6/</url>
+    <content><![CDATA[<p>解决方案：引入文中的“js”实现监听效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/006/0.gif" alt="6_1"></p>
+<h4 id="把以下代码放到页面中（引入js包之后才可以用）"><a href="#把以下代码放到页面中（引入js包之后才可以用）" class="headerlink" title="把以下代码放到页面中（引入js包之后才可以用）"></a>把以下代码放到页面中（引入js包之后才可以用）</h4><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;    </span><br><span class="line">    <span class="title function_">jQuery</span>(<span class="variable language_">document</span>).<span class="title function_">ready</span>(<span class="keyword">function</span> (<span class="params">$</span>) &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable language_">window</span>.<span class="property">history</span> &amp;&amp; <span class="variable language_">window</span>.<span class="property">history</span>.<span class="property">pushState</span>) &#123;</span><br><span class="line">    $(<span class="variable language_">window</span>).<span class="title function_">on</span>(<span class="string">&#x27;popstate&#x27;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> hashLocation = location.<span class="property">hash</span>;    </span><br><span class="line">    <span class="keyword">var</span> hashSplit = hashLocation.<span class="title function_">split</span>(<span class="string">&quot;#!/&quot;</span>);        </span><br><span class="line">    <span class="keyword">var</span> hashName = hashSplit[<span class="number">1</span>];        </span><br><span class="line">    <span class="keyword">if</span> (hashName !== <span class="string">&#x27;&#x27;</span>) &#123;        </span><br><span class="line">    <span class="keyword">var</span> hash = <span class="variable language_">window</span>.<span class="property">location</span>.<span class="property">hash</span>;        </span><br><span class="line">    <span class="keyword">if</span> (hash === <span class="string">&#x27;&#x27;</span>) &#123;        </span><br><span class="line">        <span class="title function_">alert</span>(<span class="string">&quot;检测到返回&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="variable language_">window</span>.<span class="property">history</span>.<span class="title function_">pushState</span>(<span class="string">&#x27;no&#x27;</span>, <span class="literal">null</span>, <span class="string">&#x27;./#no&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WinSCP链接显示“检测到超时”</title>
+    <url>/7/</url>
+    <content><![CDATA[<p>问题描述：链接 “WinSCP” 检测到超时<br>解决方案：取消被动模式<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/0.jpg" alt="7_0"></p>
+<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><h4 id="1、输入主机名-用户名-密码-默认端口号21，点击高级"><a href="#1、输入主机名-用户名-密码-默认端口号21，点击高级" class="headerlink" title="1、输入主机名-用户名-密码-默认端口号21，点击高级"></a>1、输入主机名-用户名-密码-默认端口号21，点击高级</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/1.jpg" alt="7_1"></p>
+<h4 id="2、点击左侧“连接”"><a href="#2、点击左侧“连接”" class="headerlink" title="2、点击左侧“连接”"></a>2、点击左侧“连接”</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/2.jpg" alt="7_2"></p>
+<h4 id="3、被动模式取消勾选，点击确定"><a href="#3、被动模式取消勾选，点击确定" class="headerlink" title="3、被动模式取消勾选，点击确定"></a>3、被动模式取消勾选，点击确定</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/3.jpg" alt="7_3"></p>
+<h4 id="4、登录"><a href="#4、登录" class="headerlink" title="4、登录"></a>4、登录</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/4.jpg" alt="7_4"></p>
+]]></content>
+      <categories>
+        <category>电脑相关</category>
+      </categories>
+      <tags>
+        <tag>WinSCP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决“ios浏览器”点击延迟</title>
+    <url>/8/</url>
+    <content><![CDATA[<p>解决方案：引入文中的“js”解决点击延迟问题<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="添加以下代码"><a href="#添加以下代码" class="headerlink" title="添加以下代码"></a>添加以下代码</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="keyword">if</span> (<span class="string">&#x27;addEventListener&#x27;</span> <span class="keyword">in</span> <span class="variable language_">document</span>) &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;DOMContentLoaded&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="title class_">FastClick</span>.<span class="title function_">attach</span>(<span class="variable language_">document</span>.<span class="property">body</span>);</span><br><span class="line">        &#125;, <span class="literal">false</span>);</span><br><span class="line">    &#125;</span><br><span class="line"> &lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>windows系统无需工具自动关机</title>
+    <url>/9/</url>
+    <content><![CDATA[<p>解决方案：使用命令窗口设置关机时间<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、鼠标点击【开始菜单】-选择-【运行】或者使用快捷键【Win-R】打开运行窗口"><a href="#1、鼠标点击【开始菜单】-选择-【运行】或者使用快捷键【Win-R】打开运行窗口" class="headerlink" title="1、鼠标点击【开始菜单】 选择 【运行】或者使用快捷键【Win+R】打开运行窗口"></a>1、鼠标点击【开始菜单】 选择 【运行】或者使用快捷键【Win+R】打开运行窗口</h4><h4 id="2、输入：Shutdown-s-t-xxx-后点击【确定】，xxx代表时间秒数，按需设置"><a href="#2、输入：Shutdown-s-t-xxx-后点击【确定】，xxx代表时间秒数，按需设置" class="headerlink" title="2、输入：Shutdown -s -t xxx 后点击【确定】，xxx代表时间秒数，按需设置"></a>2、输入：Shutdown -s -t xxx 后点击【确定】，xxx代表时间秒数，按需设置</h4><h4 id="3、如果想取消自动关机，在运行窗口输入：shutdown-a-点击【确定】"><a href="#3、如果想取消自动关机，在运行窗口输入：shutdown-a-点击【确定】" class="headerlink" title="3、如果想取消自动关机，在运行窗口输入：shutdown -a 点击【确定】"></a>3、如果想取消自动关机，在运行窗口输入：shutdown -a 点击【确定】</h4>]]></content>
+      <categories>
+        <category>电脑相关</category>
+      </categories>
+      <tags>
+        <tag>自动关机</tag>
+      </tags>
+  </entry>
+</search>
