@@ -1,0 +1,6 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+​
+Sitemap: https://ioblog.github.io/sitemap.xml
+Sitemap: https://ioblog.github.io/baidusitemap.xml
