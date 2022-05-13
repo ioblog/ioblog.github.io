@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>windows系统微信多开</title>
+    <url>/10/</url>
+    <content><![CDATA[<p>解决方案：新建 “.bat” 文件实现多开效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、桌面新建文本文档"><a href="#1、桌面新建文本文档" class="headerlink" title="1、桌面新建文本文档"></a>1、桌面新建文本文档</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/010/1.jpg" alt="10_1"></p>
+<h4 id="2、输入以下代码"><a href="#2、输入以下代码" class="headerlink" title="2、输入以下代码"></a>2、输入以下代码</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@echo</span> off</span><br><span class="line">start /d <span class="string">&quot;D:WeChat&quot;</span> WeChat.exe</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
+
+<h4 id="3、修改第二步的代码，‘-D-WeChat-’-换成自己的微信安装目录"><a href="#3、修改第二步的代码，‘-D-WeChat-’-换成自己的微信安装目录" class="headerlink" title="3、修改第二步的代码，‘ D:WeChat ’ 换成自己的微信安装目录"></a>3、修改第二步的代码，‘ D:WeChat ’ 换成自己的微信安装目录</h4><h4 id="4、修改完成后，-需要开几个微信，就复制几行代码中-start开头一行内容"><a href="#4、修改完成后，-需要开几个微信，就复制几行代码中-start开头一行内容" class="headerlink" title="4、修改完成后， 需要开几个微信，就复制几行代码中 start开头一行内容"></a>4、修改完成后， 需要开几个微信，就复制几行代码中 start开头一行内容</h4><h4 id="5、下图复制两行-就是开两个微信，需要几个，复制几行"><a href="#5、下图复制两行-就是开两个微信，需要几个，复制几行" class="headerlink" title="5、下图复制两行 就是开两个微信，需要几个，复制几行"></a>5、下图复制两行 就是开两个微信，需要几个，复制几行</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/010/5.jpg" alt="10_5"></p>
+<h4 id="6、保存，文件后缀名为-“-bat”-双击打开"><a href="#6、保存，文件后缀名为-“-bat”-双击打开" class="headerlink" title="6、保存，文件后缀名为 “.bat” 双击打开"></a>6、保存，文件后缀名为 “.bat” 双击打开</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/010/6.jpg" alt="10_6"></p>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>微信多开</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>和白日梦说再见</title>
+    <url>/1/</url>
+    <content><![CDATA[<p>人生感慨</p>
+<span id="more"></span>
+<p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/001/1.jpg" alt="1_1"><br>白日梦会想出很多绝妙的主意，但却办不成任何事情。</p>
+]]></content>
+      <categories>
+        <category>个人感悟</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Mac系统下微信双开</title>
+    <url>/11/</url>
+    <content><![CDATA[<p>解决方案：终端执行代码实现多开效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、打开终端"><a href="#1、打开终端" class="headerlink" title="1、打开终端"></a>1、打开终端</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/011/1.jpg" alt="11_1"></p>
+<h4 id="2、复制双开代码，到终端里粘贴，回车"><a href="#2、复制双开代码，到终端里粘贴，回车" class="headerlink" title="2、复制双开代码，到终端里粘贴，回车"></a>2、复制双开代码，到终端里粘贴，回车</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">nohup /Applications/WeChat.app/Contents/MacOS/WeChat &gt; /dev/<span class="literal">null</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span> &amp;</span><br></pre></td></tr></table></figure>
+<p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/011/2.jpg" alt="11_2"></p>
+<ul>
+<li><p>需要一个就执行一次，需要两个执行两次</p>
+<p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/011/3.jpg" alt="11_3"></p>
+</li>
+<li><p>执行完毕之后，终端可以退出</p>
+<p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/011/4.jpg" alt="11_4"></p>
+</li>
+<li><blockquote>
+<p>注意 注意 注意 最多只能打开两个微信</p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>微信多开</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>windows系统 局域网文件共享</title>
+    <url>/12/</url>
+    <content><![CDATA[<p>解决方案：windows 7 局域网共享设置<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>win7局域网共享设置</p>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、单击电脑右下角网络图标，按照图中步骤操作"><a href="#1、单击电脑右下角网络图标，按照图中步骤操作" class="headerlink" title="1、单击电脑右下角网络图标，按照图中步骤操作"></a>1、单击电脑右下角网络图标，按照图中步骤操作</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/1.jpg" alt="12_1"></p>
+<h5 id="2、启用如图所示的三个选项，保存修改"><a href="#2、启用如图所示的三个选项，保存修改" class="headerlink" title="2、启用如图所示的三个选项，保存修改"></a>2、启用如图所示的三个选项，保存修改</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/2.jpg" alt="12_2"></p>
+<h5 id="3、右键打开我的电脑-“管理”"><a href="#3、右键打开我的电脑-“管理”" class="headerlink" title="3、右键打开我的电脑 “管理”"></a>3、右键打开我的电脑 “管理”</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/3.jpg" alt="12_3"></p>
+<h5 id="4、按下图步骤进行设置"><a href="#4、按下图步骤进行设置" class="headerlink" title="4、按下图步骤进行设置"></a>4、按下图步骤进行设置</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/4.jpg" alt="12_4"></p>
+<h5 id="5、快捷键-win-r-运行界面输入命令：secpol-msc，（看不明白的按下图步骤执行）"><a href="#5、快捷键-win-r-运行界面输入命令：secpol-msc，（看不明白的按下图步骤执行）" class="headerlink" title="5、快捷键 win+r, 运行界面输入命令：secpol.msc，（看不明白的按下图步骤执行）"></a>5、快捷键 win+r, 运行界面输入命令：secpol.msc，（看不明白的按下图步骤执行）</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/5.jpg" alt="12_5"></p>
+<h5 id="6、删除“拒绝从网络访问这台计算机”里面的“Guest”，（没有的话无视）"><a href="#6、删除“拒绝从网络访问这台计算机”里面的“Guest”，（没有的话无视）" class="headerlink" title="6、删除“拒绝从网络访问这台计算机”里面的“Guest”，（没有的话无视）"></a>6、删除“拒绝从网络访问这台计算机”里面的“Guest”，（没有的话无视）</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/6.jpg" alt="12_6"></p>
+<h5 id="7、按照下图步骤执行"><a href="#7、按照下图步骤执行" class="headerlink" title="7、按照下图步骤执行"></a>7、按照下图步骤执行</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/7.jpg" alt="12_7"></p>
+<h5 id="8、找到想要共享的文件夹，按照下图的步骤执行"><a href="#8、找到想要共享的文件夹，按照下图的步骤执行" class="headerlink" title="8、找到想要共享的文件夹，按照下图的步骤执行"></a>8、找到想要共享的文件夹，按照下图的步骤执行</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/8.jpg" alt="12_8"></p>
+<h5 id="9、按照下图步骤执行"><a href="#9、按照下图步骤执行" class="headerlink" title="9、按照下图步骤执行"></a>9、按照下图步骤执行</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/9.jpg" alt="12_9"></p>
+<h5 id="10、完成"><a href="#10、完成" class="headerlink" title="10、完成"></a>10、完成</h5><h5 id="11、查看共享文件"><a href="#11、查看共享文件" class="headerlink" title="11、查看共享文件"></a>11、查看共享文件</h5><p>在同一局域网下的电脑 打开“我的电脑” ，点击“网络”， 右边就会显示刚才设置的共享电脑<br><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/012/10.jpg" alt="12_10"></p>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>局域网共享</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>typecho博客访问速度慢</title>
+    <url>/13/</url>
+    <content><![CDATA[<p>问题描述：新安装typecho博客加载速度慢<br>解决方案：修改 “host” 值<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>新安装的typecho,访问的时候，切换一个新页面需要2秒左右加载出来</li>
+</ul>
+<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><h5 id="1、网站根目录下的“config-inc-php”-编辑"><a href="#1、网站根目录下的“config-inc-php”-编辑" class="headerlink" title="1、网站根目录下的“config.inc.php” ,编辑"></a>1、网站根目录下的“config.inc.php” ,编辑</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/013/1.jpg" alt="13_1"></p>
+<h5 id="2、定义数据库参数-将host的值-“localhost”改成127-0-0-1即可"><a href="#2、定义数据库参数-将host的值-“localhost”改成127-0-0-1即可" class="headerlink" title="2、定义数据库参数,将host的值 “localhost”改成127.0.0.1即可"></a>2、定义数据库参数,将host的值 “localhost”改成127.0.0.1即可</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/013/2.jpg" alt="13_2"></p>
+<h5 id="3、保存，重新打开网站看效果"><a href="#3、保存，重新打开网站看效果" class="headerlink" title="3、保存，重新打开网站看效果"></a>3、保存，重新打开网站看效果</h5>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>typecho博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>window系统关闭自动更新</title>
+    <url>/14/</url>
+    <content><![CDATA[<p>问题描述：windows系统经常自动更新<br>解决方案：修改属性关闭自动更新<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、右键“我的电脑”，点击管理"><a href="#1、右键“我的电脑”，点击管理" class="headerlink" title="1、右键“我的电脑”，点击管理"></a>1、右键“我的电脑”，点击管理</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/1.jpg" alt="14_1"></p>
+<h4 id="2、双击“服务和应用程序”"><a href="#2、双击“服务和应用程序”" class="headerlink" title="2、双击“服务和应用程序”"></a>2、双击“服务和应用程序”</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/2.jpg" alt="14_2"></p>
+<h4 id="3、双击“服务”"><a href="#3、双击“服务”" class="headerlink" title="3、双击“服务”"></a>3、双击“服务”</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/3.jpg" alt="14_3"></p>
+<h4 id="4、找到“Windows-Update”-右键选择“属性”"><a href="#4、找到“Windows-Update”-右键选择“属性”" class="headerlink" title="4、找到“Windows Update”,右键选择“属性”"></a>4、找到“Windows Update”,右键选择“属性”</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/4.jpg" alt="14_4"></p>
+<h4 id="5、启用类型选择“禁用”，服务状态点击“停止”，点击应用"><a href="#5、启用类型选择“禁用”，服务状态点击“停止”，点击应用" class="headerlink" title="5、启用类型选择“禁用”，服务状态点击“停止”，点击应用"></a>5、启用类型选择“禁用”，服务状态点击“停止”，点击应用</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/014/5.jpg" alt="14_5"></p>
+]]></content>
+      <categories>
+        <category>电脑相关</category>
+      </categories>
+      <tags>
+        <tag>关闭更新</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>js实现文字的语音朗读</title>
+    <url>/15/</url>
+    <content><![CDATA[<p>解决方案：引入文中的代码实现朗读效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="参数说明"><a href="#参数说明" class="headerlink" title="参数说明"></a>参数说明</h4><ul>
+<li>lan&#x3D;zh：语言是中文，如果改为lan&#x3D;en，则语言是英文。</li>
+<li>ie&#x3D;UTF-8：文字格式。</li>
+<li>spd&#x3D;2：语速，可以是1-9的数字，数字越大，语速越快。</li>
+<li>text&#x3D;**：这个就是你要转换的文字。</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span> <span class="keyword">PUBLIC</span> <span class="string">&quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;</span> <span class="string">&quot;http://www.w3.org/TR/html4/loose.dtd&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;Content-Type&quot;</span> <span class="attr">content</span>=<span class="string">&quot;text/html; charset=UTF-8&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>语音测试<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript"> </span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">function</span> <span class="title function_">doTTS</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ttsDiv = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;bdtts_div_id&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ttsAudio = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;tts_autio_id&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ttsText = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;ttsText&#x27;</span>).<span class="property">value</span>;</span></span><br><span class="line"><span class="language-javascript">            </span></span><br><span class="line"><span class="language-javascript">            </span></span><br><span class="line"><span class="language-javascript">            <span class="comment">// 播放内容的替换</span></span></span><br><span class="line"><span class="language-javascript">            ttsDiv.<span class="title function_">removeChild</span>(ttsAudio);</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> au1 = <span class="string">&#x27;&lt;audio id=&quot;tts_autio_id&quot; autoplay=&quot;autoplay&quot;&gt;&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ss = <span class="string">&#x27;&lt;source id=&quot;tts_source_id&quot; src=&quot;http://tts.baidu.com/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=9&amp;text=&#x27;</span>+ttsText+<span class="string">&#x27;&quot; type=&quot;audio/mpeg&quot;&gt;&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> ee = <span class="string">&#x27;&lt;embed id=&quot;tts_embed_id&quot; height=&quot;0&quot; width=&quot;0&quot; src=&quot;&quot;&gt;&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> au2 = <span class="string">&#x27;&lt;/audio&gt;&#x27;</span>;</span></span><br><span class="line"><span class="language-javascript">            ttsDiv.<span class="property">innerHTML</span> = au1 + ss + ee + au2;</span></span><br><span class="line"><span class="language-javascript">            </span></span><br><span class="line"><span class="language-javascript">            ttsAudio = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;tts_autio_id&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">            </span></span><br><span class="line"><span class="language-javascript">            ttsAudio.<span class="title function_">play</span>();</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">        </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">id</span>=<span class="string">&quot;ttsText&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">id</span>=<span class="string">&quot;tts_btn&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;doTTS()&quot;</span> <span class="attr">value</span>=<span class="string">&quot;播放&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;bdtts_div_id&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">audio</span> <span class="attr">id</span>=<span class="string">&quot;tts_autio_id&quot;</span> <span class="attr">autoplay</span>=<span class="string">&quot;autoplay&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">source</span> <span class="attr">id</span>=<span class="string">&quot;tts_source_id&quot;</span> <span class="attr">src</span>=<span class="string">&quot;http://tts.baidu.com/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=9&amp;text=播报内容&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/mpeg&quot;</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">embed</span> <span class="attr">id</span>=<span class="string">&quot;tts_embed_id&quot;</span> <span class="attr">height</span>=<span class="string">&quot;0&quot;</span> <span class="attr">width</span>=<span class="string">&quot;0&quot;</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>蓝奏云分享链接，无法打开</title>
+    <url>/16/</url>
+    <content><![CDATA[<p>问题描述：访问别人分享的蓝奏云链接，显示无法打开<br>解决方案：更换分享链接中的字母<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、把分享链接中的-“lanzous”-换成-“lanzoui”"><a href="#1、把分享链接中的-“lanzous”-换成-“lanzoui”" class="headerlink" title="1、把分享链接中的 “lanzous” 换成 “lanzoui”"></a>1、把分享链接中的 “lanzous” 换成 “lanzoui”</h4>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>蓝奏云</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>利用控制台自动删除QQ邮件</title>
+    <url>/17/</url>
+    <content><![CDATA[<p>解决方案：运行文中代码实现自动删邮件<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>利用定时器每三秒执行一次，只需要执行两个点击事件，一个是勾选，一个是删除</li>
+</ul>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、f12在控制台输入代码，回车"><a href="#1、f12在控制台输入代码，回车" class="headerlink" title="1、f12在控制台输入代码，回车"></a>1、f12在控制台输入代码，回车</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">window</span>.<span class="built_in">setInterval</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;mainFrame&#x27;</span>).<span class="property">contentWindow</span>.<span class="property">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;ckb_selectAll&#x27;</span>).<span class="title function_">click</span>();<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;mainFrame&#x27;</span>).<span class="property">contentWindow</span>.<span class="property">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;quick_del&#x27;</span>).<span class="title function_">click</span>();&#125;,<span class="number">3000</span>)</span><br></pre></td></tr></table></figure>
+
+<h4 id="停止方法"><a href="#停止方法" class="headerlink" title="停止方法"></a>停止方法</h4><h5 id="方法一：按f5刷新浏览器"><a href="#方法一：按f5刷新浏览器" class="headerlink" title="方法一：按f5刷新浏览器"></a>方法一：按f5刷新浏览器</h5><h5 id="方法二：关闭当前窗口"><a href="#方法二：关闭当前窗口" class="headerlink" title="方法二：关闭当前窗口"></a>方法二：关闭当前窗口</h5>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>QQ邮件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站人性化标题设置</title>
+    <url>/18/</url>
+    <content><![CDATA[<p>解决方案：引入文中的代码实现个性化标题<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>一般的切换标题，就是离开后变成另一个标题，回来后再变成原标题，本文提供的这个切换浏览器窗口，也会自动改变网页标题。但是切回来的时候会再提醒一下然后再显示真正的标题，是不是很人性化。</li>
+</ul>
+<h4 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h4><h5 id="1、在网站的head-头部添加以下代码。"><a href="#1、在网站的head-头部添加以下代码。" class="headerlink" title="1、在网站的head 头部添加以下代码。"></a>1、在网站的head 头部添加以下代码。</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">  <span class="comment">/*  动态网页标题*/</span></span><br><span class="line"> <span class="keyword">var</span> <span class="title class_">OriginTitile</span> = <span class="variable language_">document</span>.<span class="property">title</span>,</span><br><span class="line">  titleTime;</span><br><span class="line"> <span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&quot;visibilitychange&quot;</span>,</span><br><span class="line"> <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">if</span> (<span class="variable language_">document</span>.<span class="property">hidden</span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">title</span> = <span class="string">&quot;你别走吖 Σ(っ °Д °;)っ&quot;</span>;</span><br><span class="line">    <span class="built_in">clearTimeout</span>(titleTime)</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="property">title</span> = <span class="string">&quot;你可算回来了 (｡•ˇ‸ˇ•｡)&quot;</span> + <span class="title class_">OriginTitile</span>;</span><br><span class="line">    titleTime = <span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="property">title</span> = <span class="title class_">OriginTitile</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="number">2000</span>)</span><br><span class="line">&#125;</span><br><span class="line">&#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>网站标题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>宝塔面板修改代码后付费插件免费用</title>
+    <url>/19/</url>
+    <content><![CDATA[<p>解决方案：添加文中的代码免费用付费插件<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li><p>利用代码修改后，网站监控统计，nginx防火墙，宝塔 APP 等 这些可以用，其他专业软件部分可用</p>
+</li>
+<li><p>已测 7.5.1，7.5.2，7.6.0 可以用，别的版本自行测试</p>
+</li>
+</ul>
+<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/019/2.jpg" alt="19_2"></p>
+<h4 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h4><h5 id="1、打开路径下文件-x2F-www-x2F-server-x2F-panel-x2F-class-x2F-panelPlugin-py-在335行附近添加如下代码："><a href="#1、打开路径下文件-x2F-www-x2F-server-x2F-panel-x2F-class-x2F-panelPlugin-py-在335行附近添加如下代码：" class="headerlink" title="1、打开路径下文件 &#x2F;www&#x2F;server&#x2F;panel&#x2F;class&#x2F;panelPlugin.py 在335行附近添加如下代码："></a>1、打开路径下文件 &#x2F;www&#x2F;server&#x2F;panel&#x2F;class&#x2F;panelPlugin.py 在335行附近添加如下代码：</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">        softList[<span class="string">&#x27;pro&#x27;</span>] = <span class="number">1</span></span><br><span class="line"><span class="keyword">for</span> soft in softList[<span class="string">&#x27;list&#x27;</span>]:</span><br><span class="line">    soft[<span class="string">&#x27;endtime&#x27;</span>] = <span class="number">0</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>注意：一定要保持和下图中代码缩进位置一样</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/019/1.jpg" alt="19_1"></p>
+<h5 id="2、完成之后回到面板首页重启面板，专业版应用就可以用了（部分应用不能用）"><a href="#2、完成之后回到面板首页重启面板，专业版应用就可以用了（部分应用不能用）" class="headerlink" title="2、完成之后回到面板首页重启面板，专业版应用就可以用了（部分应用不能用）"></a>2、完成之后回到面板首页重启面板，专业版应用就可以用了（部分应用不能用）</h5>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>宝塔面板</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>服务器被DDOS攻击，解决方法</title>
+    <url>/2/</url>
+    <content><![CDATA[<p>问题描述：服务器被DDOS攻击<br>解决方案：购买弹性公网IP<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"><a href="#1、把服务器停止运行，降配置-带宽选择0m-，-降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示-注意-注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）" class="headerlink" title="1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）"></a>1、把服务器停止运行，降配置 带宽选择0m ，(降配需要服务器到期前15天内操作，由于演示的服务器不符合要求，这一步不做演示,注意 注意，如果服务器不显示降配按钮，需要打客服电话申请开通，95187转1）</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/1.jpg" alt="2_1"></p>
+<h5 id="2、百度搜索阿里云"><a href="#2、百度搜索阿里云" class="headerlink" title="2、百度搜索阿里云"></a>2、百度搜索阿里云</h5><h5 id="3、登录阿里云，进入控制台"><a href="#3、登录阿里云，进入控制台" class="headerlink" title="3、登录阿里云，进入控制台"></a>3、登录阿里云，进入控制台</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/3.jpg" alt="2_3"></p>
+<h5 id="4、点击-左上角三条横线"><a href="#4、点击-左上角三条横线" class="headerlink" title="4、点击 左上角三条横线"></a>4、点击 左上角三条横线</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/4.jpg" alt="2_4"></p>
+<h5 id="5、点击-产品与服务"><a href="#5、点击-产品与服务" class="headerlink" title="5、点击 产品与服务"></a>5、点击 产品与服务</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/5.jpg" alt="2_5"></p>
+<h5 id="6、右侧搜索框搜索-弹性公网IP，点击搜索出来的结果"><a href="#6、右侧搜索框搜索-弹性公网IP，点击搜索出来的结果" class="headerlink" title="6、右侧搜索框搜索 弹性公网IP，点击搜索出来的结果"></a>6、右侧搜索框搜索 弹性公网IP，点击搜索出来的结果</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/6.jpg" alt="2_6"></p>
+<h5 id="7、点击-购买弹性公网IP"><a href="#7、点击-购买弹性公网IP" class="headerlink" title="7、点击 购买弹性公网IP"></a>7、点击 购买弹性公网IP</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/7.jpg" alt="2_7"></p>
+<h5 id="8、按需选择配置，点击购买"><a href="#8、按需选择配置，点击购买" class="headerlink" title="8、按需选择配置，点击购买"></a>8、按需选择配置，点击购买</h5><h5 id="9、购买完成-返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧-绑定资源"><a href="#9、购买完成-返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧-绑定资源" class="headerlink" title="9、购买完成 返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧 绑定资源"></a>9、购买完成 返回弹性公网ip列表，会显示已经购买的弹性公网ip，点击右侧 绑定资源</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/9.jpg" alt="2_9"></p>
+<h5 id="10、选择实例，点击确定-（操作之前把服务器停止）"><a href="#10、选择实例，点击确定-（操作之前把服务器停止）" class="headerlink" title="10、选择实例，点击确定 （操作之前把服务器停止）"></a>10、选择实例，点击确定 （操作之前把服务器停止）</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/002/10.jpg" alt="2_10"></p>
+<h5 id="11、域名解析到新购买的ip地址-这一步不做演示-，操作结束"><a href="#11、域名解析到新购买的ip地址-这一步不做演示-，操作结束" class="headerlink" title="11、域名解析到新购买的ip地址 (这一步不做演示)，操作结束"></a>11、域名解析到新购买的ip地址 (这一步不做演示)，操作结束</h5><h5 id="12、稍等片刻就能正常访问了，直接解除黑洞状态"><a href="#12、稍等片刻就能正常访问了，直接解除黑洞状态" class="headerlink" title="12、稍等片刻就能正常访问了，直接解除黑洞状态"></a>12、稍等片刻就能正常访问了，直接解除黑洞状态</h5>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自定义QQ发网址显示的卡片内容</title>
+    <url>/20/</url>
+    <content><![CDATA[<p>解决方案：添加文中的代码实现自定义卡片<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、自定义卡片内容，标题，图片，把以下代码放到-lt-head-gt-lt-x2F-head-gt-标签内"><a href="#1、自定义卡片内容，标题，图片，把以下代码放到-lt-head-gt-lt-x2F-head-gt-标签内" class="headerlink" title="1、自定义卡片内容，标题，图片，把以下代码放到 &lt;head&gt;&lt;&#x2F;head&gt; 标签内"></a>1、自定义卡片内容，标题，图片，把以下代码放到 &lt;head&gt;&lt;&#x2F;head&gt; 标签内</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;meta itemprop=<span class="string">&quot;name&quot;</span> content=<span class="string">&quot;网站标题&quot;</span>/&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">itemprop</span>=<span class="string">&quot;image&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网站要显示的图片链接&quot;</span> /&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">itemprop</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网站内容&quot;</span> /&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>QQ卡片内容</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>宝塔面板免费使用ssl证书</title>
+    <url>/22/</url>
+    <content><![CDATA[<p>解决方案：按照文中步骤操作<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ul>
+<li>1、申请之前，请确保域名已解析，如未解析会导致审核失败</li>
+<li>2、Let’s Encrypt免费证书，有效期一年，支持多域名。默认会自动续签</li>
+<li>3、若您的站点使用了CDN或301重定向会导致续签失败</li>
+<li>4、在未指定SSL默认站点时,未开启SSL的站点使用HTTPS会直接访问到已开启SSL的站点</li>
+<li>5、如开启后无法使用HTTPS访问，请检查安全组是否正确放行443端口</li>
+</ul>
+<hr>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、登陆宝塔面板，点击左侧-网站"><a href="#1、登陆宝塔面板，点击左侧-网站" class="headerlink" title="1、登陆宝塔面板，点击左侧 网站"></a>1、登陆宝塔面板，点击左侧 网站</h5><h5 id="2、点击需要申请站点右边的-设置"><a href="#2、点击需要申请站点右边的-设置" class="headerlink" title="2、点击需要申请站点右边的 设置"></a>2、点击需要申请站点右边的 设置</h5><h5 id="3、点击-SSL"><a href="#3、点击-SSL" class="headerlink" title="3、点击 SSL"></a>3、点击 SSL</h5><h5 id="4、点击-Let’s-Encrypt"><a href="#4、点击-Let’s-Encrypt" class="headerlink" title="4、点击 Let’s Encrypt"></a>4、点击 Let’s Encrypt</h5><h5 id="5、选择域名，-申请"><a href="#5、选择域名，-申请" class="headerlink" title="5、选择域名， 申请"></a>5、选择域名， 申请</h5><h5 id="6、申请成功后，打开-强制HTTPS"><a href="#6、申请成功后，打开-强制HTTPS" class="headerlink" title="6、申请成功后，打开 强制HTTPS"></a>6、申请成功后，打开 强制HTTPS</h5><h4 id="操作步骤图"><a href="#操作步骤图" class="headerlink" title="操作步骤图"></a>操作步骤图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/022/1.jpg" alt="22-1"></p>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>宝塔面板</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>修改网站上显示的任意内容</title>
+    <url>/21/</url>
+    <content><![CDATA[<p>解决方案：执行文中的代码实现随意修改内容<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<blockquote>
+<p>前提：Chrome内核的浏览器</p>
+</blockquote>
+<h4 id="1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行"><a href="#1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行" class="headerlink" title="1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行"></a>1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">document.body.contentEditable = <span class="string">&quot;true&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="2、取消编辑："><a href="#2、取消编辑：" class="headerlink" title="2、取消编辑："></a>2、取消编辑：</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">document.body.contentEditable = <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>随意修改网站内容</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>绕过宝塔面板强制绑定账号</title>
+    <url>/23/</url>
+    <content><![CDATA[<p>解决方案：利用简单的命令实现绕过强制绑定账号<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、输入以下代码可以绕过登录"><a href="#1、输入以下代码可以绕过登录" class="headerlink" title="1、输入以下代码可以绕过登录"></a>1、输入以下代码可以绕过登录</h4><h5 id="方法一：7-4-5版本有效"><a href="#方法一：7-4-5版本有效" class="headerlink" title="方法一：7.4.5版本有效"></a>方法一：7.4.5版本有效</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">sed -i <span class="string">&quot;s|bind_user == &#x27;True&#x27;|bind_user == &#x27;XXXX&#x27;|&quot;</span> /www/server/panel/BTPanel/<span class="type">static</span>/js/index.js</span><br></pre></td></tr></table></figure>
+
+<h5 id="方法二：禁用json"><a href="#方法二：禁用json" class="headerlink" title="方法二：禁用json"></a>方法二：禁用json</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">echo <span class="string">&quot;&#123;\&quot;uid\&quot;:1000,\&quot;username\&quot;:\&quot;admin\&quot;,\&quot;serverid\&quot;:1&#125;&quot;</span> &gt; /www/server/panel/data/userInfo.json</span><br></pre></td></tr></table></figure>
+
+<h5 id="方法三：移除弹窗"><a href="#方法三：移除弹窗" class="headerlink" title="方法三：移除弹窗"></a>方法三：移除弹窗</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">sed -i <span class="string">&quot;s|if (bind_user == &#x27;True&#x27;) &#123;|if (bind_user == &#x27;REMOVED&#x27;) &#123;|g&quot;</span> /www/server/panel/BTPanel/<span class="type">static</span>/js/index.js</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>恢复弹窗</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">sed -i <span class="string">&quot;s|if (bind_user == &#x27;REMOVED&#x27;) &#123;|if (bind_user == &#x27;True&#x27;) &#123;|g&quot;</span> /www/server/panel/BTPanel/<span class="type">static</span>/js/index.js</span><br></pre></td></tr></table></figure>
+<h4 id="2、在宝塔面板按Ctrl-F5强制刷新页面即可"><a href="#2、在宝塔面板按Ctrl-F5强制刷新页面即可" class="headerlink" title="2、在宝塔面板按Ctrl+F5强制刷新页面即可"></a>2、在宝塔面板按Ctrl+F5强制刷新页面即可</h4>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>宝塔面板</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用JS实现QQ空间自动点赞</title>
+    <url>/24/</url>
+    <content><![CDATA[<p>解决方案：控制台运行代码，实现点赞效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h5 id="1、登录QQ空间"><a href="#1、登录QQ空间" class="headerlink" title="1、登录QQ空间"></a>1、登录QQ空间</h5><h5 id="2、按F12或者右键审查元素-gt-console页面"><a href="#2、按F12或者右键审查元素-gt-console页面" class="headerlink" title="2、按F12或者右键审查元素-&gt;console页面"></a>2、按F12或者右键审查元素-&gt;console页面</h5><h5 id="3、复制以下代码，console页面粘贴，按回车"><a href="#3、复制以下代码，console页面粘贴，按回车" class="headerlink" title="3、复制以下代码，console页面粘贴，按回车"></a>3、复制以下代码，console页面粘贴，按回车</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> x=<span class="number">5</span>,y=<span class="number">10</span>;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">autoClick</span>(<span class="params"></span>)</span><br><span class="line">&#123;</span><br><span class="line">y=y+<span class="number">5</span>;</span><br><span class="line"><span class="keyword">var</span> zan=<span class="variable language_">document</span>.<span class="title function_">getElementsByClassName</span>(<span class="string">&#x27;item qz_like_btn_v3&#x27;</span>);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;zan.<span class="property">length</span>;i++)&#123;</span><br><span class="line"><span class="keyword">if</span>(zan[i].<span class="property">attributes</span>[<span class="number">6</span>].<span class="property">value</span>==<span class="string">&#x27;like&#x27;</span>)&#123;</span><br><span class="line">zan[i].<span class="property">firstChild</span>.<span class="title function_">click</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="variable language_">window</span>.<span class="title function_">scrollBy</span>(x,y);</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">window</span>.<span class="built_in">setInterval</span>(autoClick,<span class="number">2000</span>);</span><br></pre></td></tr></table></figure>
+<h5 id="4、自动执行点赞操作"><a href="#4、自动执行点赞操作" class="headerlink" title="4、自动执行点赞操作"></a>4、自动执行点赞操作</h5><h5 id="5、window-setInterval-autoClick-2000-2000代表两秒执行一次，可以自行修改"><a href="#5、window-setInterval-autoClick-2000-2000代表两秒执行一次，可以自行修改" class="headerlink" title="5、window.setInterval(autoClick,2000); 2000代表两秒执行一次，可以自行修改"></a>5、window.setInterval(autoClick,2000); 2000代表两秒执行一次，可以自行修改</h5>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>QQ点赞</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>批量取消抖音关注</title>
+    <url>/25/</url>
+    <content><![CDATA[<p>解决方案：控制台运行代码，实现批量取消关注效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h5 id="1、登录抖音关注列表：https-creator-douyin-com-following-following"><a href="#1、登录抖音关注列表：https-creator-douyin-com-following-following" class="headerlink" title="1、登录抖音关注列表：https://creator.douyin.com/following/following"></a>1、登录抖音关注列表：<a href="https://creator.douyin.com/following/following">https://creator.douyin.com/following/following</a></h5><h5 id="2、右键或者F12进入审查元素-gt-点击Console-gt-在空白处粘贴以下代码-gt-按回车键即可！"><a href="#2、右键或者F12进入审查元素-gt-点击Console-gt-在空白处粘贴以下代码-gt-按回车键即可！" class="headerlink" title="2、右键或者F12进入审查元素-&gt;点击Console-&gt;在空白处粘贴以下代码-&gt;按回车键即可！"></a>2、右键或者F12进入审查元素-&gt;点击Console-&gt;在空白处粘贴以下代码-&gt;按回车键即可！</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="string">&#x27;\x75\x73\x65 \x73\x74\x72\x69\x63\x74&#x27;</span>;var TsDCYK1=window[<span class="string">&quot;\x64\x6f\x63\x75\x6d\x65\x6e\x74&quot;</span>][<span class="string">&#x27;\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74&#x27;</span>](<span class="string">&#x27;\x73\x63\x72\x69\x70\x74&#x27;</span>);TsDCYK1[<span class="string">&#x27;\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65&#x27;</span>](<span class="string">&#x27;\x73\x72\x63&#x27;</span>,<span class="string">&#x27;\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6c\x69\x62\x2e\x73\x69\x6e\x61\x61\x70\x70\x2e\x63\x6f\x6d\x2f\x6a\x73\x2f\x6a\x71\x75\x65\x72\x79\x2f\x32\x2e\x30\x2e\x33\x2f\x6a\x71\x75\x65\x72\x79\x2d\x32\x2e\x30\x2e\x33\x2e\x6d\x69\x6e\x2e\x6a\x73&#x27;</span>);TsDCYK1[<span class="string">&#x27;\x6f\x6e\x6c\x6f\x61\x64&#x27;</span>]=function()&#123;setInterval(function()&#123;var HbjRrO2=$(<span class="string">&#x27;\x2e\x73\x65\x6d\x69\x2d\x74\x61\x62\x6c\x65\x2d\x72\x6f\x77\x2d\x63\x65\x6c\x6c \x61&#x27;</span>);<span class="keyword">for</span>(var VmQm3$F3=<span class="number">0</span>;VmQm3$F3&lt;HbjRrO2[<span class="string">&#x27;\x6c\x65\x6e\x67\x74\x68&#x27;</span>];VmQm3$F3++)&#123;<span class="keyword">if</span>(HbjRrO2[VmQm3$F3][<span class="string">&#x27;\x69\x6e\x6e\x65\x72\x48\x54\x4d\x4c&#x27;</span>]==<span class="string">&quot;\u53d6\u6d88\u5173\u6ce8&quot;</span>)&#123;$(<span class="string">&#x27;\x2e\x73\x65\x6d\x69\x2d\x74\x61\x62\x6c\x65\x2d\x72\x6f\x77\x2d\x63\x65\x6c\x6c \x61&#x27;</span>)[VmQm3$F3][<span class="string">&#x27;\x63\x6c\x69\x63\x6b&#x27;</span>]();$(<span class="string">&#x27;\x2e\x70\x72\x69\x6d\x61\x72\x79\x2d\x2d\x32\x77\x62\x4d\x69&#x27;</span>)[<span class="number">0</span>][<span class="string">&#x27;\x63\x6c\x69\x63\x6b&#x27;</span>]()&#125;&#125;$(<span class="string">&#x27;\x2e\x61\x6e\x74\x2d\x62\x74\x6e\x2d\x69\x63\x6f\x6e\x2d\x6f\x6e\x6c\x79&#x27;</span>)[<span class="number">1</span>][<span class="string">&#x27;\x63\x6c\x69\x63\x6b&#x27;</span>]()&#125;,<span class="number">800</span>)&#125;;window[<span class="string">&quot;\x64\x6f\x63\x75\x6d\x65\x6e\x74&quot;</span>][<span class="string">&#x27;\x68\x65\x61\x64&#x27;</span>][<span class="string">&#x27;\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64&#x27;</span>](TsDCYK1);window[<span class="string">&quot;\x61\x6c\x65\x72\x74&quot;</span>](<span class="string">&quot;\u5c0f\u5200\u5a31\u4e50\u7f51\x77\x77\x77\x2e\x78\x36\x64\x2e\x63\x6f\x6d \x51\x51\u7fa4\x35\x39\x35\x35\x32\x36&quot;</span>);</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>抖音</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>批量取消微博关注</title>
+    <url>/26/</url>
+    <content><![CDATA[<p>解决方案：控制台运行代码，实现批量取消微博关注<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h5 id="1、进入微博网站-gt-点击微博昵称"><a href="#1、进入微博网站-gt-点击微博昵称" class="headerlink" title="1、进入微博网站-&gt;点击微博昵称"></a>1、进入微博网站-&gt;点击微博昵称</h5><h5 id="2、点击我的关注"><a href="#2、点击我的关注" class="headerlink" title="2、点击我的关注"></a>2、点击我的关注</h5><h5 id="3、鼠标右键，审查元素或者按F12"><a href="#3、鼠标右键，审查元素或者按F12" class="headerlink" title="3、鼠标右键，审查元素或者按F12"></a>3、鼠标右键，审查元素或者按F12</h5><h5 id="4、点击console"><a href="#4、点击console" class="headerlink" title="4、点击console"></a>4、点击console</h5><h5 id="5、复制以下代码在console页面粘贴-gt-回车-gt-等两秒左右自动刷新，这一页成功取消关注，如果想继续取消关注，重复执行第2步即可"><a href="#5、复制以下代码在console页面粘贴-gt-回车-gt-等两秒左右自动刷新，这一页成功取消关注，如果想继续取消关注，重复执行第2步即可" class="headerlink" title="5、复制以下代码在console页面粘贴-&gt;回车-&gt;等两秒左右自动刷新，这一页成功取消关注，如果想继续取消关注，重复执行第2步即可"></a>5、复制以下代码在console页面粘贴-&gt;回车-&gt;等两秒左右自动刷新，这一页成功取消关注，如果想继续取消关注，重复执行第2步即可</h5><blockquote>
+<p>自动点击“批量管理”的按钮</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="string">&quot;.opt_bar .btn_link.S_txt1 &quot;</span>).<span class="title function_">click</span>(); </span><br><span class="line"> </span><br><span class="line"><span class="comment">//自动选中当前一页的所有已关注名单</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">var</span> arrs = $$(<span class="string">&#x27;div.markup_choose&#x27;</span>);  </span><br><span class="line"> </span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;arrs.<span class="property">length</span>;i++)</span><br><span class="line"> </span><br><span class="line">&#123;arrs[i].<span class="title function_">click</span>();&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">//自动按下“批量删除”  按钮</span></span><br><span class="line"> </span><br><span class="line">$(<span class="string">&quot;.opt_bar.clearfix.S_bg2 .W_fl a.W_btn_a+a.W_btn_a&quot;</span>).<span class="title function_">click</span>() </span><br><span class="line"> </span><br><span class="line"><span class="comment">//自动按下“确认删除”</span></span><br><span class="line"> </span><br><span class="line">$(<span class="string">&quot;.W_layer_btn.S_bg1 a.W_btn_a.btn_34px&quot;</span>).<span class="title function_">click</span>();;</span><br></pre></td></tr></table></figure>
+
+<h5 id="3、步骤图"><a href="#3、步骤图" class="headerlink" title="3、步骤图"></a>3、步骤图</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/026/1.jpg" alt="26-1"></p>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>取消微博关注</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>批量删除微博内容</title>
+    <url>/27/</url>
+    <content><![CDATA[<p>解决方案：控制台运行代码，实现批量删除微博内容<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h5 id="1、打开微博网站-gt-登录账号-gt-鼠标右键，审查元素或者按F12-gt-点击console页面"><a href="#1、打开微博网站-gt-登录账号-gt-鼠标右键，审查元素或者按F12-gt-点击console页面" class="headerlink" title="1、打开微博网站-&gt;登录账号-&gt;鼠标右键，审查元素或者按F12-&gt;点击console页面"></a>1、打开微博网站-&gt;登录账号-&gt;鼠标右键，审查元素或者按F12-&gt;点击console页面</h5><h5 id="2、复制以下代码-gt-console页面粘贴-gt-按回车键"><a href="#2、复制以下代码-gt-console页面粘贴-gt-按回车键" class="headerlink" title="2、复制以下代码-&gt;console页面粘贴-&gt;按回车键"></a>2、复制以下代码-&gt;console页面粘贴-&gt;按回车键</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">var</span> s = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;script&#x27;</span>);</span><br><span class="line"> </span><br><span class="line">s.<span class="title function_">setAttribute</span>(</span><br><span class="line"> </span><br><span class="line"><span class="string">&#x27;src&#x27;</span>,</span><br><span class="line"> </span><br><span class="line"><span class="string">&#x27;https://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js&#x27;</span></span><br><span class="line"> </span><br><span class="line">);</span><br><span class="line"> </span><br><span class="line">s.<span class="property">onload</span> = <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line"> </span><br><span class="line"><span class="built_in">setInterval</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span> (!$(<span class="string">&#x27;a[action-type=&quot;feed_list_delete&quot;]&#x27;</span>)) &#123;</span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;a.next&#x27;</span>).<span class="title function_">click</span>();www.<span class="property">x6d</span>.<span class="property">com</span></span><br><span class="line"> </span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;a[action-type=&quot;feed_list_delete&quot;]&#x27;</span>)[<span class="number">0</span>].<span class="title function_">click</span>();</span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;a[action-type=&quot;ok&quot;]&#x27;</span>)[<span class="number">0</span>].<span class="title function_">click</span>();</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">// scroll bottom let auto load</span></span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;html, body&#x27;</span>).<span class="title function_">animate</span>(&#123; <span class="attr">scrollTop</span>: $(<span class="variable language_">document</span>).<span class="title function_">height</span>() &#125;, <span class="string">&#x27;slow&#x27;</span>);</span><br><span class="line"> </span><br><span class="line">&#125;, <span class="number">800</span>);</span><br><span class="line"> </span><br><span class="line">&#125;;</span><br><span class="line"> </span><br><span class="line"><span class="variable language_">document</span>.<span class="property">head</span>.<span class="title function_">appendChild</span>(s);</span><br></pre></td></tr></table></figure>
+
+<h5 id="3、一次删除一页的内容"><a href="#3、一次删除一页的内容" class="headerlink" title="3、一次删除一页的内容"></a>3、一次删除一页的内容</h5><ul>
+<li>如果出现报错，系统繁忙或者停止，重新执行第二步即可，刷新页面即可停止</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>删除微博内容</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>批量删除QQ空间说说日志代码</title>
+    <url>/28/</url>
+    <content><![CDATA[<p>解决方案：控制台运行代码，实现批量删除QQ说说或日志<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>删除后不能恢复</li>
+<li>不能单独选择删除</li>
+<li>直接是全部清空</li>
+<li>只能使用电脑操作</li>
+</ul>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、打开QQ空间页面-gt-点击说说或者日志-gt-鼠标右键，审查元素或者按F12-gt-点击Console"><a href="#1、打开QQ空间页面-gt-点击说说或者日志-gt-鼠标右键，审查元素或者按F12-gt-点击Console" class="headerlink" title="1、打开QQ空间页面-&gt;点击说说或者日志-&gt;鼠标右键，审查元素或者按F12-&gt;点击Console"></a>1、打开QQ空间页面-&gt;点击说说或者日志-&gt;鼠标右键，审查元素或者按F12-&gt;点击Console</h5><h5 id="2、复制以下代码-gt-console页面粘贴-gt-点击回车"><a href="#2、复制以下代码-gt-console页面粘贴-gt-点击回车" class="headerlink" title="2、复制以下代码-&gt;console页面粘贴-&gt;点击回车"></a>2、复制以下代码-&gt;console页面粘贴-&gt;点击回车</h5><blockquote>
+<p>如果删着删着没反应或者数量没变，就刷新下，重新放入代码回车，说说如果删着删着出现验证码，就等大概20分钟后再删</p>
+</blockquote>
+<ul>
+<li>删除说说代码<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> delay = <span class="number">1000</span>;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">del</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.app_canvas_frame&#x27;</span>).<span class="property">contentDocument</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.del_btn&#x27;</span>).<span class="title function_">click</span>();</span><br><span class="line">    <span class="built_in">setTimeout</span>(<span class="string">&quot;yes()&quot;</span>, delay);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">function</span> <span class="title function_">yes</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.qz_dialog_layer_btn&#x27;</span>).<span class="title function_">click</span>();</span><br><span class="line">    <span class="built_in">setTimeout</span>(<span class="string">&quot;del()&quot;</span>, delay);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="title function_">del</span>();</span><br></pre></td></tr></table></figure></li>
+<li>删除日志代码<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> delay = <span class="number">500</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">function</span> <span class="title function_">del</span>(<span class="params"></span>) &#123;</span><br><span class="line"> </span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;.app_canvas_frame&quot;</span>).<span class="property">contentDocument</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;a[title=删除该日志]&#x27;</span>).<span class="title function_">click</span>();</span><br><span class="line"> </span><br><span class="line"><span class="built_in">setTimeout</span>(<span class="string">&quot;yes()&quot;</span>, delay);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">function</span> <span class="title function_">yes</span>(<span class="params"></span>) &#123;</span><br><span class="line"> </span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;#delBlogFrame&quot;</span>).<span class="property">contentDocument</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;.bt_tip_hit&#x27;</span>).<span class="title function_">click</span>(); </span><br><span class="line"> </span><br><span class="line"><span class="built_in">setTimeout</span>(<span class="string">&quot;del()&quot;</span>, delay);</span><br><span class="line"> </span><br><span class="line">&#125; </span><br><span class="line"><span class="title function_">del</span>();</span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>删除QQ说说-日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决因防盗链导致的图片加载失败</title>
+    <url>/29/</url>
+    <content><![CDATA[<p>问题描述：做豆瓣观影列表时，使用豆瓣的在线图片链接，发现所有的图片都无法访问，最后发现是防盗链导致的<br>解决方案：多种方案解决，1.下载图片，2.使用cdn，3.引入代码…..<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="防盗链"><a href="#防盗链" class="headerlink" title="防盗链"></a>防盗链</h4><ul>
+<li>在很多地方，如淘宝、拍拍、有啊等C2C网站，发布商品需要对宝贝进行描述，就需要图片存储，而为了使自己辛辛苦苦拍摄的图片不被别人调用，就需要防盗链的功能。</li>
+<li>提供防盗链的图片网站很多，如有照片、又拍网、百度相册、QQ相册、网易相册等等，但是既能支持网店外链，又有防盗链功能的网站很少，其中做的比较好的如又拍网、有照片，可以选择单独图片或者多张图片防盗链，使用方便快捷。</li>
+</ul>
+<h4 id="问题图"><a href="#问题图" class="headerlink" title="问题图"></a>问题图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/029/1.jpg" alt="29-1"></p>
+<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><h5 id="方案一：把图片下载下来放到服务器里"><a href="#方案一：把图片下载下来放到服务器里" class="headerlink" title="方案一：把图片下载下来放到服务器里"></a>方案一：把图片下载下来放到服务器里</h5><ul>
+<li>缺点： 根据服务器本身带宽速度加载，占用服务器的空间，访问速度没有豆瓣的快。</li>
+</ul>
+<h5 id="方案二：使用CDN"><a href="#方案二：使用CDN" class="headerlink" title="方案二：使用CDN"></a>方案二：使用CDN</h5><ul>
+<li>缺点： 需要花钱购买</li>
+</ul>
+<h5 id="方案三：整个页面取消发送-“referrer”，把以下代码放到-lt-head-gt-…-lt-x2F-head-gt-标签之间"><a href="#方案三：整个页面取消发送-“referrer”，把以下代码放到-lt-head-gt-…-lt-x2F-head-gt-标签之间" class="headerlink" title="方案三：整个页面取消发送 “referrer”，把以下代码放到&lt;head&gt; …&lt;&#x2F;head&gt;标签之间"></a>方案三：整个页面取消发送 “referrer”，把以下代码放到&lt;head&gt; …&lt;&#x2F;head&gt;标签之间</h5><figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&lt;meta name=&quot;referrer&quot; <span class="attribute">content</span>=&quot;never&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<h5 id="方案四：添加-ReferrerPolicy-属性，给图片标签添加以下属性-（推荐）"><a href="#方案四：添加-ReferrerPolicy-属性，给图片标签添加以下属性-（推荐）" class="headerlink" title="方案四：添加 ReferrerPolicy 属性，给图片标签添加以下属性 （推荐）"></a>方案四：添加 ReferrerPolicy 属性，给图片标签添加以下属性 （推荐）</h5><figure class="highlight css"><table><tr><td class="code"><pre><span class="line">referrerPolicy=&quot;no-referrer&quot;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>防盗链</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mysql报错 Host ‘XXXXXX’ is blocked because of many connection errors</title>
+    <url>/3/</url>
+    <content><![CDATA[<p>问题描述：同一ip在短时间内过多请求导致阻塞<br>解决方案：清除数据库日志<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>同一ip在短时间内产生太多（超过mysql数据库max_connection_errors的最大值）终端的数据库连接而导致的阻塞<br>在网上找的解决办法，经过测试并不能解决<br>网1. 更改max_connection_errors的值<br>网2. 使用清楚缓存的方法，把计数清理掉，进入mysql控制台，执行：flush hosts;</p>
+<blockquote>
+<p>经测试可用的方法“手动清除数据库日志” </p>
+</blockquote>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、首先把数据库停止运行"><a href="#1、首先把数据库停止运行" class="headerlink" title="1、首先把数据库停止运行"></a>1、首先把数据库停止运行</h5><h5 id="2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址"><a href="#2、登录服务器，根据个人安装目录找到数据库日志文件D-BtSoft-x2F-mysql-x2F-MySQL5-6-x2F-data-这是我的地址，需要更换自己的地址" class="headerlink" title="2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)"></a>2、登录服务器，根据个人安装目录找到数据库日志文件D:BtSoft&#x2F;mysql&#x2F;MySQL5.6&#x2F;data (这是我的地址，需要更换自己的地址)</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/003/1.jpg" alt="3_2"></p>
+<h5 id="3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）"><a href="#3、打开“mysql-error-log”，把里边的记录全部清除，保存（ctrl-s）" class="headerlink" title="3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）"></a>3、打开“mysql_error.log”，把里边的记录全部清除，保存（ctrl+s）</h5><h5 id="4、启动数据库"><a href="#4、启动数据库" class="headerlink" title="4、启动数据库"></a>4、启动数据库</h5>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>Mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无需任何工具破解QQ闪照</title>
+    <url>/30/</url>
+    <content><![CDATA[<p>解决方案：利用小技巧破解QQ闪图<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<blockquote>
+<p>本教程使用一加手机演示</p>
+</blockquote>
+<h5 id="1、打开手机自带的文件管理"><a href="#1、打开手机自带的文件管理" class="headerlink" title="1、打开手机自带的文件管理"></a>1、打开手机自带的文件管理</h5><h5 id="2、进入以下路径：Android-gt-data-gt-com-tencent-mobileqq-gt-Tecent-gt-MobileQQ-gt-chatpic-gt-chatimg"><a href="#2、进入以下路径：Android-gt-data-gt-com-tencent-mobileqq-gt-Tecent-gt-MobileQQ-gt-chatpic-gt-chatimg" class="headerlink" title="2、进入以下路径：Android &gt; data &gt; com.tencent.mobileqq &gt; Tecent &gt; MobileQQ &gt; chatpic &gt; chatimg"></a>2、进入以下路径：Android &gt; data &gt; com.tencent.mobileqq &gt; Tecent &gt; MobileQQ &gt; chatpic &gt; chatimg</h5><h5 id="3、按时间排序，倒序"><a href="#3、按时间排序，倒序" class="headerlink" title="3、按时间排序，倒序"></a>3、按时间排序，倒序</h5><h5 id="4、返回到QQ页面-gt-打开闪照（打开就行，不要长按查看）"><a href="#4、返回到QQ页面-gt-打开闪照（打开就行，不要长按查看）" class="headerlink" title="4、返回到QQ页面 -&gt; 打开闪照（打开就行，不要长按查看）"></a>4、返回到QQ页面 -&gt; 打开闪照（打开就行，不要长按查看）</h5><h5 id="5、返回到文件管理-gt-打开排序后的第一个文件夹-gt-修改Cache-xxxx-fp-文件后缀为-jpg"><a href="#5、返回到文件管理-gt-打开排序后的第一个文件夹-gt-修改Cache-xxxx-fp-文件后缀为-jpg" class="headerlink" title="5、返回到文件管理 -&gt; 打开排序后的第一个文件夹 -&gt; 修改Cache_xxxx_fp 文件后缀为 .jpg"></a>5、返回到文件管理 -&gt; 打开排序后的第一个文件夹 -&gt; 修改Cache_xxxx_fp 文件后缀为 .jpg</h5><h6 id="5-1、修改前"><a href="#5-1、修改前" class="headerlink" title="5.1、修改前"></a>5.1、修改前</h6><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/030/1.jpg" alt="30-1"></p>
+<h6 id="5-2、修改后"><a href="#5-2、修改后" class="headerlink" title="5.2、修改后"></a>5.2、修改后</h6><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/030/2.jpg" alt="30-1"></p>
+<h5 id="6、打开修改后的图片进行查看"><a href="#6、打开修改后的图片进行查看" class="headerlink" title="6、打开修改后的图片进行查看"></a>6、打开修改后的图片进行查看</h5>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>破解QQ闪图</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>去除网站引入jQuery mobile 后底部出现的loading字样</title>
+    <url>/4/</url>
+    <content><![CDATA[<p>问题描述：引入jQuery mobile包，出现loading字样<br>解决方案：添加“css”去除loading字样<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>网站引入jQuery mobile 后，pc端底部会出现loading字样<br><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/004/1.jpg" alt="4_1"></li>
+</ul>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、把下边css代码放入css文件里就可以了"><a href="#1、把下边css代码放入css文件里就可以了" class="headerlink" title="1、把下边css代码放入css文件里就可以了"></a>1、把下边css代码放入css文件里就可以了</h5><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.ui-loader-default</span>&#123; <span class="attribute">display</span>:none&#125;</span><br><span class="line"><span class="selector-class">.ui-mobile-viewport</span>&#123; <span class="attribute">border</span>:none;&#125;</span><br><span class="line"><span class="selector-class">.ui-page</span> &#123;<span class="attribute">padding</span>: <span class="number">0</span>; <span class="attribute">margin</span>: <span class="number">0</span>; <span class="attribute">outline</span>: <span class="number">0</span>&#125; </span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jquery监听“复制”事件，ctrl+c和右键复制</title>
+    <url>/5/</url>
+    <content><![CDATA[<p>解决方案：引入文中的“js”实现复制效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、直接上js代码，使用之前先引入-“jquery”-包"><a href="#1、直接上js代码，使用之前先引入-“jquery”-包" class="headerlink" title="1、直接上js代码，使用之前先引入 “jquery” 包"></a>1、直接上js代码，使用之前先引入 “jquery” 包</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">    <span class="comment">//  监听 ctrl + c事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;keydown&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;keydown&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>)&#123; </span><br><span class="line">        <span class="keyword">if</span>(e.<span class="property">ctrlKey</span> &amp;&amp; e.<span class="property">keyCode</span>  == <span class="number">67</span>) &#123; </span><br><span class="line">            <span class="title function_">doSomething</span>();</span><br><span class="line">            <span class="comment">// 返回false, 防止重复触发copy事件</span></span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 鼠标右键的复制事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;copy&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;copy&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>) &#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;右键复制 监听成功&#x27;</span>);</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">doSomething</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;ctrl + c 监听成功&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">setTime</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">window</span>.<span class="property">localStorage</span>) &#123;</span><br><span class="line">            <span class="keyword">let</span> time = <span class="variable language_">localStorage</span>.<span class="title function_">getItem</span>(<span class="string">&#x27;time&#x27;</span>);</span><br><span class="line">            time ? time ++ : time = <span class="number">1</span>;</span><br><span class="line">            <span class="variable language_">localStorage</span>.<span class="title function_">setItem</span>(<span class="string">&#x27;time&#x27;</span>, time);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jquery监听网站“返回，后退”</title>
+    <url>/6/</url>
+    <content><![CDATA[<p>解决方案：引入文中的“js”实现监听效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/006/0.gif" alt="6_1"></p>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、把以下代码放到页面中（引入js包之后才可以用）"><a href="#1、把以下代码放到页面中（引入js包之后才可以用）" class="headerlink" title="1、把以下代码放到页面中（引入js包之后才可以用）"></a>1、把以下代码放到页面中（引入js包之后才可以用）</h5><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;    </span><br><span class="line">    <span class="title function_">jQuery</span>(<span class="variable language_">document</span>).<span class="title function_">ready</span>(<span class="keyword">function</span> (<span class="params">$</span>) &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable language_">window</span>.<span class="property">history</span> &amp;&amp; <span class="variable language_">window</span>.<span class="property">history</span>.<span class="property">pushState</span>) &#123;</span><br><span class="line">    $(<span class="variable language_">window</span>).<span class="title function_">on</span>(<span class="string">&#x27;popstate&#x27;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> hashLocation = location.<span class="property">hash</span>;    </span><br><span class="line">    <span class="keyword">var</span> hashSplit = hashLocation.<span class="title function_">split</span>(<span class="string">&quot;#!/&quot;</span>);        </span><br><span class="line">    <span class="keyword">var</span> hashName = hashSplit[<span class="number">1</span>];        </span><br><span class="line">    <span class="keyword">if</span> (hashName !== <span class="string">&#x27;&#x27;</span>) &#123;        </span><br><span class="line">    <span class="keyword">var</span> hash = <span class="variable language_">window</span>.<span class="property">location</span>.<span class="property">hash</span>;        </span><br><span class="line">    <span class="keyword">if</span> (hash === <span class="string">&#x27;&#x27;</span>) &#123;        </span><br><span class="line">        <span class="title function_">alert</span>(<span class="string">&quot;检测到返回&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="variable language_">window</span>.<span class="property">history</span>.<span class="title function_">pushState</span>(<span class="string">&#x27;no&#x27;</span>, <span class="literal">null</span>, <span class="string">&#x27;./#no&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WinSCP链接显示“检测到超时”</title>
+    <url>/7/</url>
+    <content><![CDATA[<p>问题描述：链接 “WinSCP” 检测到超时<br>解决方案：取消被动模式<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/0.jpg" alt="7_0"></p>
+<h4 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h4><h5 id="1、输入主机名-用户名-密码-默认端口号21，点击高级"><a href="#1、输入主机名-用户名-密码-默认端口号21，点击高级" class="headerlink" title="1、输入主机名-用户名-密码-默认端口号21，点击高级"></a>1、输入主机名-用户名-密码-默认端口号21，点击高级</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/1.jpg" alt="7_1"></p>
+<h5 id="2、点击左侧“连接”"><a href="#2、点击左侧“连接”" class="headerlink" title="2、点击左侧“连接”"></a>2、点击左侧“连接”</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/2.jpg" alt="7_2"></p>
+<h5 id="3、被动模式取消勾选，点击确定"><a href="#3、被动模式取消勾选，点击确定" class="headerlink" title="3、被动模式取消勾选，点击确定"></a>3、被动模式取消勾选，点击确定</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/3.jpg" alt="7_3"></p>
+<h5 id="4、登录"><a href="#4、登录" class="headerlink" title="4、登录"></a>4、登录</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/007/4.jpg" alt="7_4"></p>
+]]></content>
+      <categories>
+        <category>电脑相关</category>
+      </categories>
+      <tags>
+        <tag>WinSCP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决“ios浏览器”点击延迟</title>
+    <url>/8/</url>
+    <content><![CDATA[<p>解决方案：引入文中的“js”解决点击延迟问题<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、添加以下代码"><a href="#1、添加以下代码" class="headerlink" title="1、添加以下代码"></a>1、添加以下代码</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="keyword">if</span> (<span class="string">&#x27;addEventListener&#x27;</span> <span class="keyword">in</span> <span class="variable language_">document</span>) &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;DOMContentLoaded&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="title class_">FastClick</span>.<span class="title function_">attach</span>(<span class="variable language_">document</span>.<span class="property">body</span>);</span><br><span class="line">        &#125;, <span class="literal">false</span>);</span><br><span class="line">    &#125;</span><br><span class="line"> &lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>windows系统无需工具自动关机</title>
+    <url>/9/</url>
+    <content><![CDATA[<p>解决方案：使用命令窗口设置关机时间<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、鼠标点击【开始菜单】-选择-【运行】或者使用快捷键【Win-R】打开运行窗口"><a href="#1、鼠标点击【开始菜单】-选择-【运行】或者使用快捷键【Win-R】打开运行窗口" class="headerlink" title="1、鼠标点击【开始菜单】 选择 【运行】或者使用快捷键【Win+R】打开运行窗口"></a>1、鼠标点击【开始菜单】 选择 【运行】或者使用快捷键【Win+R】打开运行窗口</h4><h4 id="2、输入：Shutdown-s-t-xxx-后点击【确定】，xxx代表时间秒数，按需设置"><a href="#2、输入：Shutdown-s-t-xxx-后点击【确定】，xxx代表时间秒数，按需设置" class="headerlink" title="2、输入：Shutdown -s -t xxx 后点击【确定】，xxx代表时间秒数，按需设置"></a>2、输入：Shutdown -s -t xxx 后点击【确定】，xxx代表时间秒数，按需设置</h4><h4 id="3、如果想取消自动关机，在运行窗口输入：shutdown-a-点击【确定】"><a href="#3、如果想取消自动关机，在运行窗口输入：shutdown-a-点击【确定】" class="headerlink" title="3、如果想取消自动关机，在运行窗口输入：shutdown -a 点击【确定】"></a>3、如果想取消自动关机，在运行窗口输入：shutdown -a 点击【确定】</h4>]]></content>
+      <categories>
+        <category>电脑相关</category>
+      </categories>
+      <tags>
+        <tag>自动关机</tag>
+      </tags>
+  </entry>
+</search>
