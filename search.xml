@@ -157,6 +157,25 @@
       </tags>
   </entry>
   <entry>
+    <title>利用控制台自动删除QQ邮件</title>
+    <url>/17/</url>
+    <content><![CDATA[<p>解决方案：运行文中代码实现自动删邮件<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
+<li>利用定时器每三秒执行一次，只需要执行两个点击事件，一个是勾选，一个是删除</li>
+</ul>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、f12在控制台输入代码，回车"><a href="#1、f12在控制台输入代码，回车" class="headerlink" title="1、f12在控制台输入代码，回车"></a>1、f12在控制台输入代码，回车</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">window</span>.<span class="built_in">setInterval</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;mainFrame&#x27;</span>).<span class="property">contentWindow</span>.<span class="property">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;ckb_selectAll&#x27;</span>).<span class="title function_">click</span>();<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;mainFrame&#x27;</span>).<span class="property">contentWindow</span>.<span class="property">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;quick_del&#x27;</span>).<span class="title function_">click</span>();&#125;,<span class="number">3000</span>)</span><br></pre></td></tr></table></figure>
+
+<h4 id="停止方法"><a href="#停止方法" class="headerlink" title="停止方法"></a>停止方法</h4><h5 id="方法一：按f5刷新浏览器"><a href="#方法一：按f5刷新浏览器" class="headerlink" title="方法一：按f5刷新浏览器"></a>方法一：按f5刷新浏览器</h5><h5 id="方法二：关闭当前窗口"><a href="#方法二：关闭当前窗口" class="headerlink" title="方法二：关闭当前窗口"></a>方法二：关闭当前窗口</h5>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>QQ邮件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>网站人性化标题设置</title>
     <url>/18/</url>
     <content><![CDATA[<p>解决方案：引入文中的代码实现个性化标题<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
@@ -200,25 +219,6 @@
       </tags>
   </entry>
   <entry>
-    <title>利用控制台自动删除QQ邮件</title>
-    <url>/17/</url>
-    <content><![CDATA[<p>解决方案：运行文中代码实现自动删邮件<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
-<span id="more"></span>
-<hr>
-<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul>
-<li>利用定时器每三秒执行一次，只需要执行两个点击事件，一个是勾选，一个是删除</li>
-</ul>
-<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、f12在控制台输入代码，回车"><a href="#1、f12在控制台输入代码，回车" class="headerlink" title="1、f12在控制台输入代码，回车"></a>1、f12在控制台输入代码，回车</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">window</span>.<span class="built_in">setInterval</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;mainFrame&#x27;</span>).<span class="property">contentWindow</span>.<span class="property">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;ckb_selectAll&#x27;</span>).<span class="title function_">click</span>();<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;mainFrame&#x27;</span>).<span class="property">contentWindow</span>.<span class="property">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;quick_del&#x27;</span>).<span class="title function_">click</span>();&#125;,<span class="number">3000</span>)</span><br></pre></td></tr></table></figure>
-
-<h4 id="停止方法"><a href="#停止方法" class="headerlink" title="停止方法"></a>停止方法</h4><h5 id="方法一：按f5刷新浏览器"><a href="#方法一：按f5刷新浏览器" class="headerlink" title="方法一：按f5刷新浏览器"></a>方法一：按f5刷新浏览器</h5><h5 id="方法二：关闭当前窗口"><a href="#方法二：关闭当前窗口" class="headerlink" title="方法二：关闭当前窗口"></a>方法二：关闭当前窗口</h5>]]></content>
-      <categories>
-        <category>技术相关</category>
-      </categories>
-      <tags>
-        <tag>QQ邮件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>服务器被DDOS攻击，解决方法</title>
     <url>/2/</url>
     <content><![CDATA[<p>问题描述：服务器被DDOS攻击<br>解决方案：购买弹性公网IP<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
@@ -238,6 +238,39 @@
       </categories>
       <tags>
         <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自定义QQ发网址显示的卡片内容</title>
+    <url>/20/</url>
+    <content><![CDATA[<p>解决方案：添加文中的代码实现自定义卡片<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、自定义卡片内容，标题，图片，把以下代码放到-lt-head-gt-lt-x2F-head-gt-标签内"><a href="#1、自定义卡片内容，标题，图片，把以下代码放到-lt-head-gt-lt-x2F-head-gt-标签内" class="headerlink" title="1、自定义卡片内容，标题，图片，把以下代码放到 &lt;head&gt;&lt;&#x2F;head&gt; 标签内"></a>1、自定义卡片内容，标题，图片，把以下代码放到 &lt;head&gt;&lt;&#x2F;head&gt; 标签内</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;meta itemprop=<span class="string">&quot;name&quot;</span> content=<span class="string">&quot;网站标题&quot;</span>/&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">itemprop</span>=<span class="string">&quot;image&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网站要显示的图片链接&quot;</span> /&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">itemprop</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网站内容&quot;</span> /&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>QQ卡片内容</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>修改网站上显示的任意内容</title>
+    <url>/21/</url>
+    <content><![CDATA[<p>解决方案：执行文中的代码实现随意修改内容<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<blockquote>
+<p>前提：Chrome内核的浏览器</p>
+</blockquote>
+<h4 id="1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行"><a href="#1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行" class="headerlink" title="1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行"></a>1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">document.body.contentEditable = <span class="string">&quot;true&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="2、取消编辑："><a href="#2、取消编辑：" class="headerlink" title="2、取消编辑："></a>2、取消编辑：</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">document.body.contentEditable = <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>随意修改网站内容</tag>
       </tags>
   </entry>
   <entry>
@@ -264,20 +297,6 @@
       </tags>
   </entry>
   <entry>
-    <title>自定义QQ发网址显示的卡片内容</title>
-    <url>/20/</url>
-    <content><![CDATA[<p>解决方案：添加文中的代码实现自定义卡片<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
-<span id="more"></span>
-<hr>
-<h4 id="1、自定义卡片内容，标题，图片，把以下代码放到-lt-head-gt-lt-x2F-head-gt-标签内"><a href="#1、自定义卡片内容，标题，图片，把以下代码放到-lt-head-gt-lt-x2F-head-gt-标签内" class="headerlink" title="1、自定义卡片内容，标题，图片，把以下代码放到 &lt;head&gt;&lt;&#x2F;head&gt; 标签内"></a>1、自定义卡片内容，标题，图片，把以下代码放到 &lt;head&gt;&lt;&#x2F;head&gt; 标签内</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;meta itemprop=<span class="string">&quot;name&quot;</span> content=<span class="string">&quot;网站标题&quot;</span>/&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">itemprop</span>=<span class="string">&quot;image&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网站要显示的图片链接&quot;</span> /&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">itemprop</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网站内容&quot;</span> /&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>编程相关</category>
-      </categories>
-      <tags>
-        <tag>QQ卡片内容</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>绕过宝塔面板强制绑定账号</title>
     <url>/23/</url>
     <content><![CDATA[<p>解决方案：利用简单的命令实现绕过强制绑定账号<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
@@ -301,21 +320,6 @@
       </tags>
   </entry>
   <entry>
-    <title>批量取消抖音关注</title>
-    <url>/25/</url>
-    <content><![CDATA[<p>解决方案：控制台运行代码，实现批量取消关注效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
-<span id="more"></span>
-<hr>
-<h5 id="1、登录抖音关注列表：https-creator-douyin-com-following-following"><a href="#1、登录抖音关注列表：https-creator-douyin-com-following-following" class="headerlink" title="1、登录抖音关注列表：https://creator.douyin.com/following/following"></a>1、登录抖音关注列表：<a href="https://creator.douyin.com/following/following">https://creator.douyin.com/following/following</a></h5><h5 id="2、右键或者F12进入审查元素-gt-点击Console-gt-在空白处粘贴以下代码-gt-按回车键即可！"><a href="#2、右键或者F12进入审查元素-gt-点击Console-gt-在空白处粘贴以下代码-gt-按回车键即可！" class="headerlink" title="2、右键或者F12进入审查元素-&gt;点击Console-&gt;在空白处粘贴以下代码-&gt;按回车键即可！"></a>2、右键或者F12进入审查元素-&gt;点击Console-&gt;在空白处粘贴以下代码-&gt;按回车键即可！</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="string">&#x27;\x75\x73\x65 \x73\x74\x72\x69\x63\x74&#x27;</span>;var TsDCYK1=window[<span class="string">&quot;\x64\x6f\x63\x75\x6d\x65\x6e\x74&quot;</span>][<span class="string">&#x27;\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74&#x27;</span>](<span class="string">&#x27;\x73\x63\x72\x69\x70\x74&#x27;</span>);TsDCYK1[<span class="string">&#x27;\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65&#x27;</span>](<span class="string">&#x27;\x73\x72\x63&#x27;</span>,<span class="string">&#x27;\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6c\x69\x62\x2e\x73\x69\x6e\x61\x61\x70\x70\x2e\x63\x6f\x6d\x2f\x6a\x73\x2f\x6a\x71\x75\x65\x72\x79\x2f\x32\x2e\x30\x2e\x33\x2f\x6a\x71\x75\x65\x72\x79\x2d\x32\x2e\x30\x2e\x33\x2e\x6d\x69\x6e\x2e\x6a\x73&#x27;</span>);TsDCYK1[<span class="string">&#x27;\x6f\x6e\x6c\x6f\x61\x64&#x27;</span>]=function()&#123;setInterval(function()&#123;var HbjRrO2=$(<span class="string">&#x27;\x2e\x73\x65\x6d\x69\x2d\x74\x61\x62\x6c\x65\x2d\x72\x6f\x77\x2d\x63\x65\x6c\x6c \x61&#x27;</span>);<span class="keyword">for</span>(var VmQm3$F3=<span class="number">0</span>;VmQm3$F3&lt;HbjRrO2[<span class="string">&#x27;\x6c\x65\x6e\x67\x74\x68&#x27;</span>];VmQm3$F3++)&#123;<span class="keyword">if</span>(HbjRrO2[VmQm3$F3][<span class="string">&#x27;\x69\x6e\x6e\x65\x72\x48\x54\x4d\x4c&#x27;</span>]==<span class="string">&quot;\u53d6\u6d88\u5173\u6ce8&quot;</span>)&#123;$(<span class="string">&#x27;\x2e\x73\x65\x6d\x69\x2d\x74\x61\x62\x6c\x65\x2d\x72\x6f\x77\x2d\x63\x65\x6c\x6c \x61&#x27;</span>)[VmQm3$F3][<span class="string">&#x27;\x63\x6c\x69\x63\x6b&#x27;</span>]();$(<span class="string">&#x27;\x2e\x70\x72\x69\x6d\x61\x72\x79\x2d\x2d\x32\x77\x62\x4d\x69&#x27;</span>)[<span class="number">0</span>][<span class="string">&#x27;\x63\x6c\x69\x63\x6b&#x27;</span>]()&#125;&#125;$(<span class="string">&#x27;\x2e\x61\x6e\x74\x2d\x62\x74\x6e\x2d\x69\x63\x6f\x6e\x2d\x6f\x6e\x6c\x79&#x27;</span>)[<span class="number">1</span>][<span class="string">&#x27;\x63\x6c\x69\x63\x6b&#x27;</span>]()&#125;,<span class="number">800</span>)&#125;;window[<span class="string">&quot;\x64\x6f\x63\x75\x6d\x65\x6e\x74&quot;</span>][<span class="string">&#x27;\x68\x65\x61\x64&#x27;</span>][<span class="string">&#x27;\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64&#x27;</span>](TsDCYK1);window[<span class="string">&quot;\x61\x6c\x65\x72\x74&quot;</span>](<span class="string">&quot;\u5c0f\u5200\u5a31\u4e50\u7f51\x77\x77\x77\x2e\x78\x36\x64\x2e\x63\x6f\x6d \x51\x51\u7fa4\x35\x39\x35\x35\x32\x36&quot;</span>);</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>技术相关</category>
-      </categories>
-      <tags>
-        <tag>抖音</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>用JS实现QQ空间自动点赞</title>
     <url>/24/</url>
     <content><![CDATA[<p>解决方案：控制台运行代码，实现点赞效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
@@ -331,22 +335,18 @@
       </tags>
   </entry>
   <entry>
-    <title>修改网站上显示的任意内容</title>
-    <url>/21/</url>
-    <content><![CDATA[<p>解决方案：执行文中的代码实现随意修改内容<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+    <title>批量取消抖音关注</title>
+    <url>/25/</url>
+    <content><![CDATA[<p>解决方案：控制台运行代码，实现批量取消关注效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
 <span id="more"></span>
 <hr>
-<blockquote>
-<p>前提：Chrome内核的浏览器</p>
-</blockquote>
-<h4 id="1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行"><a href="#1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行" class="headerlink" title="1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行"></a>1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">document.body.contentEditable = <span class="string">&quot;true&quot;</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="2、取消编辑："><a href="#2、取消编辑：" class="headerlink" title="2、取消编辑："></a>2、取消编辑：</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line">document.body.contentEditable = <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
+<h5 id="1、登录抖音关注列表：https-creator-douyin-com-following-following"><a href="#1、登录抖音关注列表：https-creator-douyin-com-following-following" class="headerlink" title="1、登录抖音关注列表：https://creator.douyin.com/following/following"></a>1、登录抖音关注列表：<a href="https://creator.douyin.com/following/following">https://creator.douyin.com/following/following</a></h5><h5 id="2、右键或者F12进入审查元素-gt-点击Console-gt-在空白处粘贴以下代码-gt-按回车键即可！"><a href="#2、右键或者F12进入审查元素-gt-点击Console-gt-在空白处粘贴以下代码-gt-按回车键即可！" class="headerlink" title="2、右键或者F12进入审查元素-&gt;点击Console-&gt;在空白处粘贴以下代码-&gt;按回车键即可！"></a>2、右键或者F12进入审查元素-&gt;点击Console-&gt;在空白处粘贴以下代码-&gt;按回车键即可！</h5><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="string">&#x27;\x75\x73\x65 \x73\x74\x72\x69\x63\x74&#x27;</span>;var TsDCYK1=window[<span class="string">&quot;\x64\x6f\x63\x75\x6d\x65\x6e\x74&quot;</span>][<span class="string">&#x27;\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74&#x27;</span>](<span class="string">&#x27;\x73\x63\x72\x69\x70\x74&#x27;</span>);TsDCYK1[<span class="string">&#x27;\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65&#x27;</span>](<span class="string">&#x27;\x73\x72\x63&#x27;</span>,<span class="string">&#x27;\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6c\x69\x62\x2e\x73\x69\x6e\x61\x61\x70\x70\x2e\x63\x6f\x6d\x2f\x6a\x73\x2f\x6a\x71\x75\x65\x72\x79\x2f\x32\x2e\x30\x2e\x33\x2f\x6a\x71\x75\x65\x72\x79\x2d\x32\x2e\x30\x2e\x33\x2e\x6d\x69\x6e\x2e\x6a\x73&#x27;</span>);TsDCYK1[<span class="string">&#x27;\x6f\x6e\x6c\x6f\x61\x64&#x27;</span>]=function()&#123;setInterval(function()&#123;var HbjRrO2=$(<span class="string">&#x27;\x2e\x73\x65\x6d\x69\x2d\x74\x61\x62\x6c\x65\x2d\x72\x6f\x77\x2d\x63\x65\x6c\x6c \x61&#x27;</span>);<span class="keyword">for</span>(var VmQm3$F3=<span class="number">0</span>;VmQm3$F3&lt;HbjRrO2[<span class="string">&#x27;\x6c\x65\x6e\x67\x74\x68&#x27;</span>];VmQm3$F3++)&#123;<span class="keyword">if</span>(HbjRrO2[VmQm3$F3][<span class="string">&#x27;\x69\x6e\x6e\x65\x72\x48\x54\x4d\x4c&#x27;</span>]==<span class="string">&quot;\u53d6\u6d88\u5173\u6ce8&quot;</span>)&#123;$(<span class="string">&#x27;\x2e\x73\x65\x6d\x69\x2d\x74\x61\x62\x6c\x65\x2d\x72\x6f\x77\x2d\x63\x65\x6c\x6c \x61&#x27;</span>)[VmQm3$F3][<span class="string">&#x27;\x63\x6c\x69\x63\x6b&#x27;</span>]();$(<span class="string">&#x27;\x2e\x70\x72\x69\x6d\x61\x72\x79\x2d\x2d\x32\x77\x62\x4d\x69&#x27;</span>)[<span class="number">0</span>][<span class="string">&#x27;\x63\x6c\x69\x63\x6b&#x27;</span>]()&#125;&#125;$(<span class="string">&#x27;\x2e\x61\x6e\x74\x2d\x62\x74\x6e\x2d\x69\x63\x6f\x6e\x2d\x6f\x6e\x6c\x79&#x27;</span>)[<span class="number">1</span>][<span class="string">&#x27;\x63\x6c\x69\x63\x6b&#x27;</span>]()&#125;,<span class="number">800</span>)&#125;;window[<span class="string">&quot;\x64\x6f\x63\x75\x6d\x65\x6e\x74&quot;</span>][<span class="string">&#x27;\x68\x65\x61\x64&#x27;</span>][<span class="string">&#x27;\x61\x70\x70\x65\x6e\x64\x43\x68\x69\x6c\x64&#x27;</span>](TsDCYK1);window[<span class="string">&quot;\x61\x6c\x65\x72\x74&quot;</span>](<span class="string">&quot;\u5c0f\u5200\u5a31\u4e50\u7f51\x77\x77\x77\x2e\x78\x36\x64\x2e\x63\x6f\x6d \x51\x51\u7fa4\x35\x39\x35\x35\x32\x36&quot;</span>);</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>技术相关</category>
       </categories>
       <tags>
-        <tag>随意修改网站内容</tag>
+        <tag>抖音</tag>
       </tags>
   </entry>
   <entry>
@@ -367,25 +367,6 @@
       </categories>
       <tags>
         <tag>取消微博关注</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>批量删除微博内容</title>
-    <url>/27/</url>
-    <content><![CDATA[<p>解决方案：控制台运行代码，实现批量删除微博内容<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
-<span id="more"></span>
-<hr>
-<h5 id="1、打开微博网站-gt-登录账号-gt-鼠标右键，审查元素或者按F12-gt-点击console页面"><a href="#1、打开微博网站-gt-登录账号-gt-鼠标右键，审查元素或者按F12-gt-点击console页面" class="headerlink" title="1、打开微博网站-&gt;登录账号-&gt;鼠标右键，审查元素或者按F12-&gt;点击console页面"></a>1、打开微博网站-&gt;登录账号-&gt;鼠标右键，审查元素或者按F12-&gt;点击console页面</h5><h5 id="2、复制以下代码-gt-console页面粘贴-gt-按回车键"><a href="#2、复制以下代码-gt-console页面粘贴-gt-按回车键" class="headerlink" title="2、复制以下代码-&gt;console页面粘贴-&gt;按回车键"></a>2、复制以下代码-&gt;console页面粘贴-&gt;按回车键</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">var</span> s = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;script&#x27;</span>);</span><br><span class="line"> </span><br><span class="line">s.<span class="title function_">setAttribute</span>(</span><br><span class="line"> </span><br><span class="line"><span class="string">&#x27;src&#x27;</span>,</span><br><span class="line"> </span><br><span class="line"><span class="string">&#x27;https://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js&#x27;</span></span><br><span class="line"> </span><br><span class="line">);</span><br><span class="line"> </span><br><span class="line">s.<span class="property">onload</span> = <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line"> </span><br><span class="line"><span class="built_in">setInterval</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span> (!$(<span class="string">&#x27;a[action-type=&quot;feed_list_delete&quot;]&#x27;</span>)) &#123;</span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;a.next&#x27;</span>).<span class="title function_">click</span>();www.<span class="property">x6d</span>.<span class="property">com</span></span><br><span class="line"> </span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;a[action-type=&quot;feed_list_delete&quot;]&#x27;</span>)[<span class="number">0</span>].<span class="title function_">click</span>();</span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;a[action-type=&quot;ok&quot;]&#x27;</span>)[<span class="number">0</span>].<span class="title function_">click</span>();</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">// scroll bottom let auto load</span></span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;html, body&#x27;</span>).<span class="title function_">animate</span>(&#123; <span class="attr">scrollTop</span>: $(<span class="variable language_">document</span>).<span class="title function_">height</span>() &#125;, <span class="string">&#x27;slow&#x27;</span>);</span><br><span class="line"> </span><br><span class="line">&#125;, <span class="number">800</span>);</span><br><span class="line"> </span><br><span class="line">&#125;;</span><br><span class="line"> </span><br><span class="line"><span class="variable language_">document</span>.<span class="property">head</span>.<span class="title function_">appendChild</span>(s);</span><br></pre></td></tr></table></figure>
-
-<h5 id="3、一次删除一页的内容"><a href="#3、一次删除一页的内容" class="headerlink" title="3、一次删除一页的内容"></a>3、一次删除一页的内容</h5><ul>
-<li>如果出现报错，系统繁忙或者停止，重新执行第二步即可，刷新页面即可停止</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术相关</category>
-      </categories>
-      <tags>
-        <tag>删除微博内容</tag>
       </tags>
   </entry>
   <entry>
@@ -413,6 +394,25 @@
       </categories>
       <tags>
         <tag>删除QQ说说-日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>批量删除微博内容</title>
+    <url>/27/</url>
+    <content><![CDATA[<p>解决方案：控制台运行代码，实现批量删除微博内容<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h5 id="1、打开微博网站-gt-登录账号-gt-鼠标右键，审查元素或者按F12-gt-点击console页面"><a href="#1、打开微博网站-gt-登录账号-gt-鼠标右键，审查元素或者按F12-gt-点击console页面" class="headerlink" title="1、打开微博网站-&gt;登录账号-&gt;鼠标右键，审查元素或者按F12-&gt;点击console页面"></a>1、打开微博网站-&gt;登录账号-&gt;鼠标右键，审查元素或者按F12-&gt;点击console页面</h5><h5 id="2、复制以下代码-gt-console页面粘贴-gt-按回车键"><a href="#2、复制以下代码-gt-console页面粘贴-gt-按回车键" class="headerlink" title="2、复制以下代码-&gt;console页面粘贴-&gt;按回车键"></a>2、复制以下代码-&gt;console页面粘贴-&gt;按回车键</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">var</span> s = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;script&#x27;</span>);</span><br><span class="line"> </span><br><span class="line">s.<span class="title function_">setAttribute</span>(</span><br><span class="line"> </span><br><span class="line"><span class="string">&#x27;src&#x27;</span>,</span><br><span class="line"> </span><br><span class="line"><span class="string">&#x27;https://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js&#x27;</span></span><br><span class="line"> </span><br><span class="line">);</span><br><span class="line"> </span><br><span class="line">s.<span class="property">onload</span> = <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line"> </span><br><span class="line"><span class="built_in">setInterval</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span> (!$(<span class="string">&#x27;a[action-type=&quot;feed_list_delete&quot;]&#x27;</span>)) &#123;</span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;a.next&#x27;</span>).<span class="title function_">click</span>();www.<span class="property">x6d</span>.<span class="property">com</span></span><br><span class="line"> </span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;a[action-type=&quot;feed_list_delete&quot;]&#x27;</span>)[<span class="number">0</span>].<span class="title function_">click</span>();</span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;a[action-type=&quot;ok&quot;]&#x27;</span>)[<span class="number">0</span>].<span class="title function_">click</span>();</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="comment">// scroll bottom let auto load</span></span><br><span class="line"> </span><br><span class="line">$(<span class="string">&#x27;html, body&#x27;</span>).<span class="title function_">animate</span>(&#123; <span class="attr">scrollTop</span>: $(<span class="variable language_">document</span>).<span class="title function_">height</span>() &#125;, <span class="string">&#x27;slow&#x27;</span>);</span><br><span class="line"> </span><br><span class="line">&#125;, <span class="number">800</span>);</span><br><span class="line"> </span><br><span class="line">&#125;;</span><br><span class="line"> </span><br><span class="line"><span class="variable language_">document</span>.<span class="property">head</span>.<span class="title function_">appendChild</span>(s);</span><br></pre></td></tr></table></figure>
+
+<h5 id="3、一次删除一页的内容"><a href="#3、一次删除一页的内容" class="headerlink" title="3、一次删除一页的内容"></a>3、一次删除一页的内容</h5><ul>
+<li>如果出现报错，系统繁忙或者停止，重新执行第二步即可，刷新页面即可停止</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>删除微博内容</tag>
       </tags>
   </entry>
   <entry>
@@ -481,24 +481,6 @@
       </tags>
   </entry>
   <entry>
-    <title>安装指定版本宝塔面板</title>
-    <url>/32/</url>
-    <content><![CDATA[<p>问题描述：安装指定宝塔版本<br>解决方案：下载指定版本文件，覆盖现有版本<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
-<span id="more"></span>
-<hr>
-<blockquote>
-<p>注意：<br>在安装之前，先将宝塔设置成离线模式<br>面板设置-&gt;离线模式</p>
-</blockquote>
-<h4 id="手动安装步骤"><a href="#手动安装步骤" class="headerlink" title="手动安装步骤"></a>手动安装步骤</h4><h5 id="1-安装官网版本"><a href="#1-安装官网版本" class="headerlink" title="1. 安装官网版本"></a>1. 安装官网版本</h5><h5 id="2-登录宝塔面板，进入目录-x2F-www-x2F-server"><a href="#2-登录宝塔面板，进入目录-x2F-www-x2F-server" class="headerlink" title="2. 登录宝塔面板，进入目录 &#x2F;www&#x2F;server"></a>2. 登录宝塔面板，进入目录 &#x2F;www&#x2F;server</h5><h5 id="3-下载指定版本压缩包"><a href="#3-下载指定版本压缩包" class="headerlink" title="3. 下载指定版本压缩包"></a>3. 下载指定版本压缩包</h5><h5 id="4-下载好的压缩包上传到目录-x2F-www-x2F-server"><a href="#4-下载好的压缩包上传到目录-x2F-www-x2F-server" class="headerlink" title="4. 下载好的压缩包上传到目录 &#x2F;www&#x2F;server"></a>4. 下载好的压缩包上传到目录 &#x2F;www&#x2F;server</h5><h5 id="5-解压压缩包，覆盖panel文件夹"><a href="#5-解压压缩包，覆盖panel文件夹" class="headerlink" title="5. 解压压缩包，覆盖panel文件夹"></a>5. 解压压缩包，覆盖panel文件夹</h5><h5 id="6-回到宝塔面板首页，重启宝塔"><a href="#6-回到宝塔面板首页，重启宝塔" class="headerlink" title="6. 回到宝塔面板首页，重启宝塔"></a>6. 回到宝塔面板首页，重启宝塔</h5><h4 id="官方给出的升级方法"><a href="#官方给出的升级方法" class="headerlink" title="官方给出的升级方法"></a>官方给出的升级方法</h4><h5 id="1-下载离线升级包"><a href="#1-下载离线升级包" class="headerlink" title="1. 下载离线升级包"></a>1. 下载离线升级包</h5><h5 id="2-将升级包上传到服务器中的-x2F-root目录"><a href="#2-将升级包上传到服务器中的-x2F-root目录" class="headerlink" title="2. 将升级包上传到服务器中的&#x2F;root目录"></a>2. 将升级包上传到服务器中的&#x2F;root目录</h5><h5 id="3-解压文件：unzip-LinuxPanel"><a href="#3-解压文件：unzip-LinuxPanel" class="headerlink" title="3. 解压文件：unzip LinuxPanel-*"></a>3. 解压文件：unzip LinuxPanel-*</h5><h5 id="4-切换到升级包目录：-cd-panel"><a href="#4-切换到升级包目录：-cd-panel" class="headerlink" title="4. 切换到升级包目录： cd panel"></a>4. 切换到升级包目录： cd panel</h5><h5 id="5-执行升级脚本：bash-update-sh"><a href="#5-执行升级脚本：bash-update-sh" class="headerlink" title="5. 执行升级脚本：bash update.sh"></a>5. 执行升级脚本：bash update.sh</h5><h5 id="6-删除升级包：cd-amp-amp-rm-f-LinuxPanel-zip-amp-amp-rm-rf-panel"><a href="#6-删除升级包：cd-amp-amp-rm-f-LinuxPanel-zip-amp-amp-rm-rf-panel" class="headerlink" title="6. 删除升级包：cd .. &amp;&amp; rm -f LinuxPanel-*.zip &amp;&amp; rm -rf panel"></a>6. 删除升级包：cd .. &amp;&amp; rm -f LinuxPanel-*.zip &amp;&amp; rm -rf panel</h5><h5 id="7-安装完成后执行以下代码："><a href="#7-安装完成后执行以下代码：" class="headerlink" title="7. 安装完成后执行以下代码："></a>7. 安装完成后执行以下代码：</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">echo <span class="string">&#x27;127.0.0.1 bt.cn&#x27;</span> &gt;&gt;/etc/hosts</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>技术相关</category>
-      </categories>
-      <tags>
-        <tag>宝塔面板</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>宝塔面板 Linux历史版本</title>
     <url>/31/</url>
     <content><![CDATA[<p>解决方案：宝塔linux系统历史版本<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
@@ -524,6 +506,24 @@
       </tags>
   </entry>
   <entry>
+    <title>安装指定版本宝塔面板</title>
+    <url>/32/</url>
+    <content><![CDATA[<p>问题描述：安装指定宝塔版本<br>解决方案：下载指定版本文件，覆盖现有版本<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<blockquote>
+<p>注意：<br>在安装之前，先将宝塔设置成离线模式<br>面板设置-&gt;离线模式</p>
+</blockquote>
+<h4 id="手动安装步骤"><a href="#手动安装步骤" class="headerlink" title="手动安装步骤"></a>手动安装步骤</h4><h5 id="1-安装官网版本"><a href="#1-安装官网版本" class="headerlink" title="1. 安装官网版本"></a>1. 安装官网版本</h5><h5 id="2-登录宝塔面板，进入目录-x2F-www-x2F-server"><a href="#2-登录宝塔面板，进入目录-x2F-www-x2F-server" class="headerlink" title="2. 登录宝塔面板，进入目录 &#x2F;www&#x2F;server"></a>2. 登录宝塔面板，进入目录 &#x2F;www&#x2F;server</h5><h5 id="3-下载指定版本压缩包"><a href="#3-下载指定版本压缩包" class="headerlink" title="3. 下载指定版本压缩包"></a>3. 下载指定版本压缩包</h5><h5 id="4-下载好的压缩包上传到目录-x2F-www-x2F-server"><a href="#4-下载好的压缩包上传到目录-x2F-www-x2F-server" class="headerlink" title="4. 下载好的压缩包上传到目录 &#x2F;www&#x2F;server"></a>4. 下载好的压缩包上传到目录 &#x2F;www&#x2F;server</h5><h5 id="5-解压压缩包，覆盖panel文件夹"><a href="#5-解压压缩包，覆盖panel文件夹" class="headerlink" title="5. 解压压缩包，覆盖panel文件夹"></a>5. 解压压缩包，覆盖panel文件夹</h5><h5 id="6-回到宝塔面板首页，重启宝塔"><a href="#6-回到宝塔面板首页，重启宝塔" class="headerlink" title="6. 回到宝塔面板首页，重启宝塔"></a>6. 回到宝塔面板首页，重启宝塔</h5><h4 id="官方给出的升级方法"><a href="#官方给出的升级方法" class="headerlink" title="官方给出的升级方法"></a>官方给出的升级方法</h4><h5 id="1-下载离线升级包"><a href="#1-下载离线升级包" class="headerlink" title="1. 下载离线升级包"></a>1. 下载离线升级包</h5><h5 id="2-将升级包上传到服务器中的-x2F-root目录"><a href="#2-将升级包上传到服务器中的-x2F-root目录" class="headerlink" title="2. 将升级包上传到服务器中的&#x2F;root目录"></a>2. 将升级包上传到服务器中的&#x2F;root目录</h5><h5 id="3-解压文件：unzip-LinuxPanel"><a href="#3-解压文件：unzip-LinuxPanel" class="headerlink" title="3. 解压文件：unzip LinuxPanel-*"></a>3. 解压文件：unzip LinuxPanel-*</h5><h5 id="4-切换到升级包目录：-cd-panel"><a href="#4-切换到升级包目录：-cd-panel" class="headerlink" title="4. 切换到升级包目录： cd panel"></a>4. 切换到升级包目录： cd panel</h5><h5 id="5-执行升级脚本：bash-update-sh"><a href="#5-执行升级脚本：bash-update-sh" class="headerlink" title="5. 执行升级脚本：bash update.sh"></a>5. 执行升级脚本：bash update.sh</h5><h5 id="6-删除升级包：cd-amp-amp-rm-f-LinuxPanel-zip-amp-amp-rm-rf-panel"><a href="#6-删除升级包：cd-amp-amp-rm-f-LinuxPanel-zip-amp-amp-rm-rf-panel" class="headerlink" title="6. 删除升级包：cd .. &amp;&amp; rm -f LinuxPanel-*.zip &amp;&amp; rm -rf panel"></a>6. 删除升级包：cd .. &amp;&amp; rm -f LinuxPanel-*.zip &amp;&amp; rm -rf panel</h5><h5 id="7-安装完成后执行以下代码："><a href="#7-安装完成后执行以下代码：" class="headerlink" title="7. 安装完成后执行以下代码："></a>7. 安装完成后执行以下代码：</h5><figure class="highlight java"><table><tr><td class="code"><pre><span class="line">echo <span class="string">&#x27;127.0.0.1 bt.cn&#x27;</span> &gt;&gt;/etc/hosts</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>宝塔面板</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>html内容过长,自动省略</title>
     <url>/33/</url>
     <content><![CDATA[<p>解决方案：添加style样式<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
@@ -539,20 +539,6 @@
       </categories>
       <tags>
         <tag>省略html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>禁用Windows Defender Antivirus Service</title>
-    <url>/34/</url>
-    <content><![CDATA[<p>解决方案：关闭 Windows Defender 防病毒程序<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
-<span id="more"></span>
-<hr>
-<h5 id="1、Windows-R打开运行，输入“gpedit-msc”回车"><a href="#1、Windows-R打开运行，输入“gpedit-msc”回车" class="headerlink" title="1、Windows+R打开运行，输入“gpedit.msc”回车"></a>1、Windows+R打开运行，输入“gpedit.msc”回车</h5><h5 id="2、计算机配置-gt-管理模板-gt-Windows组件-gt-双击-Windows-Defender-防病毒程序"><a href="#2、计算机配置-gt-管理模板-gt-Windows组件-gt-双击-Windows-Defender-防病毒程序" class="headerlink" title="2、计算机配置 -&gt; 管理模板 -&gt; Windows组件 -&gt; 双击 Windows  Defender 防病毒程序"></a>2、计算机配置 -&gt; 管理模板 -&gt; Windows组件 -&gt; 双击 Windows  Defender 防病毒程序</h5><h5 id="3、双击-关闭windows-defender-防病毒程序-gt-选择-已启用-gt-应用-gt-确定"><a href="#3、双击-关闭windows-defender-防病毒程序-gt-选择-已启用-gt-应用-gt-确定" class="headerlink" title="3、双击 关闭windows defender 防病毒程序 -&gt; 选择 已启用 -&gt; 应用 -&gt; 确定"></a>3、双击 关闭windows defender 防病毒程序 -&gt; 选择 已启用 -&gt; 应用 -&gt; 确定</h5>]]></content>
-      <categories>
-        <category>电脑相关</category>
-      </categories>
-      <tags>
-        <tag>禁用Windows Defender</tag>
       </tags>
   </entry>
   <entry>
@@ -602,20 +588,6 @@
       </tags>
   </entry>
   <entry>
-    <title>小米系统关闭广告</title>
-    <url>/37/</url>
-    <content><![CDATA[<p>解决方案：关闭各式各样的广告<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
-<span id="more"></span>
-<hr>
-<h5 id="1、设置→小米账号→声明与条款→系统广告→系统工具广告→关闭"><a href="#1、设置→小米账号→声明与条款→系统广告→系统工具广告→关闭" class="headerlink" title="1、设置→小米账号→声明与条款→系统广告→系统工具广告→关闭"></a>1、设置→小米账号→声明与条款→系统广告→系统工具广告→关闭</h5><h5 id="2、设置→应用设置一应用管理→右上角三个点→设置→关闭“应用升级提醒”-amp-“资源推荐”"><a href="#2、设置→应用设置一应用管理→右上角三个点→设置→关闭“应用升级提醒”-amp-“资源推荐”" class="headerlink" title="2、设置→应用设置一应用管理→右上角三个点→设置→关闭“应用升级提醒”&amp;“资源推荐”"></a>2、设置→应用设置一应用管理→右上角三个点→设置→关闭“应用升级提醒”&amp;“资源推荐”</h5><h5 id="3、桌面左滑打开负一屏→划到底部→设置-◎-→服务管理→选择关闭项目"><a href="#3、桌面左滑打开负一屏→划到底部→设置-◎-→服务管理→选择关闭项目" class="headerlink" title="3、桌面左滑打开负一屏→划到底部→设置(◎)→服务管理→选择关闭项目"></a>3、桌面左滑打开负一屏→划到底部→设置(◎)→服务管理→选择关闭项目</h5><h5 id="4、桌面→打开任意文件夹→点击文件夹名称一关闭“猜你喜欢”"><a href="#4、桌面→打开任意文件夹→点击文件夹名称一关闭“猜你喜欢”" class="headerlink" title="4、桌面→打开任意文件夹→点击文件夹名称一关闭“猜你喜欢”"></a>4、桌面→打开任意文件夹→点击文件夹名称一关闭“猜你喜欢”</h5><h5 id="5、短信→右上角设置-→高级设置（倒数第二个-→关闭“允许Wap推送”"><a href="#5、短信→右上角设置-→高级设置（倒数第二个-→关闭“允许Wap推送”" class="headerlink" title="5、短信→右上角设置()→高级设置（倒数第二个)→关闭“允许Wap推送”"></a>5、短信→右上角设置()→高级设置（倒数第二个)→关闭“允许Wap推送”</h5><h5 id="6、浏览器→菜单一设置-→主页设置一简洁版→关闭“宫格栏推送”一→返回→接收消息通知→关闭“接受消息通知”"><a href="#6、浏览器→菜单一设置-→主页设置一简洁版→关闭“宫格栏推送”一→返回→接收消息通知→关闭“接受消息通知”" class="headerlink" title="6、浏览器→菜单一设置()→主页设置一简洁版→关闭“宫格栏推送”一→返回→接收消息通知→关闭“接受消息通知”"></a>6、浏览器→菜单一设置()→主页设置一简洁版→关闭“宫格栏推送”一→返回→接收消息通知→关闭“接受消息通知”</h5><h5 id="7、时钟一右上角一→生活早报→关闭“开启生活早报”"><a href="#7、时钟一右上角一→生活早报→关闭“开启生活早报”" class="headerlink" title="7、时钟一右上角一→生活早报→关闭“开启生活早报”"></a>7、时钟一右上角一→生活早报→关闭“开启生活早报”</h5><h5 id="8、日历一→右上角一设置→用户体验计划（倒数第二个-→关闭”内容推广”"><a href="#8、日历一→右上角一设置→用户体验计划（倒数第二个-→关闭”内容推广”" class="headerlink" title="8、日历一→右上角一设置→用户体验计划（倒数第二个)→关闭”内容推广”"></a>8、日历一→右上角一设置→用户体验计划（倒数第二个)→关闭”内容推广”</h5><h5 id="9、手机管家→右上角设置（◎-一关闭“推荐内容”一返回→垃圾清理→右上角设置（◎-→关闭“推荐内容”-倒数第三个"><a href="#9、手机管家→右上角设置（◎-一关闭“推荐内容”一返回→垃圾清理→右上角设置（◎-→关闭“推荐内容”-倒数第三个" class="headerlink" title="9、手机管家→右上角设置（◎)一关闭“推荐内容”一返回→垃圾清理→右上角设置（◎)→关闭“推荐内容”(倒数第三个)"></a>9、手机管家→右上角设置（◎)一关闭“推荐内容”一返回→垃圾清理→右上角设置（◎)→关闭“推荐内容”(倒数第三个)</h5><h5 id="10、桌面下方搜索栏一右上角三个点→设置→消息通知管理一关闭“允许通知”一→返回→搜索快捷方式→关闭”桌面搜索框”-这个根据个人喜好酌情操作"><a href="#10、桌面下方搜索栏一右上角三个点→设置→消息通知管理一关闭“允许通知”一→返回→搜索快捷方式→关闭”桌面搜索框”-这个根据个人喜好酌情操作" class="headerlink" title="10、桌面下方搜索栏一右上角三个点→设置→消息通知管理一关闭“允许通知”一→返回→搜索快捷方式→关闭”桌面搜索框”(这个根据个人喜好酌情操作)"></a>10、桌面下方搜索栏一右上角三个点→设置→消息通知管理一关闭“允许通知”一→返回→搜索快捷方式→关闭”桌面搜索框”(这个根据个人喜好酌情操作)</h5><h5 id="11、天气→右上角设置→用户体验计划〔倒数第三个→关闭“天气视频卡片”-amp-“天气服务推荐”"><a href="#11、天气→右上角设置→用户体验计划〔倒数第三个→关闭“天气视频卡片”-amp-“天气服务推荐”" class="headerlink" title="11、天气→右上角设置→用户体验计划〔倒数第三个→关闭“天气视频卡片”&amp;“天气服务推荐”"></a>11、天气→右上角设置→用户体验计划〔倒数第三个→关闭“天气视频卡片”&amp;“天气服务推荐”</h5><h5 id="12、下载管理→右上角设置（0-一信息流设置一关闭”资源推荐”-amp-“热榜推荐”"><a href="#12、下载管理→右上角设置（0-一信息流设置一关闭”资源推荐”-amp-“热榜推荐”" class="headerlink" title="12、下载管理→右上角设置（0)一信息流设置一关闭”资源推荐”&amp;“热榜推荐”"></a>12、下载管理→右上角设置（0)一信息流设置一关闭”资源推荐”&amp;“热榜推荐”</h5><h5 id="13、小米社区-可以直接卸载-→我的一→设置→高级设置→关闭”详情推荐相似”-amp-”个性化推荐”-amp-“信息流推荐”"><a href="#13、小米社区-可以直接卸载-→我的一→设置→高级设置→关闭”详情推荐相似”-amp-”个性化推荐”-amp-“信息流推荐”" class="headerlink" title="13、小米社区(可以直接卸载)→我的一→设置→高级设置→关闭”详情推荐相似”&amp;”个性化推荐”&amp;“信息流推荐”"></a>13、小米社区(可以直接卸载)→我的一→设置→高级设置→关闭”详情推荐相似”&amp;”个性化推荐”&amp;“信息流推荐”</h5><h5 id="14、小米视频→我的一设置→消息推送→关闭“未读消息提醒”-amp-“小米推送”一返回一其他→关闭”个性化推荐”"><a href="#14、小米视频→我的一设置→消息推送→关闭“未读消息提醒”-amp-“小米推送”一返回一其他→关闭”个性化推荐”" class="headerlink" title="14、小米视频→我的一设置→消息推送→关闭“未读消息提醒”&amp;“小米推送”一返回一其他→关闭”个性化推荐”"></a>14、小米视频→我的一设置→消息推送→关闭“未读消息提醒”&amp;“小米推送”一返回一其他→关闭”个性化推荐”</h5><h5 id="15、应用商店→我的→右上角设置（徊-→推荐关闭“个性化推荐””相关推荐”→返回→关闭”应用更新提醒”"><a href="#15、应用商店→我的→右上角设置（徊-→推荐关闭“个性化推荐””相关推荐”→返回→关闭”应用更新提醒”" class="headerlink" title="15、应用商店→我的→右上角设置（徊)→推荐关闭“个性化推荐””相关推荐”→返回→关闭”应用更新提醒”"></a>15、应用商店→我的→右上角设置（徊)→推荐关闭“个性化推荐””相关推荐”→返回→关闭”应用更新提醒”</h5><h5 id="16、主题壁纸一→我的一右上角设置（◎-→关闭“个性化推荐”"><a href="#16、主题壁纸一→我的一右上角设置（◎-→关闭“个性化推荐”" class="headerlink" title="16、主题壁纸一→我的一右上角设置（◎)→关闭“个性化推荐”"></a>16、主题壁纸一→我的一右上角设置（◎)→关闭“个性化推荐”</h5><h5 id="17、小爱同学→设置→关于小爱→关闭”加入用户体验计划”一隐私开关一关闭“个性化服务”"><a href="#17、小爱同学→设置→关于小爱→关闭”加入用户体验计划”一隐私开关一关闭“个性化服务”" class="headerlink" title="17、小爱同学→设置→关于小爱→关闭”加入用户体验计划”一隐私开关一关闭“个性化服务”"></a>17、小爱同学→设置→关于小爱→关闭”加入用户体验计划”一隐私开关一关闭“个性化服务”</h5><h5 id="18、手机管家→隐私保护一→右划点击“保护隐私”，拉到底点击”特殊权限设置”→显示在其他应用的上层→点击底部中间的”更多”，点击“显示系统程序”一拉到底-点击“智能服务”这个APP→关闭"><a href="#18、手机管家→隐私保护一→右划点击“保护隐私”，拉到底点击”特殊权限设置”→显示在其他应用的上层→点击底部中间的”更多”，点击“显示系统程序”一拉到底-点击“智能服务”这个APP→关闭" class="headerlink" title="18、手机管家→隐私保护一→右划点击“保护隐私”，拉到底点击”特殊权限设置”→显示在其他应用的上层→点击底部中间的”更多”，点击“显示系统程序”一拉到底,点击“智能服务”这个APP→关闭"></a>18、手机管家→隐私保护一→右划点击“保护隐私”，拉到底点击”特殊权限设置”→显示在其他应用的上层→点击底部中间的”更多”，点击“显示系统程序”一拉到底,点击“智能服务”这个APP→关闭</h5>]]></content>
-      <categories>
-        <category>手机相关</category>
-      </categories>
-      <tags>
-        <tag>小米手机</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>强行安装win11,无视不兼容</title>
     <url>/36/</url>
     <content><![CDATA[<p>解决方案：删除“.dll”文件<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
@@ -627,6 +599,34 @@
       </categories>
       <tags>
         <tag>安装windows11</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>禁用Windows Defender Antivirus Service</title>
+    <url>/34/</url>
+    <content><![CDATA[<p>解决方案：关闭 Windows Defender 防病毒程序<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h5 id="1、Windows-R打开运行，输入“gpedit-msc”回车"><a href="#1、Windows-R打开运行，输入“gpedit-msc”回车" class="headerlink" title="1、Windows+R打开运行，输入“gpedit.msc”回车"></a>1、Windows+R打开运行，输入“gpedit.msc”回车</h5><h5 id="2、计算机配置-gt-管理模板-gt-Windows组件-gt-双击-Windows-Defender-防病毒程序"><a href="#2、计算机配置-gt-管理模板-gt-Windows组件-gt-双击-Windows-Defender-防病毒程序" class="headerlink" title="2、计算机配置 -&gt; 管理模板 -&gt; Windows组件 -&gt; 双击 Windows  Defender 防病毒程序"></a>2、计算机配置 -&gt; 管理模板 -&gt; Windows组件 -&gt; 双击 Windows  Defender 防病毒程序</h5><h5 id="3、双击-关闭windows-defender-防病毒程序-gt-选择-已启用-gt-应用-gt-确定"><a href="#3、双击-关闭windows-defender-防病毒程序-gt-选择-已启用-gt-应用-gt-确定" class="headerlink" title="3、双击 关闭windows defender 防病毒程序 -&gt; 选择 已启用 -&gt; 应用 -&gt; 确定"></a>3、双击 关闭windows defender 防病毒程序 -&gt; 选择 已启用 -&gt; 应用 -&gt; 确定</h5>]]></content>
+      <categories>
+        <category>电脑相关</category>
+      </categories>
+      <tags>
+        <tag>禁用Windows Defender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小米系统关闭广告</title>
+    <url>/37/</url>
+    <content><![CDATA[<p>解决方案：关闭各式各样的广告<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h5 id="1、设置→小米账号→声明与条款→系统广告→系统工具广告→关闭"><a href="#1、设置→小米账号→声明与条款→系统广告→系统工具广告→关闭" class="headerlink" title="1、设置→小米账号→声明与条款→系统广告→系统工具广告→关闭"></a>1、设置→小米账号→声明与条款→系统广告→系统工具广告→关闭</h5><h5 id="2、设置→应用设置一应用管理→右上角三个点→设置→关闭“应用升级提醒”-amp-“资源推荐”"><a href="#2、设置→应用设置一应用管理→右上角三个点→设置→关闭“应用升级提醒”-amp-“资源推荐”" class="headerlink" title="2、设置→应用设置一应用管理→右上角三个点→设置→关闭“应用升级提醒”&amp;“资源推荐”"></a>2、设置→应用设置一应用管理→右上角三个点→设置→关闭“应用升级提醒”&amp;“资源推荐”</h5><h5 id="3、桌面左滑打开负一屏→划到底部→设置-◎-→服务管理→选择关闭项目"><a href="#3、桌面左滑打开负一屏→划到底部→设置-◎-→服务管理→选择关闭项目" class="headerlink" title="3、桌面左滑打开负一屏→划到底部→设置(◎)→服务管理→选择关闭项目"></a>3、桌面左滑打开负一屏→划到底部→设置(◎)→服务管理→选择关闭项目</h5><h5 id="4、桌面→打开任意文件夹→点击文件夹名称一关闭“猜你喜欢”"><a href="#4、桌面→打开任意文件夹→点击文件夹名称一关闭“猜你喜欢”" class="headerlink" title="4、桌面→打开任意文件夹→点击文件夹名称一关闭“猜你喜欢”"></a>4、桌面→打开任意文件夹→点击文件夹名称一关闭“猜你喜欢”</h5><h5 id="5、短信→右上角设置-→高级设置（倒数第二个-→关闭“允许Wap推送”"><a href="#5、短信→右上角设置-→高级设置（倒数第二个-→关闭“允许Wap推送”" class="headerlink" title="5、短信→右上角设置()→高级设置（倒数第二个)→关闭“允许Wap推送”"></a>5、短信→右上角设置()→高级设置（倒数第二个)→关闭“允许Wap推送”</h5><h5 id="6、浏览器→菜单一设置-→主页设置一简洁版→关闭“宫格栏推送”一→返回→接收消息通知→关闭“接受消息通知”"><a href="#6、浏览器→菜单一设置-→主页设置一简洁版→关闭“宫格栏推送”一→返回→接收消息通知→关闭“接受消息通知”" class="headerlink" title="6、浏览器→菜单一设置()→主页设置一简洁版→关闭“宫格栏推送”一→返回→接收消息通知→关闭“接受消息通知”"></a>6、浏览器→菜单一设置()→主页设置一简洁版→关闭“宫格栏推送”一→返回→接收消息通知→关闭“接受消息通知”</h5><h5 id="7、时钟一右上角一→生活早报→关闭“开启生活早报”"><a href="#7、时钟一右上角一→生活早报→关闭“开启生活早报”" class="headerlink" title="7、时钟一右上角一→生活早报→关闭“开启生活早报”"></a>7、时钟一右上角一→生活早报→关闭“开启生活早报”</h5><h5 id="8、日历一→右上角一设置→用户体验计划（倒数第二个-→关闭”内容推广”"><a href="#8、日历一→右上角一设置→用户体验计划（倒数第二个-→关闭”内容推广”" class="headerlink" title="8、日历一→右上角一设置→用户体验计划（倒数第二个)→关闭”内容推广”"></a>8、日历一→右上角一设置→用户体验计划（倒数第二个)→关闭”内容推广”</h5><h5 id="9、手机管家→右上角设置（◎-一关闭“推荐内容”一返回→垃圾清理→右上角设置（◎-→关闭“推荐内容”-倒数第三个"><a href="#9、手机管家→右上角设置（◎-一关闭“推荐内容”一返回→垃圾清理→右上角设置（◎-→关闭“推荐内容”-倒数第三个" class="headerlink" title="9、手机管家→右上角设置（◎)一关闭“推荐内容”一返回→垃圾清理→右上角设置（◎)→关闭“推荐内容”(倒数第三个)"></a>9、手机管家→右上角设置（◎)一关闭“推荐内容”一返回→垃圾清理→右上角设置（◎)→关闭“推荐内容”(倒数第三个)</h5><h5 id="10、桌面下方搜索栏一右上角三个点→设置→消息通知管理一关闭“允许通知”一→返回→搜索快捷方式→关闭”桌面搜索框”-这个根据个人喜好酌情操作"><a href="#10、桌面下方搜索栏一右上角三个点→设置→消息通知管理一关闭“允许通知”一→返回→搜索快捷方式→关闭”桌面搜索框”-这个根据个人喜好酌情操作" class="headerlink" title="10、桌面下方搜索栏一右上角三个点→设置→消息通知管理一关闭“允许通知”一→返回→搜索快捷方式→关闭”桌面搜索框”(这个根据个人喜好酌情操作)"></a>10、桌面下方搜索栏一右上角三个点→设置→消息通知管理一关闭“允许通知”一→返回→搜索快捷方式→关闭”桌面搜索框”(这个根据个人喜好酌情操作)</h5><h5 id="11、天气→右上角设置→用户体验计划〔倒数第三个→关闭“天气视频卡片”-amp-“天气服务推荐”"><a href="#11、天气→右上角设置→用户体验计划〔倒数第三个→关闭“天气视频卡片”-amp-“天气服务推荐”" class="headerlink" title="11、天气→右上角设置→用户体验计划〔倒数第三个→关闭“天气视频卡片”&amp;“天气服务推荐”"></a>11、天气→右上角设置→用户体验计划〔倒数第三个→关闭“天气视频卡片”&amp;“天气服务推荐”</h5><h5 id="12、下载管理→右上角设置（0-一信息流设置一关闭”资源推荐”-amp-“热榜推荐”"><a href="#12、下载管理→右上角设置（0-一信息流设置一关闭”资源推荐”-amp-“热榜推荐”" class="headerlink" title="12、下载管理→右上角设置（0)一信息流设置一关闭”资源推荐”&amp;“热榜推荐”"></a>12、下载管理→右上角设置（0)一信息流设置一关闭”资源推荐”&amp;“热榜推荐”</h5><h5 id="13、小米社区-可以直接卸载-→我的一→设置→高级设置→关闭”详情推荐相似”-amp-”个性化推荐”-amp-“信息流推荐”"><a href="#13、小米社区-可以直接卸载-→我的一→设置→高级设置→关闭”详情推荐相似”-amp-”个性化推荐”-amp-“信息流推荐”" class="headerlink" title="13、小米社区(可以直接卸载)→我的一→设置→高级设置→关闭”详情推荐相似”&amp;”个性化推荐”&amp;“信息流推荐”"></a>13、小米社区(可以直接卸载)→我的一→设置→高级设置→关闭”详情推荐相似”&amp;”个性化推荐”&amp;“信息流推荐”</h5><h5 id="14、小米视频→我的一设置→消息推送→关闭“未读消息提醒”-amp-“小米推送”一返回一其他→关闭”个性化推荐”"><a href="#14、小米视频→我的一设置→消息推送→关闭“未读消息提醒”-amp-“小米推送”一返回一其他→关闭”个性化推荐”" class="headerlink" title="14、小米视频→我的一设置→消息推送→关闭“未读消息提醒”&amp;“小米推送”一返回一其他→关闭”个性化推荐”"></a>14、小米视频→我的一设置→消息推送→关闭“未读消息提醒”&amp;“小米推送”一返回一其他→关闭”个性化推荐”</h5><h5 id="15、应用商店→我的→右上角设置（徊-→推荐关闭“个性化推荐””相关推荐”→返回→关闭”应用更新提醒”"><a href="#15、应用商店→我的→右上角设置（徊-→推荐关闭“个性化推荐””相关推荐”→返回→关闭”应用更新提醒”" class="headerlink" title="15、应用商店→我的→右上角设置（徊)→推荐关闭“个性化推荐””相关推荐”→返回→关闭”应用更新提醒”"></a>15、应用商店→我的→右上角设置（徊)→推荐关闭“个性化推荐””相关推荐”→返回→关闭”应用更新提醒”</h5><h5 id="16、主题壁纸一→我的一右上角设置（◎-→关闭“个性化推荐”"><a href="#16、主题壁纸一→我的一右上角设置（◎-→关闭“个性化推荐”" class="headerlink" title="16、主题壁纸一→我的一右上角设置（◎)→关闭“个性化推荐”"></a>16、主题壁纸一→我的一右上角设置（◎)→关闭“个性化推荐”</h5><h5 id="17、小爱同学→设置→关于小爱→关闭”加入用户体验计划”一隐私开关一关闭“个性化服务”"><a href="#17、小爱同学→设置→关于小爱→关闭”加入用户体验计划”一隐私开关一关闭“个性化服务”" class="headerlink" title="17、小爱同学→设置→关于小爱→关闭”加入用户体验计划”一隐私开关一关闭“个性化服务”"></a>17、小爱同学→设置→关于小爱→关闭”加入用户体验计划”一隐私开关一关闭“个性化服务”</h5><h5 id="18、手机管家→隐私保护一→右划点击“保护隐私”，拉到底点击”特殊权限设置”→显示在其他应用的上层→点击底部中间的”更多”，点击“显示系统程序”一拉到底-点击“智能服务”这个APP→关闭"><a href="#18、手机管家→隐私保护一→右划点击“保护隐私”，拉到底点击”特殊权限设置”→显示在其他应用的上层→点击底部中间的”更多”，点击“显示系统程序”一拉到底-点击“智能服务”这个APP→关闭" class="headerlink" title="18、手机管家→隐私保护一→右划点击“保护隐私”，拉到底点击”特殊权限设置”→显示在其他应用的上层→点击底部中间的”更多”，点击“显示系统程序”一拉到底,点击“智能服务”这个APP→关闭"></a>18、手机管家→隐私保护一→右划点击“保护隐私”，拉到底点击”特殊权限设置”→显示在其他应用的上层→点击底部中间的”更多”，点击“显示系统程序”一拉到底,点击“智能服务”这个APP→关闭</h5>]]></content>
+      <categories>
+        <category>手机相关</category>
+      </categories>
+      <tags>
+        <tag>小米手机</tag>
       </tags>
   </entry>
   <entry>
@@ -677,6 +677,20 @@
       </tags>
   </entry>
   <entry>
+    <title>jquery监听“复制”事件，ctrl+c和右键复制</title>
+    <url>/5/</url>
+    <content><![CDATA[<p>解决方案：引入文中的“js”实现复制效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="1、直接上js代码，使用之前先引入-“jquery”-包"><a href="#1、直接上js代码，使用之前先引入-“jquery”-包" class="headerlink" title="1、直接上js代码，使用之前先引入 “jquery” 包"></a>1、直接上js代码，使用之前先引入 “jquery” 包</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">    <span class="comment">//  监听 ctrl + c事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;keydown&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;keydown&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>)&#123; </span><br><span class="line">        <span class="keyword">if</span>(e.<span class="property">ctrlKey</span> &amp;&amp; e.<span class="property">keyCode</span>  == <span class="number">67</span>) &#123; </span><br><span class="line">            <span class="title function_">doSomething</span>();</span><br><span class="line">            <span class="comment">// 返回false, 防止重复触发copy事件</span></span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 鼠标右键的复制事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;copy&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;copy&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>) &#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;右键复制 监听成功&#x27;</span>);</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">doSomething</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;ctrl + c 监听成功&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">setTime</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">window</span>.<span class="property">localStorage</span>) &#123;</span><br><span class="line">            <span class="keyword">let</span> time = <span class="variable language_">localStorage</span>.<span class="title function_">getItem</span>(<span class="string">&#x27;time&#x27;</span>);</span><br><span class="line">            time ? time ++ : time = <span class="number">1</span>;</span><br><span class="line">            <span class="variable language_">localStorage</span>.<span class="title function_">setItem</span>(<span class="string">&#x27;time&#x27;</span>, time);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>jquery监听网站“返回，后退”</title>
     <url>/6/</url>
     <content><![CDATA[<p>解决方案：引入文中的“js”实现监听效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
@@ -692,12 +706,12 @@
       </tags>
   </entry>
   <entry>
-    <title>jquery监听“复制”事件，ctrl+c和右键复制</title>
-    <url>/5/</url>
-    <content><![CDATA[<p>解决方案：引入文中的“js”实现复制效果<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+    <title>解决“ios浏览器”点击延迟</title>
+    <url>/8/</url>
+    <content><![CDATA[<p>解决方案：引入文中的“js”解决点击延迟问题<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
 <span id="more"></span>
 <hr>
-<h4 id="1、直接上js代码，使用之前先引入-“jquery”-包"><a href="#1、直接上js代码，使用之前先引入-“jquery”-包" class="headerlink" title="1、直接上js代码，使用之前先引入 “jquery” 包"></a>1、直接上js代码，使用之前先引入 “jquery” 包</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">    <span class="comment">//  监听 ctrl + c事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;keydown&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;keydown&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>)&#123; </span><br><span class="line">        <span class="keyword">if</span>(e.<span class="property">ctrlKey</span> &amp;&amp; e.<span class="property">keyCode</span>  == <span class="number">67</span>) &#123; </span><br><span class="line">            <span class="title function_">doSomething</span>();</span><br><span class="line">            <span class="comment">// 返回false, 防止重复触发copy事件</span></span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 鼠标右键的复制事件</span></span><br><span class="line">    $(<span class="variable language_">document</span>).<span class="title function_">unbind</span>(<span class="string">&#x27;copy&#x27;</span>).<span class="title function_">bind</span>(<span class="string">&#x27;copy&#x27;</span>, <span class="keyword">function</span>(<span class="params">e</span>) &#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;右键复制 监听成功&#x27;</span>);</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">doSomething</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="title function_">setTime</span>();</span><br><span class="line">        <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;ctrl + c 监听成功&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">setTime</span>(<span class="params"></span>)&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="variable language_">window</span>.<span class="property">localStorage</span>) &#123;</span><br><span class="line">            <span class="keyword">let</span> time = <span class="variable language_">localStorage</span>.<span class="title function_">getItem</span>(<span class="string">&#x27;time&#x27;</span>);</span><br><span class="line">            time ? time ++ : time = <span class="number">1</span>;</span><br><span class="line">            <span class="variable language_">localStorage</span>.<span class="title function_">setItem</span>(<span class="string">&#x27;time&#x27;</span>, time);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+<h4 id="1、添加以下代码"><a href="#1、添加以下代码" class="headerlink" title="1、添加以下代码"></a>1、添加以下代码</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="keyword">if</span> (<span class="string">&#x27;addEventListener&#x27;</span> <span class="keyword">in</span> <span class="variable language_">document</span>) &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;DOMContentLoaded&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="title class_">FastClick</span>.<span class="title function_">attach</span>(<span class="variable language_">document</span>.<span class="property">body</span>);</span><br><span class="line">        &#125;, <span class="literal">false</span>);</span><br><span class="line">    &#125;</span><br><span class="line"> &lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>编程相关</category>
       </categories>
@@ -722,20 +736,6 @@
       </categories>
       <tags>
         <tag>WinSCP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决“ios浏览器”点击延迟</title>
-    <url>/8/</url>
-    <content><![CDATA[<p>解决方案：引入文中的“js”解决点击延迟问题<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
-<span id="more"></span>
-<hr>
-<h4 id="1、添加以下代码"><a href="#1、添加以下代码" class="headerlink" title="1、添加以下代码"></a>1、添加以下代码</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="keyword">if</span> (<span class="string">&#x27;addEventListener&#x27;</span> <span class="keyword">in</span> <span class="variable language_">document</span>) &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;DOMContentLoaded&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="title class_">FastClick</span>.<span class="title function_">attach</span>(<span class="variable language_">document</span>.<span class="property">body</span>);</span><br><span class="line">        &#125;, <span class="literal">false</span>);</span><br><span class="line">    &#125;</span><br><span class="line"> &lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>编程相关</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
       </tags>
   </entry>
   <entry>
