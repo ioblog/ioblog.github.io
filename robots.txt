@@ -1,6 +1,6 @@
-# hexo robots.txt
+﻿# hexo robots.txt
 User-agent: *
 Allow: /
 ​
-Sitemap: https://ioblog.github.io/sitemap.xml
-Sitemap: https://ioblog.github.io/baidusitemap.xml
+Sitemap: https://www.ioblog.cf/sitemap.xml
+Sitemap: https://www.ioblog.cf/baidusitemap.xml

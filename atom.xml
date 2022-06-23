@@ -3,11 +3,11 @@
   <title>艾欧博客</title>
   
   <subtitle>艾欧小站</subtitle>
-  <link href="https://ioblog.github.io/atom.xml" rel="self"/>
+  <link href="https://www.ioblog.cf/atom.xml" rel="self"/>
   
-  <link href="https://ioblog.github.io/"/>
+  <link href="https://www.ioblog.cf/"/>
   <updated>2022-05-20T01:54:56.071Z</updated>
-  <id>https://ioblog.github.io/</id>
+  <id>https://www.ioblog.cf/</id>
   
   <author>
     <name>panda</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>华为系统关闭广告</title>
-    <link href="https://ioblog.github.io/38/"/>
-    <id>https://ioblog.github.io/38/</id>
+    <link href="https://www.ioblog.cf/38/"/>
+    <id>https://www.ioblog.cf/38/</id>
     <published>2022-05-20T01:41:20.000Z</published>
     <updated>2022-05-20T01:54:56.071Z</updated>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="手机相关" scheme="https://ioblog.github.io/categories/%E6%89%8B%E6%9C%BA%E7%9B%B8%E5%85%B3/"/>
+    <category term="手机相关" scheme="https://www.ioblog.cf/categories/%E6%89%8B%E6%9C%BA%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="华为手机" scheme="https://ioblog.github.io/tags/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA/"/>
+    <category term="华为手机" scheme="https://www.ioblog.cf/tags/%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>小米系统关闭广告</title>
-    <link href="https://ioblog.github.io/37/"/>
-    <id>https://ioblog.github.io/37/</id>
+    <link href="https://www.ioblog.cf/37/"/>
+    <id>https://www.ioblog.cf/37/</id>
     <published>2022-05-20T01:41:15.000Z</published>
     <updated>2022-05-20T01:51:09.408Z</updated>
     
@@ -51,17 +51,17 @@
     
     
     
-    <category term="手机相关" scheme="https://ioblog.github.io/categories/%E6%89%8B%E6%9C%BA%E7%9B%B8%E5%85%B3/"/>
+    <category term="手机相关" scheme="https://www.ioblog.cf/categories/%E6%89%8B%E6%9C%BA%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="小米手机" scheme="https://ioblog.github.io/tags/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA/"/>
+    <category term="小米手机" scheme="https://www.ioblog.cf/tags/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>强行安装win11,无视不兼容</title>
-    <link href="https://ioblog.github.io/36/"/>
-    <id>https://ioblog.github.io/36/</id>
+    <link href="https://www.ioblog.cf/36/"/>
+    <id>https://www.ioblog.cf/36/</id>
     <published>2022-05-20T01:41:10.000Z</published>
     <updated>2022-05-20T01:46:44.154Z</updated>
     
@@ -72,17 +72,17 @@
     
     
     
-    <category term="电脑相关" scheme="https://ioblog.github.io/categories/%E7%94%B5%E8%84%91%E7%9B%B8%E5%85%B3/"/>
+    <category term="电脑相关" scheme="https://www.ioblog.cf/categories/%E7%94%B5%E8%84%91%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="安装windows11" scheme="https://ioblog.github.io/tags/%E5%AE%89%E8%A3%85windows11/"/>
+    <category term="安装windows11" scheme="https://www.ioblog.cf/tags/%E5%AE%89%E8%A3%85windows11/"/>
     
   </entry>
   
   <entry>
     <title>帝国cms7.5忘记密码,账号被锁定解决办法</title>
-    <link href="https://ioblog.github.io/35/"/>
-    <id>https://ioblog.github.io/35/</id>
+    <link href="https://www.ioblog.cf/35/"/>
+    <id>https://www.ioblog.cf/35/</id>
     <published>2022-05-17T02:11:36.000Z</published>
     <updated>2022-05-17T04:01:28.490Z</updated>
     
@@ -93,17 +93,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="帝国cms" scheme="https://ioblog.github.io/tags/%E5%B8%9D%E5%9B%BDcms/"/>
+    <category term="帝国cms" scheme="https://www.ioblog.cf/tags/%E5%B8%9D%E5%9B%BDcms/"/>
     
   </entry>
   
   <entry>
     <title>禁用Windows Defender Antivirus Service</title>
-    <link href="https://ioblog.github.io/34/"/>
-    <id>https://ioblog.github.io/34/</id>
+    <link href="https://www.ioblog.cf/34/"/>
+    <id>https://www.ioblog.cf/34/</id>
     <published>2022-05-17T02:11:32.000Z</published>
     <updated>2022-05-17T03:54:23.083Z</updated>
     
@@ -114,17 +114,17 @@
     
     
     
-    <category term="电脑相关" scheme="https://ioblog.github.io/categories/%E7%94%B5%E8%84%91%E7%9B%B8%E5%85%B3/"/>
+    <category term="电脑相关" scheme="https://www.ioblog.cf/categories/%E7%94%B5%E8%84%91%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="禁用Windows Defender" scheme="https://ioblog.github.io/tags/%E7%A6%81%E7%94%A8Windows-Defender/"/>
+    <category term="禁用Windows Defender" scheme="https://www.ioblog.cf/tags/%E7%A6%81%E7%94%A8Windows-Defender/"/>
     
   </entry>
   
   <entry>
     <title>html内容过长,自动省略</title>
-    <link href="https://ioblog.github.io/33/"/>
-    <id>https://ioblog.github.io/33/</id>
+    <link href="https://www.ioblog.cf/33/"/>
+    <id>https://www.ioblog.cf/33/</id>
     <published>2022-05-17T02:11:27.000Z</published>
     <updated>2022-05-17T03:51:15.486Z</updated>
     
@@ -135,17 +135,17 @@
     
     
     
-    <category term="编程相关" scheme="https://ioblog.github.io/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/"/>
+    <category term="编程相关" scheme="https://www.ioblog.cf/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="省略html" scheme="https://ioblog.github.io/tags/%E7%9C%81%E7%95%A5html/"/>
+    <category term="省略html" scheme="https://www.ioblog.cf/tags/%E7%9C%81%E7%95%A5html/"/>
     
   </entry>
   
   <entry>
     <title>安装指定版本宝塔面板</title>
-    <link href="https://ioblog.github.io/32/"/>
-    <id>https://ioblog.github.io/32/</id>
+    <link href="https://www.ioblog.cf/32/"/>
+    <id>https://www.ioblog.cf/32/</id>
     <published>2022-05-17T02:11:22.000Z</published>
     <updated>2022-05-17T03:47:24.934Z</updated>
     
@@ -156,17 +156,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="宝塔面板" scheme="https://ioblog.github.io/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    <category term="宝塔面板" scheme="https://www.ioblog.cf/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
   </entry>
   
   <entry>
     <title>宝塔面板 Linux历史版本</title>
-    <link href="https://ioblog.github.io/31/"/>
-    <id>https://ioblog.github.io/31/</id>
+    <link href="https://www.ioblog.cf/31/"/>
+    <id>https://www.ioblog.cf/31/</id>
     <published>2022-05-17T02:11:15.000Z</published>
     <updated>2022-05-17T03:39:00.821Z</updated>
     
@@ -177,17 +177,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="宝塔面板" scheme="https://ioblog.github.io/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    <category term="宝塔面板" scheme="https://www.ioblog.cf/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
   </entry>
   
   <entry>
     <title>无需任何工具破解QQ闪照</title>
-    <link href="https://ioblog.github.io/30/"/>
-    <id>https://ioblog.github.io/30/</id>
+    <link href="https://www.ioblog.cf/30/"/>
+    <id>https://www.ioblog.cf/30/</id>
     <published>2022-05-13T13:04:25.000Z</published>
     <updated>2022-05-13T13:38:27.751Z</updated>
     
@@ -198,17 +198,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="破解QQ闪图" scheme="https://ioblog.github.io/tags/%E7%A0%B4%E8%A7%A3QQ%E9%97%AA%E5%9B%BE/"/>
+    <category term="破解QQ闪图" scheme="https://www.ioblog.cf/tags/%E7%A0%B4%E8%A7%A3QQ%E9%97%AA%E5%9B%BE/"/>
     
   </entry>
   
   <entry>
     <title>解决因防盗链导致的图片加载失败</title>
-    <link href="https://ioblog.github.io/29/"/>
-    <id>https://ioblog.github.io/29/</id>
+    <link href="https://www.ioblog.cf/29/"/>
+    <id>https://www.ioblog.cf/29/</id>
     <published>2022-05-13T13:04:18.000Z</published>
     <updated>2022-05-13T13:39:46.000Z</updated>
     
@@ -219,17 +219,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="防盗链" scheme="https://ioblog.github.io/tags/%E9%98%B2%E7%9B%97%E9%93%BE/"/>
+    <category term="防盗链" scheme="https://www.ioblog.cf/tags/%E9%98%B2%E7%9B%97%E9%93%BE/"/>
     
   </entry>
   
   <entry>
     <title>批量删除QQ空间说说日志代码</title>
-    <link href="https://ioblog.github.io/28/"/>
-    <id>https://ioblog.github.io/28/</id>
+    <link href="https://www.ioblog.cf/28/"/>
+    <id>https://www.ioblog.cf/28/</id>
     <published>2022-05-13T13:04:13.000Z</published>
     <updated>2022-05-13T13:40:48.127Z</updated>
     
@@ -240,17 +240,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="删除QQ说说-日志" scheme="https://ioblog.github.io/tags/%E5%88%A0%E9%99%A4QQ%E8%AF%B4%E8%AF%B4-%E6%97%A5%E5%BF%97/"/>
+    <category term="删除QQ说说-日志" scheme="https://www.ioblog.cf/tags/%E5%88%A0%E9%99%A4QQ%E8%AF%B4%E8%AF%B4-%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>批量删除微博内容</title>
-    <link href="https://ioblog.github.io/27/"/>
-    <id>https://ioblog.github.io/27/</id>
+    <link href="https://www.ioblog.cf/27/"/>
+    <id>https://www.ioblog.cf/27/</id>
     <published>2022-05-13T13:04:09.000Z</published>
     <updated>2022-05-13T13:15:33.749Z</updated>
     
@@ -261,17 +261,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="删除微博内容" scheme="https://ioblog.github.io/tags/%E5%88%A0%E9%99%A4%E5%BE%AE%E5%8D%9A%E5%86%85%E5%AE%B9/"/>
+    <category term="删除微博内容" scheme="https://www.ioblog.cf/tags/%E5%88%A0%E9%99%A4%E5%BE%AE%E5%8D%9A%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>批量取消微博关注</title>
-    <link href="https://ioblog.github.io/26/"/>
-    <id>https://ioblog.github.io/26/</id>
+    <link href="https://www.ioblog.cf/26/"/>
+    <id>https://www.ioblog.cf/26/</id>
     <published>2022-05-13T13:04:02.000Z</published>
     <updated>2022-05-13T13:51:46.507Z</updated>
     
@@ -282,17 +282,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="取消微博关注" scheme="https://ioblog.github.io/tags/%E5%8F%96%E6%B6%88%E5%BE%AE%E5%8D%9A%E5%85%B3%E6%B3%A8/"/>
+    <category term="取消微博关注" scheme="https://www.ioblog.cf/tags/%E5%8F%96%E6%B6%88%E5%BE%AE%E5%8D%9A%E5%85%B3%E6%B3%A8/"/>
     
   </entry>
   
   <entry>
     <title>批量取消抖音关注</title>
-    <link href="https://ioblog.github.io/25/"/>
-    <id>https://ioblog.github.io/25/</id>
+    <link href="https://www.ioblog.cf/25/"/>
+    <id>https://www.ioblog.cf/25/</id>
     <published>2022-05-13T02:46:20.000Z</published>
     <updated>2022-05-13T03:33:17.251Z</updated>
     
@@ -303,17 +303,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="抖音" scheme="https://ioblog.github.io/tags/%E6%8A%96%E9%9F%B3/"/>
+    <category term="抖音" scheme="https://www.ioblog.cf/tags/%E6%8A%96%E9%9F%B3/"/>
     
   </entry>
   
   <entry>
     <title>用JS实现QQ空间自动点赞</title>
-    <link href="https://ioblog.github.io/24/"/>
-    <id>https://ioblog.github.io/24/</id>
+    <link href="https://www.ioblog.cf/24/"/>
+    <id>https://www.ioblog.cf/24/</id>
     <published>2022-05-13T02:46:15.000Z</published>
     <updated>2022-05-13T03:29:36.640Z</updated>
     
@@ -324,17 +324,17 @@
     
     
     
-    <category term="编程相关" scheme="https://ioblog.github.io/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/"/>
+    <category term="编程相关" scheme="https://www.ioblog.cf/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="QQ点赞" scheme="https://ioblog.github.io/tags/QQ%E7%82%B9%E8%B5%9E/"/>
+    <category term="QQ点赞" scheme="https://www.ioblog.cf/tags/QQ%E7%82%B9%E8%B5%9E/"/>
     
   </entry>
   
   <entry>
     <title>绕过宝塔面板强制绑定账号</title>
-    <link href="https://ioblog.github.io/23/"/>
-    <id>https://ioblog.github.io/23/</id>
+    <link href="https://www.ioblog.cf/23/"/>
+    <id>https://www.ioblog.cf/23/</id>
     <published>2022-05-13T02:46:11.000Z</published>
     <updated>2022-05-13T03:25:06.630Z</updated>
     
@@ -345,17 +345,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="宝塔面板" scheme="https://ioblog.github.io/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    <category term="宝塔面板" scheme="https://www.ioblog.cf/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
   </entry>
   
   <entry>
     <title>宝塔面板免费使用ssl证书</title>
-    <link href="https://ioblog.github.io/22/"/>
-    <id>https://ioblog.github.io/22/</id>
+    <link href="https://www.ioblog.cf/22/"/>
+    <id>https://www.ioblog.cf/22/</id>
     <published>2022-05-13T02:46:06.000Z</published>
     <updated>2022-05-13T03:25:53.557Z</updated>
     
@@ -366,17 +366,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="宝塔面板" scheme="https://ioblog.github.io/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    <category term="宝塔面板" scheme="https://www.ioblog.cf/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
   </entry>
   
   <entry>
     <title>修改网站上显示的任意内容</title>
-    <link href="https://ioblog.github.io/21/"/>
-    <id>https://ioblog.github.io/21/</id>
+    <link href="https://www.ioblog.cf/21/"/>
+    <id>https://www.ioblog.cf/21/</id>
     <published>2022-05-13T02:45:59.000Z</published>
     <updated>2022-05-13T02:51:53.065Z</updated>
     
@@ -387,17 +387,17 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="随意修改网站内容" scheme="https://ioblog.github.io/tags/%E9%9A%8F%E6%84%8F%E4%BF%AE%E6%94%B9%E7%BD%91%E7%AB%99%E5%86%85%E5%AE%B9/"/>
+    <category term="随意修改网站内容" scheme="https://www.ioblog.cf/tags/%E9%9A%8F%E6%84%8F%E4%BF%AE%E6%94%B9%E7%BD%91%E7%AB%99%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>自定义QQ发网址显示的卡片内容</title>
-    <link href="https://ioblog.github.io/20/"/>
-    <id>https://ioblog.github.io/20/</id>
+    <link href="https://www.ioblog.cf/20/"/>
+    <id>https://www.ioblog.cf/20/</id>
     <published>2022-05-12T01:28:58.000Z</published>
     <updated>2022-05-12T06:20:32.574Z</updated>
     
@@ -408,17 +408,17 @@
     
     
     
-    <category term="编程相关" scheme="https://ioblog.github.io/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/"/>
+    <category term="编程相关" scheme="https://www.ioblog.cf/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="QQ卡片内容" scheme="https://ioblog.github.io/tags/QQ%E5%8D%A1%E7%89%87%E5%86%85%E5%AE%B9/"/>
+    <category term="QQ卡片内容" scheme="https://www.ioblog.cf/tags/QQ%E5%8D%A1%E7%89%87%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
   <entry>
     <title>宝塔面板修改代码后付费插件免费用</title>
-    <link href="https://ioblog.github.io/19/"/>
-    <id>https://ioblog.github.io/19/</id>
+    <link href="https://www.ioblog.cf/19/"/>
+    <id>https://www.ioblog.cf/19/</id>
     <published>2022-05-12T01:28:52.000Z</published>
     <updated>2022-05-12T02:31:01.358Z</updated>
     
@@ -429,10 +429,10 @@
     
     
     
-    <category term="技术相关" scheme="https://ioblog.github.io/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="宝塔面板" scheme="https://ioblog.github.io/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
+    <category term="宝塔面板" scheme="https://www.ioblog.cf/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
   </entry>
   
