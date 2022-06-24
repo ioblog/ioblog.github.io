@@ -6,7 +6,7 @@
   <link href="https://www.ioblog.cf/atom.xml" rel="self"/>
   
   <link href="https://www.ioblog.cf/"/>
-  <updated>2022-05-20T01:54:56.071Z</updated>
+  <updated>2022-06-24T02:51:16.644Z</updated>
   <id>https://www.ioblog.cf/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决“请在微信客户端中打开链接”</title>
+    <link href="https://www.ioblog.cf/39/"/>
+    <id>https://www.ioblog.cf/39/</id>
+    <published>2022-06-24T02:27:45.000Z</published>
+    <updated>2022-06-24T02:51:16.644Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决方案：新建UA<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><h5 id="问题图"><a href="#问题图" class="headerlink" title="问题图"></a>问题图</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/039/0.jpg" alt="39-0"></p><h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、按F12打开控制台-gt-切换到手机模式"><a href="#1、按F12打开控制台-gt-切换到手机模式" class="headerlink" title="1、按F12打开控制台 -&gt; 切换到手机模式"></a>1、按F12打开控制台 -&gt; 切换到手机模式</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/039/1.jpg" alt="39-1"></p><h5 id="2、Dimensions-gt-Edit"><a href="#2、Dimensions-gt-Edit" class="headerlink" title="2、Dimensions -&gt; Edit"></a>2、Dimensions -&gt; Edit</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/039/2.jpg" alt="39-2"></p><h5 id="3、Add-custom-device"><a href="#3、Add-custom-device" class="headerlink" title="3、Add custom device"></a>3、Add custom device</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/039/3.jpg" alt="39-3"></p><h5 id="4、Device输入-“weixinua”-gt-User-agent-string输入以下代码"><a href="#4、Device输入-“weixinua”-gt-User-agent-string输入以下代码" class="headerlink" title="4、Device输入 “weixinua” -&gt; User agent string输入以下代码"></a>4、Device输入 “weixinua” -&gt; User agent string输入以下代码</h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Mozilla/<span class="number">5.0</span> (Linux; Android <span class="number">5.0</span>; SM-N9100 Build/LRX21V) &gt; AppleWebKit/<span class="number">537.36</span> (KHTML, like Gecko) Version/<span class="number">4.0</span> &gt; Chrome/<span class="number">37.0</span><span class="number">.0</span><span class="number">.0</span> Mobile Safari/<span class="number">537.36</span> &gt; MicroMessenger/<span class="number">6.0</span><span class="number">.2</span>.56_r958800<span class="number">.520</span> NetType/WIFI</span><br></pre></td></tr></table></figure><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/039/4.jpg" alt="39-4"></p><h5 id="5、Add"><a href="#5、Add" class="headerlink" title="5、Add"></a>5、Add</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/039/5.jpg" alt="39-5"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;解决方案：新建UA&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="PC打开微信链接" scheme="https://www.ioblog.cf/tags/PC%E6%89%93%E5%BC%80%E5%BE%AE%E4%BF%A1%E9%93%BE%E6%8E%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>华为系统关闭广告</title>
@@ -412,27 +433,6 @@
     
     
     <category term="QQ卡片内容" scheme="https://www.ioblog.cf/tags/QQ%E5%8D%A1%E7%89%87%E5%86%85%E5%AE%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>宝塔面板修改代码后付费插件免费用</title>
-    <link href="https://www.ioblog.cf/19/"/>
-    <id>https://www.ioblog.cf/19/</id>
-    <published>2022-05-12T01:28:52.000Z</published>
-    <updated>2022-05-12T02:31:01.358Z</updated>
-    
-    <content type="html"><![CDATA[<p>解决方案：添加文中的代码免费用付费插件<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><ul><li><p>利用代码修改后，网站监控统计，nginx防火墙，宝塔 APP 等 这些可以用，其他专业软件部分可用</p></li><li><p>已测 7.5.1，7.5.2，7.6.0 可以用，别的版本自行测试</p></li></ul><h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/019/2.jpg" alt="19_2"></p><h4 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h4><h5 id="1、打开路径下文件-x2F-www-x2F-server-x2F-panel-x2F-class-x2F-panelPlugin-py-在335行附近添加如下代码："><a href="#1、打开路径下文件-x2F-www-x2F-server-x2F-panel-x2F-class-x2F-panelPlugin-py-在335行附近添加如下代码：" class="headerlink" title="1、打开路径下文件 &#x2F;www&#x2F;server&#x2F;panel&#x2F;class&#x2F;panelPlugin.py 在335行附近添加如下代码："></a>1、打开路径下文件 &#x2F;www&#x2F;server&#x2F;panel&#x2F;class&#x2F;panelPlugin.py 在335行附近添加如下代码：</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">        softList[<span class="string">&#x27;pro&#x27;</span>] = <span class="number">1</span></span><br><span class="line"><span class="keyword">for</span> soft in softList[<span class="string">&#x27;list&#x27;</span>]:</span><br><span class="line">    soft[<span class="string">&#x27;endtime&#x27;</span>] = <span class="number">0</span></span><br></pre></td></tr></table></figure><blockquote><p>注意：一定要保持和下图中代码缩进位置一样</p></blockquote><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/019/1.jpg" alt="19_1"></p><h5 id="2、完成之后回到面板首页重启面板，专业版应用就可以用了（部分应用不能用）"><a href="#2、完成之后回到面板首页重启面板，专业版应用就可以用了（部分应用不能用）" class="headerlink" title="2、完成之后回到面板首页重启面板，专业版应用就可以用了（部分应用不能用）"></a>2、完成之后回到面板首页重启面板，专业版应用就可以用了（部分应用不能用）</h5>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;解决方案：添加文中的代码免费用付费插件&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="宝塔面板" scheme="https://www.ioblog.cf/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
     
   </entry>
   
