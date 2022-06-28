@@ -6,7 +6,7 @@
   <link href="https://www.ioblog.cf/atom.xml" rel="self"/>
   
   <link href="https://www.ioblog.cf/"/>
-  <updated>2022-06-24T02:56:30.731Z</updated>
+  <updated>2022-06-28T10:57:18.008Z</updated>
   <id>https://www.ioblog.cf/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>帝国cms系统添加备案号</title>
+    <link href="https://www.ioblog.cf/40/"/>
+    <id>https://www.ioblog.cf/40/</id>
+    <published>2022-06-28T10:51:30.000Z</published>
+    <updated>2022-06-28T10:57:18.008Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决方案：后台修改底部模板<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><h5 id="1、登录帝国后台"><a href="#1、登录帝国后台" class="headerlink" title="1、登录帝国后台"></a>1、登录帝国后台</h5><h5 id="2、按照下图步骤操作"><a href="#2、按照下图步骤操作" class="headerlink" title="2、按照下图步骤操作"></a>2、按照下图步骤操作</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/040/1.jpg" alt="40-1"></p><h5 id="3、添加备案号到下图所示位置，添加完成点击-“提交”"><a href="#3、添加备案号到下图所示位置，添加完成点击-“提交”" class="headerlink" title="3、添加备案号到下图所示位置，添加完成点击 “提交”"></a>3、添加备案号到下图所示位置，添加完成点击 “提交”</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/040/2.jpg" alt="40-2"></p><h5 id="4、更新数据，按照下图步骤操作"><a href="#4、更新数据，按照下图步骤操作" class="headerlink" title="4、更新数据，按照下图步骤操作"></a>4、更新数据，按照下图步骤操作</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/040/3.jpg" alt="40-3"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;解决方案：后台修改底部模板&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="帝国cms" scheme="https://www.ioblog.cf/tags/%E5%B8%9D%E5%9B%BDcms/"/>
+    
+  </entry>
   
   <entry>
     <title>解决“请在微信客户端中打开链接”</title>
@@ -412,27 +433,6 @@
     
     
     <category term="随意修改网站内容" scheme="https://www.ioblog.cf/tags/%E9%9A%8F%E6%84%8F%E4%BF%AE%E6%94%B9%E7%BD%91%E7%AB%99%E5%86%85%E5%AE%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自定义QQ发网址显示的卡片内容</title>
-    <link href="https://www.ioblog.cf/20/"/>
-    <id>https://www.ioblog.cf/20/</id>
-    <published>2022-05-12T01:28:58.000Z</published>
-    <updated>2022-05-12T06:20:32.574Z</updated>
-    
-    <content type="html"><![CDATA[<p>解决方案：添加文中的代码实现自定义卡片<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><h4 id="1、自定义卡片内容，标题，图片，把以下代码放到-lt-head-gt-lt-x2F-head-gt-标签内"><a href="#1、自定义卡片内容，标题，图片，把以下代码放到-lt-head-gt-lt-x2F-head-gt-标签内" class="headerlink" title="1、自定义卡片内容，标题，图片，把以下代码放到 &lt;head&gt;&lt;&#x2F;head&gt; 标签内"></a>1、自定义卡片内容，标题，图片，把以下代码放到 &lt;head&gt;&lt;&#x2F;head&gt; 标签内</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta itemprop=<span class="string">&quot;name&quot;</span> content=<span class="string">&quot;网站标题&quot;</span>/&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">itemprop</span>=<span class="string">&quot;image&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网站要显示的图片链接&quot;</span> /&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;description&quot;</span> <span class="attr">itemprop</span>=<span class="string">&quot;description&quot;</span> <span class="attr">content</span>=<span class="string">&quot;网站内容&quot;</span> /&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;解决方案：添加文中的代码实现自定义卡片&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="编程相关" scheme="https://www.ioblog.cf/categories/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="QQ卡片内容" scheme="https://www.ioblog.cf/tags/QQ%E5%8D%A1%E7%89%87%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   

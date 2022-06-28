@@ -773,4 +773,21 @@
         <tag>PC打开微信链接</tag>
       </tags>
   </entry>
+  <entry>
+    <title>帝国cms系统添加备案号</title>
+    <url>/40/</url>
+    <content><![CDATA[<p>解决方案：后台修改底部模板<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h5 id="1、登录帝国后台"><a href="#1、登录帝国后台" class="headerlink" title="1、登录帝国后台"></a>1、登录帝国后台</h5><h5 id="2、按照下图步骤操作"><a href="#2、按照下图步骤操作" class="headerlink" title="2、按照下图步骤操作"></a>2、按照下图步骤操作</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/040/1.jpg" alt="40-1"></p>
+<h5 id="3、添加备案号到下图所示位置，添加完成点击-“提交”"><a href="#3、添加备案号到下图所示位置，添加完成点击-“提交”" class="headerlink" title="3、添加备案号到下图所示位置，添加完成点击 “提交”"></a>3、添加备案号到下图所示位置，添加完成点击 “提交”</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/040/2.jpg" alt="40-2"></p>
+<h5 id="4、更新数据，按照下图步骤操作"><a href="#4、更新数据，按照下图步骤操作" class="headerlink" title="4、更新数据，按照下图步骤操作"></a>4、更新数据，按照下图步骤操作</h5><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/040/3.jpg" alt="40-3"></p>
+]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>帝国cms</tag>
+      </tags>
+  </entry>
 </search>
