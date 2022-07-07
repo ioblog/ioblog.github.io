@@ -790,4 +790,52 @@
         <tag>帝国cms</tag>
       </tags>
   </entry>
+  <entry>
+    <title>PCQQ防撤回</title>
+    <url>/41/</url>
+    <content><![CDATA[<p>解决方案：替换 IM.dll 文件<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/041/1.gif" alt="41-1"></p>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、关闭QQ"><a href="#1、关闭QQ" class="headerlink" title="1、关闭QQ"></a>1、关闭QQ</h5><h5 id="2、下载需要替换的文件"><a href="#2、下载需要替换的文件" class="headerlink" title="2、下载需要替换的文件"></a>2、下载需要替换的文件</h5><p><a href="https://wwc.lanzouj.com/i6ADH07i0b5c">点击下载IM.dll</a></p>
+<h5 id="3、打开QQ安装目录下的-Bin-文件夹"><a href="#3、打开QQ安装目录下的-Bin-文件夹" class="headerlink" title="3、打开QQ安装目录下的 Bin 文件夹"></a>3、打开QQ安装目录下的 Bin 文件夹</h5><h5 id="4、把下载好的文件-“IM-dll”-放进去，替换旧的-“IM-dll”"><a href="#4、把下载好的文件-“IM-dll”-放进去，替换旧的-“IM-dll”" class="headerlink" title="4、把下载好的文件 “IM.dll” 放进去，替换旧的 “IM.dll”"></a>4、把下载好的文件 “IM.dll” 放进去，替换旧的 “IM.dll”</h5>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>QQ防撤回</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PC微信防撤回</title>
+    <url>/42/</url>
+    <content><![CDATA[<p>解决方案：替换 WeChatWin.dll 文件<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/042/1.gif" alt="42-1"></p>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、关闭微信"><a href="#1、关闭微信" class="headerlink" title="1、关闭微信"></a>1、关闭微信</h5><h5 id="2、下载需要替换的文件"><a href="#2、下载需要替换的文件" class="headerlink" title="2、下载需要替换的文件"></a>2、下载需要替换的文件</h5><p><a href="https://wwc.lanzouj.com/ikb6R07i10he">点击下载 WeChatWin.dll</a></p>
+<h5 id="3、打开微信安装目录，找到-“WeChatWin-dll”"><a href="#3、打开微信安装目录，找到-“WeChatWin-dll”" class="headerlink" title="3、打开微信安装目录，找到 “WeChatWin.dll”"></a>3、打开微信安装目录，找到 “WeChatWin.dll”</h5><h5 id="4、把下载好的文件-“WeChatWin-dll”-放进去，替换旧的-“WeChatWin-dll”"><a href="#4、把下载好的文件-“WeChatWin-dll”-放进去，替换旧的-“WeChatWin-dll”" class="headerlink" title="4、把下载好的文件 “WeChatWin.dll” 放进去，替换旧的 “WeChatWin.dll”"></a>4、把下载好的文件 “WeChatWin.dll” 放进去，替换旧的 “WeChatWin.dll”</h5>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>微信防撤回</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PCQQ点亮勋章墙</title>
+    <url>/43/</url>
+    <content><![CDATA[<p>解决方案：替换 Common.dll 和 OPMiscDll.dll 文件<br>解决过程：点击“文章标题”或“阅读全文”查看</p>
+<span id="more"></span>
+<hr>
+<h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/043/1.jpg" alt="43-1"></p>
+<h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、关闭PCQQ"><a href="#1、关闭PCQQ" class="headerlink" title="1、关闭PCQQ"></a>1、关闭PCQQ</h5><h5 id="2、下载需要替换的文件"><a href="#2、下载需要替换的文件" class="headerlink" title="2、下载需要替换的文件"></a>2、下载需要替换的文件</h5><p><a href="https://wwc.lanzouj.com/iU7hS07i2caf">点击下载 Common.dll</a><br><a href="https://wwc.lanzouj.com/iZX7p07i2cbg">点击下载 OPMiscDll.dll</a></p>
+<h5 id="3、打开QQ安装目录下的-Bin-文件夹"><a href="#3、打开QQ安装目录下的-Bin-文件夹" class="headerlink" title="3、打开QQ安装目录下的 Bin 文件夹"></a>3、打开QQ安装目录下的 Bin 文件夹</h5><h5 id="4、把下载好的文件-“Common-dll”-“OPMiscDll-dll”-放进去，替换旧的-“Common-dll”-“OPMiscDll-dll”"><a href="#4、把下载好的文件-“Common-dll”-“OPMiscDll-dll”-放进去，替换旧的-“Common-dll”-“OPMiscDll-dll”" class="headerlink" title="4、把下载好的文件 “Common.dll” “OPMiscDll.dll” 放进去，替换旧的  “Common.dll” “OPMiscDll.dll”"></a>4、把下载好的文件 “Common.dll” “OPMiscDll.dll” 放进去，替换旧的  “Common.dll” “OPMiscDll.dll”</h5>]]></content>
+      <categories>
+        <category>技术相关</category>
+      </categories>
+      <tags>
+        <tag>QQ勋章墙</tag>
+      </tags>
+  </entry>
 </search>

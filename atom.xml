@@ -6,7 +6,7 @@
   <link href="https://www.ioblog.cf/atom.xml" rel="self"/>
   
   <link href="https://www.ioblog.cf/"/>
-  <updated>2022-06-28T10:57:18.008Z</updated>
+  <updated>2022-07-07T07:33:41.164Z</updated>
   <id>https://www.ioblog.cf/</id>
   
   <author>
@@ -15,6 +15,69 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PCQQ点亮勋章墙</title>
+    <link href="https://www.ioblog.cf/43/"/>
+    <id>https://www.ioblog.cf/43/</id>
+    <published>2022-07-07T07:25:33.000Z</published>
+    <updated>2022-07-07T07:33:41.164Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决方案：替换 Common.dll 和 OPMiscDll.dll 文件<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/043/1.jpg" alt="43-1"></p><h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、关闭PCQQ"><a href="#1、关闭PCQQ" class="headerlink" title="1、关闭PCQQ"></a>1、关闭PCQQ</h5><h5 id="2、下载需要替换的文件"><a href="#2、下载需要替换的文件" class="headerlink" title="2、下载需要替换的文件"></a>2、下载需要替换的文件</h5><p><a href="https://wwc.lanzouj.com/iU7hS07i2caf">点击下载 Common.dll</a><br><a href="https://wwc.lanzouj.com/iZX7p07i2cbg">点击下载 OPMiscDll.dll</a></p><h5 id="3、打开QQ安装目录下的-Bin-文件夹"><a href="#3、打开QQ安装目录下的-Bin-文件夹" class="headerlink" title="3、打开QQ安装目录下的 Bin 文件夹"></a>3、打开QQ安装目录下的 Bin 文件夹</h5><h5 id="4、把下载好的文件-“Common-dll”-“OPMiscDll-dll”-放进去，替换旧的-“Common-dll”-“OPMiscDll-dll”"><a href="#4、把下载好的文件-“Common-dll”-“OPMiscDll-dll”-放进去，替换旧的-“Common-dll”-“OPMiscDll-dll”" class="headerlink" title="4、把下载好的文件 “Common.dll” “OPMiscDll.dll” 放进去，替换旧的  “Common.dll” “OPMiscDll.dll”"></a>4、把下载好的文件 “Common.dll” “OPMiscDll.dll” 放进去，替换旧的  “Common.dll” “OPMiscDll.dll”</h5>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;解决方案：替换 Common.dll 和 OPMiscDll.dll 文件&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="QQ勋章墙" scheme="https://www.ioblog.cf/tags/QQ%E5%8B%8B%E7%AB%A0%E5%A2%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC微信防撤回</title>
+    <link href="https://www.ioblog.cf/42/"/>
+    <id>https://www.ioblog.cf/42/</id>
+    <published>2022-07-07T07:02:54.000Z</published>
+    <updated>2022-07-07T07:33:13.369Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决方案：替换 WeChatWin.dll 文件<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/042/1.gif" alt="42-1"></p><h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、关闭微信"><a href="#1、关闭微信" class="headerlink" title="1、关闭微信"></a>1、关闭微信</h5><h5 id="2、下载需要替换的文件"><a href="#2、下载需要替换的文件" class="headerlink" title="2、下载需要替换的文件"></a>2、下载需要替换的文件</h5><p><a href="https://wwc.lanzouj.com/ikb6R07i10he">点击下载 WeChatWin.dll</a></p><h5 id="3、打开微信安装目录，找到-“WeChatWin-dll”"><a href="#3、打开微信安装目录，找到-“WeChatWin-dll”" class="headerlink" title="3、打开微信安装目录，找到 “WeChatWin.dll”"></a>3、打开微信安装目录，找到 “WeChatWin.dll”</h5><h5 id="4、把下载好的文件-“WeChatWin-dll”-放进去，替换旧的-“WeChatWin-dll”"><a href="#4、把下载好的文件-“WeChatWin-dll”-放进去，替换旧的-“WeChatWin-dll”" class="headerlink" title="4、把下载好的文件 “WeChatWin.dll” 放进去，替换旧的 “WeChatWin.dll”"></a>4、把下载好的文件 “WeChatWin.dll” 放进去，替换旧的 “WeChatWin.dll”</h5>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;解决方案：替换 WeChatWin.dll 文件&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="微信防撤回" scheme="https://www.ioblog.cf/tags/%E5%BE%AE%E4%BF%A1%E9%98%B2%E6%92%A4%E5%9B%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PCQQ防撤回</title>
+    <link href="https://www.ioblog.cf/41/"/>
+    <id>https://www.ioblog.cf/41/</id>
+    <published>2022-07-07T06:55:10.000Z</published>
+    <updated>2022-07-07T07:33:22.954Z</updated>
+    
+    <content type="html"><![CDATA[<p>解决方案：替换 IM.dll 文件<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><h4 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/041/1.gif" alt="41-1"></p><h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、关闭QQ"><a href="#1、关闭QQ" class="headerlink" title="1、关闭QQ"></a>1、关闭QQ</h5><h5 id="2、下载需要替换的文件"><a href="#2、下载需要替换的文件" class="headerlink" title="2、下载需要替换的文件"></a>2、下载需要替换的文件</h5><p><a href="https://wwc.lanzouj.com/i6ADH07i0b5c">点击下载IM.dll</a></p><h5 id="3、打开QQ安装目录下的-Bin-文件夹"><a href="#3、打开QQ安装目录下的-Bin-文件夹" class="headerlink" title="3、打开QQ安装目录下的 Bin 文件夹"></a>3、打开QQ安装目录下的 Bin 文件夹</h5><h5 id="4、把下载好的文件-“IM-dll”-放进去，替换旧的-“IM-dll”"><a href="#4、把下载好的文件-“IM-dll”-放进去，替换旧的-“IM-dll”" class="headerlink" title="4、把下载好的文件 “IM.dll” 放进去，替换旧的 “IM.dll”"></a>4、把下载好的文件 “IM.dll” 放进去，替换旧的 “IM.dll”</h5>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;解决方案：替换 IM.dll 文件&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+    
+    <category term="QQ防撤回" scheme="https://www.ioblog.cf/tags/QQ%E9%98%B2%E6%92%A4%E5%9B%9E/"/>
+    
+  </entry>
   
   <entry>
     <title>帝国cms系统添加备案号</title>
@@ -370,69 +433,6 @@
     
     
     <category term="QQ点赞" scheme="https://www.ioblog.cf/tags/QQ%E7%82%B9%E8%B5%9E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>绕过宝塔面板强制绑定账号</title>
-    <link href="https://www.ioblog.cf/23/"/>
-    <id>https://www.ioblog.cf/23/</id>
-    <published>2022-05-13T02:46:11.000Z</published>
-    <updated>2022-05-13T03:25:06.630Z</updated>
-    
-    <content type="html"><![CDATA[<p>解决方案：利用简单的命令实现绕过强制绑定账号<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><h4 id="1、输入以下代码可以绕过登录"><a href="#1、输入以下代码可以绕过登录" class="headerlink" title="1、输入以下代码可以绕过登录"></a>1、输入以下代码可以绕过登录</h4><h5 id="方法一：7-4-5版本有效"><a href="#方法一：7-4-5版本有效" class="headerlink" title="方法一：7.4.5版本有效"></a>方法一：7.4.5版本有效</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i <span class="string">&quot;s|bind_user == &#x27;True&#x27;|bind_user == &#x27;XXXX&#x27;|&quot;</span> /www/server/panel/BTPanel/<span class="type">static</span>/js/index.js</span><br></pre></td></tr></table></figure><h5 id="方法二：禁用json"><a href="#方法二：禁用json" class="headerlink" title="方法二：禁用json"></a>方法二：禁用json</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo <span class="string">&quot;&#123;\&quot;uid\&quot;:1000,\&quot;username\&quot;:\&quot;admin\&quot;,\&quot;serverid\&quot;:1&#125;&quot;</span> &gt; /www/server/panel/data/userInfo.json</span><br></pre></td></tr></table></figure><h5 id="方法三：移除弹窗"><a href="#方法三：移除弹窗" class="headerlink" title="方法三：移除弹窗"></a>方法三：移除弹窗</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i <span class="string">&quot;s|if (bind_user == &#x27;True&#x27;) &#123;|if (bind_user == &#x27;REMOVED&#x27;) &#123;|g&quot;</span> /www/server/panel/BTPanel/<span class="type">static</span>/js/index.js</span><br></pre></td></tr></table></figure><blockquote><p>恢复弹窗</p></blockquote><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i <span class="string">&quot;s|if (bind_user == &#x27;REMOVED&#x27;) &#123;|if (bind_user == &#x27;True&#x27;) &#123;|g&quot;</span> /www/server/panel/BTPanel/<span class="type">static</span>/js/index.js</span><br></pre></td></tr></table></figure><h4 id="2、在宝塔面板按Ctrl-F5强制刷新页面即可"><a href="#2、在宝塔面板按Ctrl-F5强制刷新页面即可" class="headerlink" title="2、在宝塔面板按Ctrl+F5强制刷新页面即可"></a>2、在宝塔面板按Ctrl+F5强制刷新页面即可</h4>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;解决方案：利用简单的命令实现绕过强制绑定账号&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="宝塔面板" scheme="https://www.ioblog.cf/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>宝塔面板免费使用ssl证书</title>
-    <link href="https://www.ioblog.cf/22/"/>
-    <id>https://www.ioblog.cf/22/</id>
-    <published>2022-05-13T02:46:06.000Z</published>
-    <updated>2022-05-13T03:25:53.557Z</updated>
-    
-    <content type="html"><![CDATA[<p>解决方案：按照文中步骤操作<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ul><li>1、申请之前，请确保域名已解析，如未解析会导致审核失败</li><li>2、Let’s Encrypt免费证书，有效期一年，支持多域名。默认会自动续签</li><li>3、若您的站点使用了CDN或301重定向会导致续签失败</li><li>4、在未指定SSL默认站点时,未开启SSL的站点使用HTTPS会直接访问到已开启SSL的站点</li><li>5、如开启后无法使用HTTPS访问，请检查安全组是否正确放行443端口</li></ul><hr><h4 id="正文开始"><a href="#正文开始" class="headerlink" title="正文开始"></a>正文开始</h4><h5 id="1、登陆宝塔面板，点击左侧-网站"><a href="#1、登陆宝塔面板，点击左侧-网站" class="headerlink" title="1、登陆宝塔面板，点击左侧 网站"></a>1、登陆宝塔面板，点击左侧 网站</h5><h5 id="2、点击需要申请站点右边的-设置"><a href="#2、点击需要申请站点右边的-设置" class="headerlink" title="2、点击需要申请站点右边的 设置"></a>2、点击需要申请站点右边的 设置</h5><h5 id="3、点击-SSL"><a href="#3、点击-SSL" class="headerlink" title="3、点击 SSL"></a>3、点击 SSL</h5><h5 id="4、点击-Let’s-Encrypt"><a href="#4、点击-Let’s-Encrypt" class="headerlink" title="4、点击 Let’s Encrypt"></a>4、点击 Let’s Encrypt</h5><h5 id="5、选择域名，-申请"><a href="#5、选择域名，-申请" class="headerlink" title="5、选择域名， 申请"></a>5、选择域名， 申请</h5><h5 id="6、申请成功后，打开-强制HTTPS"><a href="#6、申请成功后，打开-强制HTTPS" class="headerlink" title="6、申请成功后，打开 强制HTTPS"></a>6、申请成功后，打开 强制HTTPS</h5><h4 id="操作步骤图"><a href="#操作步骤图" class="headerlink" title="操作步骤图"></a>操作步骤图</h4><p><img src="https://raw.githubusercontent.com/ioblog/hexo_img/main/uploads/022/1.jpg" alt="22-1"></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;解决方案：按照文中步骤操作&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="宝塔面板" scheme="https://www.ioblog.cf/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>修改网站上显示的任意内容</title>
-    <link href="https://www.ioblog.cf/21/"/>
-    <id>https://www.ioblog.cf/21/</id>
-    <published>2022-05-13T02:45:59.000Z</published>
-    <updated>2022-05-13T02:51:53.065Z</updated>
-    
-    <content type="html"><![CDATA[<p>解决方案：执行文中的代码实现随意修改内容<br>解决过程：点击“文章标题”或“阅读全文”查看</p><span id="more"></span><hr><blockquote><p>前提：Chrome内核的浏览器</p></blockquote><h4 id="1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行"><a href="#1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行" class="headerlink" title="1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行"></a>1、任意一个网页的标签页下按F12，在console控制台输入以下代码，回车执行</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">document.body.contentEditable = <span class="string">&quot;true&quot;</span></span><br></pre></td></tr></table></figure><h4 id="2、取消编辑："><a href="#2、取消编辑：" class="headerlink" title="2、取消编辑："></a>2、取消编辑：</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">document.body.contentEditable = <span class="string">&quot;false&quot;</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;解决方案：执行文中的代码实现随意修改内容&lt;br&gt;解决过程：点击“文章标题”或“阅读全文”查看&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术相关" scheme="https://www.ioblog.cf/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
-    
-    
-    <category term="随意修改网站内容" scheme="https://www.ioblog.cf/tags/%E9%9A%8F%E6%84%8F%E4%BF%AE%E6%94%B9%E7%BD%91%E7%AB%99%E5%86%85%E5%AE%B9/"/>
     
   </entry>
   
