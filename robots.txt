@@ -1,0 +1,6 @@
+﻿# hexo robots.txt
+User-agent: *
+Allow: /
+​
+Sitemap: https://www.ioblog.cf/sitemap.xml
+Sitemap: https://www.ioblog.cf/baidusitemap.xml
