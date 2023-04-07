@@ -311,6 +311,22 @@
       </tags>
   </entry>
   <entry>
+    <title>用JS实现QQ空间自动点赞</title>
+    <url>/24/</url>
+    <content><![CDATA[<p>解决方案：控制台运行代码，实现点赞效果</p>
+<!-- 解决过程：点击“文章标题”或“阅读全文”查看 -->
+<span id="more"></span>
+<hr>
+<h5 id="1、登录QQ空间"><a href="#1、登录QQ空间" class="headerlink" title="1、登录QQ空间"></a>1、登录QQ空间</h5><h5 id="2、按F12或者右键审查元素-gt-console页面"><a href="#2、按F12或者右键审查元素-gt-console页面" class="headerlink" title="2、按F12或者右键审查元素-&gt;console页面"></a>2、按F12或者右键审查元素-&gt;console页面</h5><h5 id="3、复制以下代码，console页面粘贴，按回车"><a href="#3、复制以下代码，console页面粘贴，按回车" class="headerlink" title="3、复制以下代码，console页面粘贴，按回车"></a>3、复制以下代码，console页面粘贴，按回车</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> x=<span class="number">5</span>,y=<span class="number">10</span>;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">autoClick</span>(<span class="params"></span>)</span><br><span class="line">&#123;</span><br><span class="line">y=y+<span class="number">5</span>;</span><br><span class="line"><span class="keyword">var</span> zan=<span class="variable language_">document</span>.<span class="title function_">getElementsByClassName</span>(<span class="string">&#x27;item qz_like_btn_v3&#x27;</span>);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;zan.<span class="property">length</span>;i++)&#123;</span><br><span class="line"><span class="keyword">if</span>(zan[i].<span class="property">attributes</span>[<span class="number">6</span>].<span class="property">value</span>==<span class="string">&#x27;like&#x27;</span>)&#123;</span><br><span class="line">zan[i].<span class="property">firstChild</span>.<span class="title function_">click</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="variable language_">window</span>.<span class="title function_">scrollBy</span>(x,y);</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">window</span>.<span class="built_in">setInterval</span>(autoClick,<span class="number">2000</span>);</span><br></pre></td></tr></table></figure>
+<h5 id="4、自动执行点赞操作"><a href="#4、自动执行点赞操作" class="headerlink" title="4、自动执行点赞操作"></a>4、自动执行点赞操作</h5><h5 id="5、window-setInterval-autoClick-2000-2000代表两秒执行一次，可以自行修改"><a href="#5、window-setInterval-autoClick-2000-2000代表两秒执行一次，可以自行修改" class="headerlink" title="5、window.setInterval(autoClick,2000); 2000代表两秒执行一次，可以自行修改"></a>5、window.setInterval(autoClick,2000); 2000代表两秒执行一次，可以自行修改</h5>]]></content>
+      <categories>
+        <category>编程相关</category>
+      </categories>
+      <tags>
+        <tag>QQ点赞</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>绕过宝塔面板强制绑定账号</title>
     <url>/23/</url>
     <content><![CDATA[<p>解决方案：利用简单的命令实现绕过强制绑定账号</p>
@@ -332,22 +348,6 @@
       </categories>
       <tags>
         <tag>宝塔面板</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用JS实现QQ空间自动点赞</title>
-    <url>/24/</url>
-    <content><![CDATA[<p>解决方案：控制台运行代码，实现点赞效果</p>
-<!-- 解决过程：点击“文章标题”或“阅读全文”查看 -->
-<span id="more"></span>
-<hr>
-<h5 id="1、登录QQ空间"><a href="#1、登录QQ空间" class="headerlink" title="1、登录QQ空间"></a>1、登录QQ空间</h5><h5 id="2、按F12或者右键审查元素-gt-console页面"><a href="#2、按F12或者右键审查元素-gt-console页面" class="headerlink" title="2、按F12或者右键审查元素-&gt;console页面"></a>2、按F12或者右键审查元素-&gt;console页面</h5><h5 id="3、复制以下代码，console页面粘贴，按回车"><a href="#3、复制以下代码，console页面粘贴，按回车" class="headerlink" title="3、复制以下代码，console页面粘贴，按回车"></a>3、复制以下代码，console页面粘贴，按回车</h5><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> x=<span class="number">5</span>,y=<span class="number">10</span>;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">autoClick</span>(<span class="params"></span>)</span><br><span class="line">&#123;</span><br><span class="line">y=y+<span class="number">5</span>;</span><br><span class="line"><span class="keyword">var</span> zan=<span class="variable language_">document</span>.<span class="title function_">getElementsByClassName</span>(<span class="string">&#x27;item qz_like_btn_v3&#x27;</span>);</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;zan.<span class="property">length</span>;i++)&#123;</span><br><span class="line"><span class="keyword">if</span>(zan[i].<span class="property">attributes</span>[<span class="number">6</span>].<span class="property">value</span>==<span class="string">&#x27;like&#x27;</span>)&#123;</span><br><span class="line">zan[i].<span class="property">firstChild</span>.<span class="title function_">click</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="variable language_">window</span>.<span class="title function_">scrollBy</span>(x,y);</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">window</span>.<span class="built_in">setInterval</span>(autoClick,<span class="number">2000</span>);</span><br></pre></td></tr></table></figure>
-<h5 id="4、自动执行点赞操作"><a href="#4、自动执行点赞操作" class="headerlink" title="4、自动执行点赞操作"></a>4、自动执行点赞操作</h5><h5 id="5、window-setInterval-autoClick-2000-2000代表两秒执行一次，可以自行修改"><a href="#5、window-setInterval-autoClick-2000-2000代表两秒执行一次，可以自行修改" class="headerlink" title="5、window.setInterval(autoClick,2000); 2000代表两秒执行一次，可以自行修改"></a>5、window.setInterval(autoClick,2000); 2000代表两秒执行一次，可以自行修改</h5>]]></content>
-      <categories>
-        <category>编程相关</category>
-      </categories>
-      <tags>
-        <tag>QQ点赞</tag>
       </tags>
   </entry>
   <entry>
